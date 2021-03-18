@@ -1,0 +1,251 @@
+,Name,EX,EW,Subtotal (EX+EW),CR(PE),CR(PEW),Subtotal (EX+EW+ CR(PE)+CR(PEW)),CR,EN,VU,Subtotal (threatened spp.),LR/cd,NT or LR/nt,LC or LR/lc,DD,Total,species
+0,Antarctica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+1,Bouvet Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+2,French Southern Territories,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+3,Heard Island and McDonald Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+4,South Georgia and the South Sandwich Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+5,Anguilla,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+6,Antigua and Barbuda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+7,Aruba,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+8,Bahamas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+9,Barbados,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+10,Bermuda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+11,"Bonaire, Sint Eustatius and Saba",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+12,Cayman Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+13,Cuba,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,fungus
+14,Curaçao,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+15,Dominica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+16,Dominican Republic,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+17,Grenada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+18,Guadeloupe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+19,Haiti,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+20,Jamaica,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+21,Martinique,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+22,Montserrat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+23,Puerto Rico,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus
+24,Saint Barthélemy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+25,Saint Kitts and Nevis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+26,Saint Lucia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+27,Saint Martin (French part),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+28,Saint Vincent and the Grenadines,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+29,Sint Maarten (Dutch part),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+30,Trinidad and Tobago,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+31,Turks and Caicos Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+32,"Virgin Islands, British",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+33,"Virgin Islands, U.S.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+34,China,0,0,0,0,0,0,0,1,7,8,0,5,19,1,33,fungus
+35,Hong Kong,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+36,Japan,0,0,0,0,0,0,0,4,8,12,0,9,25,2,48,fungus
+37,"Korea, Democratic People's Republic of",0,0,0,0,0,0,0,1,1,2,0,0,13,0,15,fungus
+38,"Korea, Republic of",0,0,0,0,0,0,0,1,2,3,0,4,17,0,24,fungus
+39,Macao,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+40,Mongolia,0,0,0,0,0,0,0,1,3,4,0,0,6,1,11,fungus
+41,"Taiwan, Province of China",0,0,0,0,0,0,0,1,1,2,0,1,8,0,11,fungus
+42,Åland Islands,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+43,Albania,0,0,0,0,0,0,0,0,0,0,0,1,1,0,2,fungus
+44,Andorra,0,0,0,0,0,0,0,0,0,0,0,0,23,0,23,fungus
+45,Austria,0,0,0,0,0,0,0,6,40,46,0,21,39,1,107,fungus
+46,Belgium,0,0,0,0,0,0,0,2,21,23,0,7,38,0,68,fungus
+47,Bosnia and Herzegovina,0,0,0,0,0,0,0,0,1,1,0,1,4,0,6,fungus
+48,Bulgaria,0,0,0,0,0,0,0,0,8,8,0,5,12,0,25,fungus
+49,Croatia,0,0,0,0,0,0,0,5,19,24,0,8,19,1,52,fungus
+50,Czechia,0,0,0,0,0,0,0,2,29,31,0,17,31,3,82,fungus
+51,Denmark,0,0,0,0,0,0,0,2,27,29,0,11,38,0,78,fungus
+52,Estonia,0,0,0,0,0,0,0,1,24,25,0,17,36,1,79,fungus
+53,Faroe Islands,0,0,0,0,0,0,0,0,4,4,0,0,5,0,9,fungus
+54,Finland,0,0,0,0,0,0,0,2,27,29,0,14,38,1,82,fungus
+55,France,0,0,0,0,0,0,1,9,44,54,0,22,42,1,119,fungus
+56,Germany,0,0,0,0,0,0,1,7,39,47,0,23,41,2,113,fungus
+57,Gibraltar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+58,Greece,0,0,0,0,0,0,0,3,4,7,0,2,12,0,21,fungus
+59,Greenland,0,0,0,0,0,0,0,0,2,2,0,1,1,0,4,fungus
+60,Guernsey,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+61,Holy See (Vatican City State),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+62,Hungary,0,0,0,0,0,0,0,3,15,18,0,8,20,1,47,fungus
+63,Iceland,0,0,0,0,0,0,0,0,6,6,0,3,19,0,28,fungus
+64,Ireland,0,0,0,0,0,0,0,2,17,19,0,3,29,0,51,fungus
+65,Isle of Man,0,0,0,0,0,0,0,0,0,0,0,0,18,0,18,fungus
+66,Italy,0,0,0,0,0,0,1,8,35,44,0,19,41,0,104,fungus
+67,Jersey,0,0,0,0,0,0,0,0,1,1,0,1,0,0,2,fungus
+68,Latvia,0,0,0,0,0,0,0,0,9,9,0,3,11,0,23,fungus
+69,Liechtenstein,0,0,0,0,0,0,0,0,4,4,0,0,1,0,5,fungus
+70,Lithuania,0,0,0,0,0,0,0,2,11,13,0,6,12,0,31,fungus
+71,Luxembourg,0,0,0,0,0,0,0,0,2,2,0,1,29,0,32,fungus
+72,Malta,0,0,0,0,0,0,0,0,1,1,0,1,1,0,3,fungus
+73,Monaco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+74,Montenegro,0,0,0,0,0,0,0,0,4,4,0,2,3,0,9,fungus
+75,Netherlands,0,0,0,0,0,0,0,2,24,26,0,9,35,0,70,fungus
+76,North Macedonia,0,0,0,0,0,0,0,2,5,7,0,2,3,0,12,fungus
+77,Norway,0,0,0,0,0,0,2,6,34,42,0,19,40,1,102,fungus
+78,Poland,0,0,0,0,0,0,0,4,24,28,0,18,32,2,80,fungus
+79,Portugal,0,0,0,0,0,0,1,4,5,10,0,5,26,0,41,fungus
+80,Romania,0,0,0,0,0,0,0,1,7,8,0,3,16,0,27,fungus
+81,San Marino,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+82,Serbia,0,0,0,0,0,0,0,0,7,7,0,5,23,0,35,fungus
+83,Slovakia,0,0,0,0,0,0,0,4,28,32,0,12,35,2,81,fungus
+84,Slovenia,0,0,0,0,0,0,0,1,19,20,0,11,36,0,67,fungus
+85,Spain,0,0,0,0,0,0,0,4,38,42,0,14,43,2,101,fungus
+86,Svalbard and Jan Mayen,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus
+87,Sweden,0,0,0,0,0,0,1,5,39,45,0,25,41,1,112,fungus
+88,Switzerland,0,0,0,0,0,0,1,5,34,40,0,19,34,1,94,fungus
+89,United Kingdom,0,0,0,0,0,0,1,2,34,37,0,10,40,0,87,fungus
+90,Belize,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+91,Costa Rica,0,0,0,0,0,0,0,0,4,4,0,5,5,0,14,fungus
+92,El Salvador,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+93,Guatemala,0,0,0,0,0,0,0,0,1,1,0,0,1,0,2,fungus
+94,Honduras,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,fungus
+95,Mexico,0,0,0,0,0,0,1,1,4,6,0,3,19,1,29,fungus
+96,Nicaragua,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+97,Panama,0,0,0,0,0,0,0,0,1,1,0,0,1,0,2,fungus
+98,Algeria,0,0,0,0,0,0,0,0,2,2,0,1,3,0,6,fungus
+99,Egypt,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus
+100,Libya,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus
+101,Morocco,0,0,0,0,0,0,0,1,4,5,0,2,4,0,11,fungus
+102,Tunisia,0,0,0,0,0,0,0,1,1,2,0,0,2,0,4,fungus
+103,Western Sahara,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+104,Canada,0,0,0,0,0,0,1,10,14,25,0,16,36,2,79,fungus
+105,Saint Pierre and Miquelon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+106,United States,0,0,0,1,0,1,12,30,30,72,0,19,43,6,140,fungus
+107,Belarus,0,0,0,0,0,0,0,1,2,3,0,2,7,0,12,fungus
+108,Moldova,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus
+109,Russian Federation,0,0,0,0,0,0,0,4,33,37,0,23,45,4,109,fungus
+110,Ukraine,0,0,0,0,0,0,0,2,10,12,0,5,18,1,36,fungus
+111,American Samoa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+112,Australia,0,0,0,0,0,0,1,5,7,13,0,2,12,3,30,fungus
+113,Christmas Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+114,Cocos (Keeling) Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+115,Cook Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+116,Fiji,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+117,French Polynesia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+118,Guam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+119,Kiribati,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+120,Marshall Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+121,"Micronesia, Federated States of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+122,Nauru,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+123,New Caledonia,0,0,0,0,0,0,1,3,0,4,0,1,0,1,6,fungus
+124,New Zealand,0,0,0,0,0,0,2,9,2,13,0,4,13,10,40,fungus
+125,Niue,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+126,Norfolk Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+127,Northern Mariana Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+128,Palau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+129,Papua New Guinea,0,0,0,0,0,0,0,3,0,3,0,0,1,1,5,fungus
+130,Pitcairn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+131,Samoa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+132,Solomon Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+133,Tokelau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+134,Tonga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+135,Tuvalu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+136,United States Minor Outlying Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+137,Vanuatu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+138,Wallis and Futuna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+139,Argentina,0,0,0,0,0,0,5,4,10,19,0,4,30,3,56,fungus
+140,"Bolivia, Plurinational States of",0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+141,Brazil,0,0,0,0,0,0,1,2,13,16,0,1,5,4,26,fungus
+142,Chile,0,0,0,0,0,0,1,7,7,15,0,5,27,2,49,fungus
+143,Colombia,0,0,0,0,0,0,1,0,4,5,0,5,8,0,18,fungus
+144,Ecuador,0,0,0,0,0,0,0,0,1,1,0,0,4,0,5,fungus
+145,Falkland Islands (Malvinas),0,0,0,0,0,0,0,0,6,6,0,0,0,0,6,fungus
+146,French Guiana,0,0,0,0,0,0,0,0,0,0,0,1,1,0,2,fungus
+147,Guyana,0,0,0,0,0,0,0,0,1,1,0,0,2,8,11,fungus
+148,Paraguay,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,fungus
+149,Peru,0,0,0,0,0,0,1,0,0,1,0,0,1,0,2,fungus
+150,Suriname,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+151,Uruguay,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,fungus
+152,"Venezuela, Bolivarian Republic of",0,0,0,0,0,0,0,0,1,1,0,0,4,0,5,fungus
+153,Bangladesh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+154,Bhutan,0,0,0,0,0,0,0,0,2,2,0,0,2,0,4,fungus
+155,British Indian Ocean Territory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+156,Brunei Darussalam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+157,Cambodia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+158,Disputed Territory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+159,India,0,0,0,0,0,0,0,1,2,3,0,2,12,0,17,fungus
+160,Indonesia,0,0,0,0,0,0,0,1,1,2,0,0,0,0,2,fungus
+161,Lao People's Democratic Republic,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,fungus
+162,Malaysia,0,0,0,0,0,0,0,2,2,4,0,0,1,1,6,fungus
+163,Maldives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+164,Myanmar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+165,Nepal,0,0,0,0,0,0,0,0,2,2,0,0,3,0,5,fungus
+166,Philippines,0,0,0,0,0,0,0,1,0,1,0,0,2,0,3,fungus
+167,Singapore,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+168,Sri Lanka,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+169,Thailand,0,0,0,0,0,0,0,1,0,1,0,0,3,0,4,fungus
+170,Timor-Leste,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+171,Viet Nam,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+172,Angola,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+173,Benin,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+174,Botswana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+175,Burkina Faso,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+176,Burundi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+177,Cabo Verde,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+178,Cameroon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+179,Central African Republic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+180,Chad,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+181,Comoros,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+182,Congo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+183,"Congo, The Democratic Republic of the",0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus
+184,Côte d'Ivoire,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+185,Djibouti,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+186,Equatorial Guinea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+187,Eritrea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+188,Eswatini,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+189,Ethiopia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+190,Gabon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+191,Gambia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+192,Ghana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+193,Guinea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+194,Guinea-Bissau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+195,Kenya,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus
+196,Lesotho,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+197,Liberia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+198,Madagascar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+199,Malawi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+200,Mali,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+201,Mauritania,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+202,Mauritius,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,fungus
+203,Mayotte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+204,Mozambique,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+205,Namibia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+206,Niger,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+207,Nigeria,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+208,Réunion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+209,Rwanda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+210,"Saint Helena, Ascension and Tristan da Cunha",0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,fungus
+211,Sao Tome and Principe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+212,Senegal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+213,Seychelles,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+214,Sierra Leone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+215,Somalia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+216,South Africa,0,0,0,0,0,0,0,0,0,0,0,0,7,0,7,fungus
+217,South Sudan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+218,Sudan,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+219,"Tanzania, United Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+220,Togo,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+221,Uganda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+222,Zambia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+223,Zimbabwe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+224,Afghanistan,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus
+225,Armenia,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,fungus
+226,Azerbaijan,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,fungus
+227,Bahrain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+228,Cyprus,0,0,0,0,0,0,0,0,1,1,0,1,1,0,3,fungus
+229,Georgia,0,0,0,0,0,0,0,0,4,4,0,1,9,0,14,fungus
+230,"Iran, Islamic Republic of",0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus
+231,Iraq,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+232,Israel,0,0,0,0,0,0,0,0,1,1,0,1,4,0,6,fungus
+233,Jordan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+234,Kazakhstan,0,0,0,0,0,0,0,0,1,1,0,3,4,1,9,fungus
+235,Kuwait,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+236,Kyrgyzstan,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus
+237,Lebanon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+238,Oman,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+239,Pakistan,0,0,0,0,0,0,0,0,0,0,0,1,4,0,5,fungus
+240,"Palestine, State of",0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+241,Qatar,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+242,Saudi Arabia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+243,Syrian Arab Republic,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
+244,Tajikistan,0,0,0,0,0,0,0,0,1,1,0,0,2,0,3,fungus
+245,Turkey,0,0,0,0,0,0,0,0,7,7,0,3,8,0,18,fungus
+246,Turkmenistan,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,fungus
+247,United Arab Emirates,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus
+248,Uzbekistan,0,0,0,0,0,0,0,0,0,0,0,0,5,0,5,fungus
+249,Yemen,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus
