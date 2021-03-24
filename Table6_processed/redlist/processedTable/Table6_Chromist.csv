@@ -1,0 +1,251 @@
+,Name,EX,EW,Subtotal (EX+EW),CR(PE),CR(PEW),Subtotal (EX+EW+ CR(PE)+CR(PEW)),CR,EN,VU,Subtotal (threatened spp.),LR/cd,NT or LR/nt,LC or LR/lc,DD,Total,species
+0,Antarctica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+1,Bouvet Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+2,French Southern Territories,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+3,Heard Island and McDonald Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+4,South Georgia and the South Sandwich Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+5,Anguilla,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+6,Antigua and Barbuda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+7,Aruba,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+8,Bahamas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+9,Barbados,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+10,Bermuda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+11,"Bonaire, Sint Eustatius and Saba",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+12,Cayman Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+13,Cuba,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+14,Curaçao,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+15,Dominica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+16,Dominican Republic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+17,Grenada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+18,Guadeloupe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+19,Haiti,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+20,Jamaica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+21,Martinique,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+22,Montserrat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+23,Puerto Rico,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+24,Saint Barthélemy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+25,Saint Kitts and Nevis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+26,Saint Lucia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+27,Saint Martin (French part),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+28,Saint Vincent and the Grenadines,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+29,Sint Maarten (Dutch part),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+30,Trinidad and Tobago,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+31,Turks and Caicos Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+32,"Virgin Islands, British",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+33,"Virgin Islands, U.S.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+34,China,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+35,Hong Kong,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+36,Japan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+37,"Korea, Democratic People's Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+38,"Korea, Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+39,Macao,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+40,Mongolia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+41,"Taiwan, Province of China",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+42,Åland Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+43,Albania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+44,Andorra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+45,Austria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+46,Belgium,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+47,Bosnia and Herzegovina,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+48,Bulgaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+49,Croatia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+50,Czechia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+51,Denmark,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+52,Estonia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+53,Faroe Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+54,Finland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+55,France,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+56,Germany,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+57,Gibraltar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+58,Greece,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+59,Greenland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+60,Guernsey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+61,Holy See (Vatican City State),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+62,Hungary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+63,Iceland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+64,Ireland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+65,Isle of Man,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+66,Italy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+67,Jersey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+68,Latvia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+69,Liechtenstein,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+70,Lithuania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+71,Luxembourg,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+72,Malta,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+73,Monaco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+74,Montenegro,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+75,Netherlands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+76,North Macedonia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+77,Norway,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+78,Poland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+79,Portugal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+80,Romania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+81,San Marino,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+82,Serbia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+83,Slovakia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+84,Slovenia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+85,Spain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+86,Svalbard and Jan Mayen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+87,Sweden,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+88,Switzerland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+89,United Kingdom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+90,Belize,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+91,Costa Rica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+92,El Salvador,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+93,Guatemala,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+94,Honduras,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+95,Mexico,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+96,Nicaragua,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+97,Panama,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+98,Algeria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+99,Egypt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+100,Libya,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+101,Morocco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+102,Tunisia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+103,Western Sahara,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+104,Canada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+105,Saint Pierre and Miquelon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+106,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+107,Belarus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+108,Moldova,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+109,Russian Federation,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+110,Ukraine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+111,American Samoa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+112,Australia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+113,Christmas Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+114,Cocos (Keeling) Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+115,Cook Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+116,Fiji,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+117,French Polynesia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+118,Guam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+119,Kiribati,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+120,Marshall Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+121,"Micronesia, Federated States of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+122,Nauru,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+123,New Caledonia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+124,New Zealand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+125,Niue,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+126,Norfolk Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+127,Northern Mariana Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+128,Palau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+129,Papua New Guinea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+130,Pitcairn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+131,Samoa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+132,Solomon Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+133,Tokelau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+134,Tonga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+135,Tuvalu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+136,United States Minor Outlying Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+137,Vanuatu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+138,Wallis and Futuna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+139,Argentina,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+140,"Bolivia, Plurinational States of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+141,Brazil,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+142,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+143,Colombia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+144,Ecuador,0,0,0,4,0,4,4,1,1,6,0,0,0,9,15,chromist
+145,Falkland Islands (Malvinas),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+146,French Guiana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+147,Guyana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+148,Paraguay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+149,Peru,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+150,Suriname,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+151,Uruguay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+152,"Venezuela, Bolivarian Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+153,Bangladesh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+154,Bhutan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+155,British Indian Ocean Territory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+156,Brunei Darussalam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+157,Cambodia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+158,Disputed Territory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+159,India,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+160,Indonesia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+161,Lao People's Democratic Republic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+162,Malaysia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+163,Maldives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+164,Myanmar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+165,Nepal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+166,Philippines,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+167,Singapore,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+168,Sri Lanka,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+169,Thailand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+170,Timor-Leste,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+171,Viet Nam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+172,Angola,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+173,Benin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+174,Botswana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+175,Burkina Faso,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+176,Burundi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+177,Cabo Verde,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+178,Cameroon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+179,Central African Republic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+180,Chad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+181,Comoros,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+182,Congo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+183,"Congo, The Democratic Republic of the",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+184,Côte d'Ivoire,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+185,Djibouti,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+186,Equatorial Guinea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+187,Eritrea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+188,Eswatini,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+189,Ethiopia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+190,Gabon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+191,Gambia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+192,Ghana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+193,Guinea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+194,Guinea-Bissau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+195,Kenya,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+196,Lesotho,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+197,Liberia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+198,Madagascar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+199,Malawi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+200,Mali,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+201,Mauritania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+202,Mauritius,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+203,Mayotte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+204,Mozambique,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+205,Namibia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+206,Niger,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+207,Nigeria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+208,Réunion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+209,Rwanda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+210,"Saint Helena, Ascension and Tristan da Cunha",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+211,Sao Tome and Principe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+212,Senegal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+213,Seychelles,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+214,Sierra Leone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+215,Somalia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+216,South Africa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+217,South Sudan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+218,Sudan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+219,"Tanzania, United Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+220,Togo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+221,Uganda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+222,Zambia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+223,Zimbabwe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+224,Afghanistan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+225,Armenia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+226,Azerbaijan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+227,Bahrain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+228,Cyprus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+229,Georgia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+230,"Iran, Islamic Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+231,Iraq,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+232,Israel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+233,Jordan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+234,Kazakhstan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+235,Kuwait,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+236,Kyrgyzstan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+237,Lebanon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+238,Oman,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+239,Pakistan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+240,"Palestine, State of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+241,Qatar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+242,Saudi Arabia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+243,Syrian Arab Republic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+244,Tajikistan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+245,Turkey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+246,Turkmenistan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+247,United Arab Emirates,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+248,Uzbekistan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
+249,Yemen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist
