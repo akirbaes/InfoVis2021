@@ -12,7 +12,8 @@ import time
 
 start_time = time.time()
 
-database = gpd.read_file("REDLIST/MAMMALS/MAMMALS.shp")
+# database = gpd.read_file("REDLIST/MAMMALS/MAMMALS.shp")
+database = gpd.read_file("AGGREGATED_DATA/_agg_MAMMALS.shp")
 #database = gpd.read_file("REDLIST/MAMMALS_FRESHWATER/MAMMALS_FRESHWATER.shp")
 #database = gpd.read_file("REDLIST/REPTILES_points/REPTILES_points.csv")
 
@@ -55,7 +56,7 @@ for index in to_remove:
 #database.where(selection, inplace=True)
 database.sort_values(by="color",axis=0,ascending=True,inplace=True)
 
-scheme=mc.FisherJenks(database["color"],k=len(palette))
+scheme=mc.EqualInterval(database["color"],k=len(palette))
 gplt.choropleth(database,hue=database["color"],alpha=0.5, legend=True, scheme=scheme, legend_labels=names)
 """leg=ax1.get_legend()
 for i,e in enumerate(palette):
