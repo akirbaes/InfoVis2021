@@ -12,10 +12,18 @@ import time
 
 start_time = time.time()
 
-# database = gpd.read_file("REDLIST/MAMMALS/MAMMALS.shp")
-database = gpd.read_file("AGGREGATED_DATA/_agg_MAMMALS.shp")
-#database = gpd.read_file("REDLIST/MAMMALS_FRESHWATER/MAMMALS_FRESHWATER.shp")
-#database = gpd.read_file("REDLIST/REPTILES_points/REPTILES_points.csv")
+
+
+
+# filename="REDLIST/MAMMALS/MAMMALS.shp"
+# filename="AGGREGATED_DATA/_agg_MAMMALS.shp"
+# filename="REDLIST/MAMMALS_FRESHWATER/MAMMALS_FRESHWATER.shp"
+# filename="REDLIST/REPTILES_points/REPTILES_points.csv"
+# filename="REDLIST/Fishes/BONEFISH_TARPONS/BONEFISH_TARPONS.shp"
+# filename="SIMPLIFIED_DATA/BONEFISH_TARPONS.shp"
+filename = "ORDER_AGGREGATED_DATA/ANIMALIA_CHORDATA_ACTINOPTERYGII_ALBULIFORMES_BONEFISH_TARPONS.shp"
+filename = "ORDER_AGGREGATED_DATA/ANIMALIA_CHORDATA_MAMMALIA_CHIROPTERA_MAMMALS.shp"
+database = gpd.read_file(filename)
 
 print("Finished reading database at %s seconds"%(time.time()-start_time))
 
@@ -55,14 +63,34 @@ for index in to_remove:
 #selection=database["category"]=="DD"
 #database.where(selection, inplace=True)
 database.sort_values(by="color",axis=0,ascending=True,inplace=True)
+# database.plot()
+# plt.show()
+# database = database.to_crs("EPSG:3395")
+# database.plot()
+# plt.show()
+print(database.crs)
+fig, ax = plt.subplots()
+
 
 scheme=mc.EqualInterval(database["color"],k=len(palette))
-gplt.choropleth(database,hue=database["color"],alpha=0.5, legend=True, scheme=scheme, legend_labels=names)
 """leg=ax1.get_legend()
 for i,e in enumerate(palette):
     leg.get_texts()[i].set_text(names[i])"""
 #world = gpd.read_file(gpd.datasets.get_path('naturalearth_lowres'))
 #world.plot();
+from shapely.geometry import Point, Polygon
+pts = list((long,lat) for long in (-180,0,180) for lat in (-90,0,90))
+geom=list((Point((float(long),float(lat))) for long,lat in pts))
+print(pts)
+db = gpd.GeoDataFrame(geometry=geom)
+ax.set_aspect('equal')
+gplt.choropleth(database,hue=database["color"],alpha=0.5, legend=True, scheme=scheme, legend_labels=names, ax=ax, legend_kwargs={"loc":'lower left'})
+# gplt.pointplot(db, color="red", markersize=1,ax=ax)
+# db.plot(ax=ax, marker=',', color='red', markersize=1,zorder=10)
+
+x = [-180,-180,180,180]
+y = [-90,90,-90,90]
+plt.scatter(x=x,y=y, marker=',', color='red', linewidths=0,s=0.75,zorder=10)
 
 #gplt.polyplot(database)
 #gplt.polyplot(world)

@@ -68,9 +68,18 @@ def rasterize_database(filename,outputname):
             print(timerstring(),"Plot time")
             plt.tight_layout()
             ax.autoscale_view('tight')
-            dp=600
+            dp=100
+            x = [-180]#,-180,180,180]
+            y = [90]#,90,-90,90]
+            plt.scatter(x=x,y=y, marker=',', color='red', linewidths=0,s=0.75,zorder=10)
+            x = [180]
+            y = [-90]
+            plt.scatter(x=x,y=y, marker=',', color='green', linewidths=0,s=0.75,zorder=10)
             imagename = "alpha"+str(dp)+"DPI"+outputname+"_("+str(palette.index(entry))+")"+entry+".png"
-            plt.savefig("RASTERISED_DATA/alpha600/"+imagename,dpi=dp,transparent=True)
+            foldername = "RASTERISED_DATA/red%i/"%dp
+            try: os.mkdir(foldername)
+            except:pass
+            plt.savefig(foldername+imagename,dpi=dp,transparent=True)
             print(timerstring(),"Saved",imagename)
             plt.clf()
             

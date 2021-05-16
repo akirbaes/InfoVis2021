@@ -97,7 +97,6 @@ for dirpath, dirnames, filenames in os.walk(images_path):
     paper_bgcolor=colors['background'],
     font_color=colors['text']
 )"""
-df = pd.read_csv('https://gist.githubusercontent.com/chriddyp/c78bf172206ce24f77d6363a2d754b59/raw/c353e8ef842413cae56ae3920b8fd78468aa4cb2/usa-agricultural-exports-2011.csv')
 
 def generate_table(dataframe, max_rows=10):
     return html.Table([
@@ -116,23 +115,83 @@ print(alldata.columns)
 
 print("My crs:",alldata.crs)
 
-# point = gpd.GeoSeries(Polygon([(-160,-90),(-160,90),(160,90),(160,-90)]))
-point_coords = (70,70)
-point = gpd.GeoSeries(Point([point_coords]))
-point.set_crs(epsg=4326,inplace=True)
-print("Point's crs:",point.crs)
-#point=point.to_crs("EPSG:4326")
-#point = point.to_crs(alldata.crs)
-point=gpd.GeoDataFrame(geometry=point)
-#alldata = alldata.to_crs(point.crs)
-#intersection = alldata.intersects(point)
-intersection = gpd.sjoin(alldata, point, op='intersects')
-#dataframe = alldata.loc[intersection]
+point_coords = [60,60]
 
-print(intersection.head(20))
-print("Intersection:",len(intersection))
-#print(dataframe.head(10))
 
+
+def recalculate_intersection(point_coords,selected_categories):
+    #global intersection
+    point = gpd.GeoSeries(Point(point_coords))
+    point=gpd.GeoDataFrame(geometry=point)
+    point.set_crs(epsg=4326,inplace=True)
+    print("Point's crs:",point.crs)
+    print(selected_categories)
+    relevant_data = alldata.loc[alldata["category"].isin(selected_categories)]
+    intersection = gpd.sjoin(relevant_data, point, op='intersects')
+    print("Intersection:",len(intersection))
+    print(intersection.head(20))
+    return intersection
+    
+import plotly.graph_objects as go
+
+import pprint
+
+def update_map(geodata):
+    palette=['DD', 'LC', 'LR/lc', 'NT', 'LR/cd', 'VU', 'EN', 'CR', 'EW', "EX"]
+    def get_color(cat):
+        return palette.index(cat)
+    geodata["number"]=geodata.index
+    geodata["color"]=geodata["category"].apply(get_color)
+    max_color=geodata["color"].max()
+    values = [i for i in range(max_color)]
+    ticks = [i for i in range(max_color)]
+    geodata=geodata.filter(["color","geometry","number"])
+    print("####Received geodata:")
+    print(geodata.head())
+    gj = geodata.to_json()
+    print("Received geojson:")
+    pprint.pprint(gj)
+    #print(geojson.dumps(parsed, indent=4))
+    fig = px.choropleth_mapbox(geodata,
+        geojson=gj,
+        locations="number",
+        color=geodata["color"],
+        range_color=(0,geodata["color"].max()),
+        mapbox_style="white-bg"
+        )
+    fig.update_geos(
+        projection={"type": "cassini"}
+        )
+    fig.update_layout(margin={'r':0,'t':0,'l':0,'b':0},
+    coloraxis_colorbar={
+        'title':'Extinction rate',
+        'tickvals':values,
+        'ticktext':ticks        
+        }
+    )   
+    
+    fig.update_layout(height=300, margin={"r":0,"t":0,"l":0,"b":0})
+    
+    coordinates = [[-180, 89],
+               [180, 89],
+               [180, -89],
+               [-180, -89]]
+    from PIL import Image
+    img = Image.open('RASTERISED_DATA/alpha300dpi_cropped/MAMMALS.shp_(3)VU_300DPI.png')
+    img = Image.open('allmammals.png')
+    img = Image.open('RASTERISED_DATA/red100/alpha100DPIMARINEFISH_PART1.shp_(1)LC.png')
+    fig.update_layout(
+        mapbox_layers = [
+        {
+            "sourcetype": "image",
+            "source": img,
+            "coordinates":coordinates
+            }]
+            )
+    fig.show()
+    return fig
+
+plotlyConfig = {'topojsonURL':'http://127.0.0.1:%i/assets/'%5500} 
 
 multiselect_options = [{"label":classe,"value":classe} for classe in class_names]
 multiselect_values = class_names[:]
@@ -147,12 +206,21 @@ app.layout = html.Div(
     html.H1(children="Worldwide Animal Extinction Status",
         style={"textAlign":"center","color":colors["text"]}
         ),
-    html.Div(children="Animal extinction status across the world. Click on the map"),
+    html.Div(
+    children="Animal extinction status across the world. Click on the map"),
     
-    html.Div(children=str(len(intersection))+" animals at [%s;%s]"%(point_coords)),
-    generate_table(intersection),
-    html.Label('Select the databases to search in'),
+    html.Div(children=[
+        html.Label(id="animals_count"),
+        " animals at ",
+        dcc.Input(id='longitude', value=str(point_coords[0]), type='number'),
+        dcc.Input(id='latitude', value=str(point_coords[1]), type='number')
+    ]),
+    dcc.Graph(id="map_graph",config=plotlyConfig), 
+    
+    html.Button("Select all",id="select_all_classes"),
+    html.Label(' or Select the databases to search in'),
     dcc.Dropdown(
+        id="selected_classes",
         options=multiselect_options,
         value=multiselect_values,
         multi=True
@@ -162,8 +230,36 @@ app.layout = html.Div(
         options=checklist_options,
         value=checklist_values,
         id="extinction_category"
-    )
+    ),
+    html.Div(children="Table area",id="table_to_fill")
 ])
+
+from dash.dependencies import Input, Output
+
+
+@app.callback(
+    Output(component_id='table_to_fill', component_property='children'),
+    Output(component_id='animals_count', component_property="children"),
+    Output(component_id="map_graph", component_property="figure"),
+    Input(component_id='longitude', component_property='value'),
+    Input(component_id='latitude', component_property='value'),
+    Input(component_id='extinction_category', component_property='value')
+)
+def update_animals_list(longitude, latitude, selected_categories):
+    point_coords=[float(longitude),float(latitude)]
+    intersection=recalculate_intersection(point_coords, selected_categories)
+    fig = update_map(alldata)
+    
+    return generate_table(intersection,10), len(intersection), fig
+
+@app.callback(
+    Output(component_id='selected_classes', component_property='value'),
+    Input(component_id='select_all_classes', component_property='n_clicks')
+)
+def set_all_classes(ignore):
+    return class_names[:]
+
+
 
 if __name__ == "__main__":
     app.run_server(debug=True)

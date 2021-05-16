@@ -1,2 +1,2 @@
-cd C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021
+cd C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation
 conda activate firstEnv
