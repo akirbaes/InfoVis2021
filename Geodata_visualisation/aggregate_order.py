@@ -81,7 +81,7 @@ def get_area(entry):
 path="REDLIST"
 for dirpath, dirnames, filenames in os.walk(path):
     for name in filenames:
-        if name.endswith(("BONEFISH_TARPONS.shp")): #BIRCHES BONEFISH_TARPONS
+        if name.endswith((".shp")): #BIRCHES BONEFISH_TARPONS
             pathname =os.path.join(dirpath, name)
             print("Open",str(counter),pathname)
             counter+=1
