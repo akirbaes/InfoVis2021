@@ -42,7 +42,6 @@ timer()
 	
 has_data = False
 alldata = None
-counter = 0
 
 
 
@@ -79,46 +78,53 @@ def get_area(entry):
 
 #path="SIMPLIFIED_DATA"
 path="REDLIST"
+total_count=0
+for dirpath, dirnames, filenames in os.walk(path):
+    for name in filenames:
+        if name.endswith((".shp")):
+            total_count+=1
+counter = 0
 for dirpath, dirnames, filenames in os.walk(path):
     for name in filenames:
         if name.endswith((".shp")): #BIRCHES BONEFISH_TARPONS
-            pathname =os.path.join(dirpath, name)
-            print("Open",str(counter),pathname)
             counter+=1
-            db = gpd.read_file(pathname)
-            print(lapstring(),"Finished reading database")
-            generate_color(db) #add "color" entry
-            
-            foldername = "ORDER_AGGREGATED_DATA/"
-            try:os.mkdir(foldername)
-            except:pass
-            # print(list(db.columns))
-            orders = db["order_"].unique()
-            for index,order in enumerate(orders):
-                output = db[db["order_"]==order]
-                k = output["kingdom"].iat[0]
-                p = output["phylum"].iat[0]
-                c = output["class"].iat[0]
-                outputname = k+"_"+p+"_"+c+"_"+order+"_"+name
+            if(counter>=37):
+                pathname =os.path.join(dirpath, name)
+                print("[%i/%i]Open"%(counter,total_count),pathname)
+                db = gpd.read_file(pathname)
+                print(lapstring(),"Finished reading database")
+                generate_color(db) #add "color" entry
                 
-                output=output.explode()
-                output["area"]=output["geometry"].apply(get_area)
-                output=output[output["area"]>0.05]
-                output["geometry"]=output.simplify(0.1)
-                
-                for type in "marine","terrestial","freshwater":
-                    outputname = k+"_"+p+"_"+c+"_"+order+"_"+type+"_"+name
-                    selection = output[output[type]=="true"]
-                    selection = selection.filter(["category",'color', 'geometry'])
-                    if(len(selection)==0):
-                        continue
-                    print(len(selection),outputname,"%i/%i"%(index+1,len(orders)) if len(orders) else "")
-                    selection=selection.dissolve(by="color")
-                    selection.to_file(foldername+outputname)
-                    print(lapstring(),"Output to ",foldername+outputname)
-                    del selection
-                
-                # output = output.filter(["category",'color', 'geometry'])
+                foldername = "ORDER_AGGREGATED_DATA/"
+                try:os.mkdir(foldername)
+                except:pass
+                # print(list(db.columns))
+                orders = db["order_"].unique()
+                for index,order in enumerate(orders):
+                    output = db[db["order_"]==order]
+                    k = output["kingdom"].iat[0]
+                    p = output["phylum"].iat[0]
+                    c = output["class"].iat[0]
+                    outputname = k+"_"+p+"_"+c+"_"+order+"_"+name
+                    
+                    output=output.explode()
+                    output["area"]=output["geometry"].apply(get_area)
+                    output=output[output["area"]>0.05]
+                    output["geometry"]=output.simplify(0.1)
+                    
+                    for type in "marine","terrestial","freshwater":
+                        outputname = k+"_"+p+"_"+c+"_"+order+"_"+type+"_"+name
+                        selection = output[output[type]=="true"]
+                        selection = selection.filter(["category",'color', 'geometry'])
+                        if(len(selection)==0):
+                            continue
+                        print(len(selection),outputname,"%i/%i"%(index+1,len(orders)) if len(orders) else "")
+                        selection=selection.dissolve(by="color")
+                        selection.to_file(foldername+outputname)
+                        print(lapstring(),"Output to ",foldername+outputname)
+                        del selection
+                    
+                    # output = output.filter(["category",'color', 'geometry'])
                 # print(len(color_output),outputname,"%i/%i"%(index+1,len(orders)) if len(orders) else "")
                 # output=output.dissolve(by="color")
                 # output.to_file(foldername+outputname)
