@@ -37,19 +37,38 @@ colors = {
     'text': '#011020'
 }
 
+def count_all_extension(path,extension):
+    counter = 0
+    for dirpath, dirnames, filenames in os.walk(path):
+        for name in filenames:
+            if name.endswith(extension):
+                counter+=1
+    return counter
+    
+
 def load_all_data(path):
     has_data = False
     alldata = None
     counter = 0
+    ext = ".shp"
+    total_counter = count_all_extension(path,ext)
     for dirpath, dirnames, filenames in os.walk(path):
         for name in filenames:
-            if name.endswith((".shp")): #BIRCHES BONEFISH_TARPONS MAMMALS
+            # print("#"*20+name)
+            if name.endswith(ext) and counter<8: #BIRCHES BONEFISH_TARPONS MAMMALS
                 pathname =os.path.join(dirpath, name)
-                print("Open",str(counter),pathname)
+                print("Open %i/%i"%(counter,total_counter),pathname)
                 counter+=1
                 db = gpd.read_file(pathname)
                 db["origin"]=name
                 # print(timerstring(),"Finished reading database")
+                
+                def get_area(entry):
+                    return entry.area
+                db=db.explode()
+                db["area"]=db["geometry"].apply(get_area)
+                db=db[db["area"]>0.05]
+                db=db.reset_index(drop=True)
                 if(has_data==False):
                     has_data=True
                     alldata=db
@@ -59,18 +78,27 @@ def load_all_data(path):
     return alldata
 
 #aggregated_data = gpd.read_file("AGGREGATED_DATA/_agg_LOBSTERS.shp")
-path="assets/Light_server/SIMPLIFIED_DATA"
-path="assets/Mammals_server/SIMPLIFIED_DATA"
-alldata = load_all_data(path)
-print("Finished loading all simplified habitat data")
-print(alldata)
-
-#aggregated_data = gpd.read_file("AGGREGATED_DATA/_agg_LOBSTERS.shp")
-path="assets/Light_server/AGGREGATED_DATA"
 path="assets/Mammals_server/AGGREGATED_DATA"
+path="assets/Heavy_server/AGGREGATED_DATA"
+path="assets/Light_server/AGGREGATED_DATA"
 aggregated_data = load_all_data(path)
+def get_file_name(origin):
+    return origin[5:-4]
+aggregated_data["origin"]=aggregated_data["origin"].apply(get_file_name)
+available_databases = list(aggregated_data["origin"].unique())
 print("Finished loading all available aggregated data")
 print(aggregated_data)
+
+#aggregated_data = gpd.read_file("AGGREGATED_DATA/_agg_LOBSTERS.shp")
+path="assets/Mammals_server/SIMPLIFIED_DATA"
+path="assets/Heavy_server/SIMPLIFIED_DATA"
+path="assets/Light_server/SIMPLIFIED_DATA"
+alldata = load_all_data(path)
+def get_file_name(origin):
+    return origin[:-4]
+alldata["origin"]=alldata["origin"].apply(get_file_name)
+print("Finished loading all simplified habitat data")
+print(alldata)
 
 
 
@@ -84,22 +112,30 @@ color_of_catid = {id:cat_colors[id] for (id,cat) in enumerate(categories)}
 color_of_cat = {cat:cat_colors[id] for (id,cat) in enumerate(categories)}
 color_of_category = {cat:cat_colors[id] for (id,cat) in enumerate(cat_names)}
 
-
+import dash_table
 def generate_table(dataframe, max_rows=10):
     selection = ["binomial","kingdom","phylum","class","order_","family","genus","category"]
     limit = dataframe.columns
     selection = [x for x in selection if x in limit]
     dataframe=dataframe.filter(selection)
+    
+    
     return html.Table([
         html.Thead(
-            html.Tr([html.Th(col) for col in selection])
+            html.Tr([html.Th(col.center(24)) for col in selection])
             ),
             html.Tbody([
                 html.Tr([
-                    html.Td(dataframe.iloc[i][col]) for col in selection 
+                    html.Td(dataframe.iloc[i][col].center(24)) for col in selection 
                 ])for i in range(min(len(dataframe),max_rows))
             ])
         ])
+    # return dash_table.DataTable(
+    # data=dataframe,
+    # columns=[{'id': c, 'name': c} for c in dataframe.columns],
+    # page_action='none',
+    # style_table={'height': '300px', 'overflowY': 'auto'}
+    # )
 
 
 # print("My crs:",alldata.crs)
@@ -120,7 +156,7 @@ def generate_table(dataframe, max_rows=10):
         # database = database.loc[database["category"].isin(categories)]
     # return database
 
-def recalculate_intersection(point_coords):
+def recalculate_intersection(point_coords, selected_database_name):
     #global intersection
     point = gpd.GeoSeries(Point(point_coords))
     point=gpd.GeoDataFrame(geometry=point)
@@ -128,15 +164,16 @@ def recalculate_intersection(point_coords):
     # print("Point's crs:",point.crs)
     # print(selected_categories)
     # relevant_data = alldata.loc[alldata["category"].isin(selected_categories)]
-    intersection = gpd.sjoin(alldata, point, op='intersects')
+    intersection = gpd.sjoin(alldata[alldata["origin"]==selected_database_name].explode().reset_index(), point, op='intersects')
     print("Intersection:",len(intersection))
     print(intersection.head(20))
+    print("Calculations done")
     return intersection
     
     
 
 
-def update_map_agg(geodata,levels,terrain,crosshair):
+def update_map_agg(geodata,levels):
     def get_color(cat):
         return palette.index(cat)
     geodata["color"]=geodata["category"].apply(get_color)
@@ -152,9 +189,10 @@ def update_map_agg(geodata,levels,terrain,crosshair):
     def get_full_name(color):
         return cat_names[color]
     geodata["category"]=geodata["color"].apply(get_full_name)
-    def get_file_name(origin):
-        return origin[5:-4]
-    geodata["origin"]=geodata["origin"].apply(get_file_name)
+    # def get_file_name(origin):
+        # return origin[5:-4]
+    # geodata["origin"]=geodata["origin"].apply(get_file_name)
+    # geodata=geodata.explode().reset_index()
     show = {c:True for c in columns}
     show["color"]=False
     show["index"]=False
@@ -168,8 +206,8 @@ def update_map_agg(geodata,levels,terrain,crosshair):
             mapbox_style="carto-positron",
             hover_data=show,
             hover_name=geodata["origin"],
-            opacity=1
-            )
+            opacity=1,
+            width=1000, height=800,zoom=1)
     else:
         fig = px.choropleth_mapbox(geodata,
             geojson=geodata.geometry,
@@ -179,18 +217,19 @@ def update_map_agg(geodata,levels,terrain,crosshair):
             mapbox_style="carto-positron",
             hover_data=show,
             hover_name=geodata["origin"],
-            opacity=0.8
-            )
+            opacity=0.8,
+            width=1000, height=800,zoom=1)
     fig.update_layout(uirevision="don't update")
-    
-    x,y=crosshair
-    # fig.add_shape(type="line",x0=x-1, y0=y, x1=x+1, y1=y)
-    # fig.add_shape(type="line",x0=x, y0=y-1, x1=x, y1=y+1)
-    fig.add_scattermapbox(lat = [x],lon = [y])
+    fig.update_layout(clickmode='event+select')
+    # fig.add_scattermapbox(lat=[0],lon=[0],opacity=0,mode = "lines+markers")
+    # x,y=crosshair
+    # # fig.add_shape(type="line",x0=x-1, y0=y, x1=x+1, y1=y)
+    # # fig.add_shape(type="line",x0=x, y0=y-1, x1=x, y1=y+1)
+    # fig.add_scattermapbox(lat = [x],lon = [y])
     return fig
     
 
-def update_map_select(geodata,levels,terrain,crosshair):
+def update_map_select(geodata,levels,crosshair):
     def get_color(cat):
         return palette.index(cat)
     
@@ -202,9 +241,6 @@ def update_map_select(geodata,levels,terrain,crosshair):
     ticks = [i for i in range(max_color)]
     # geodata=geodata.filter(["color","geometry","category"])
     geodata = geodata[geodata['category'].isin(levels)]
-    def get_file_name(origin):
-        return origin[5:-4]
-    geodata["origin"]=geodata["origin"].apply(get_file_name)
     # print("####Received geodata:",len(geodata))
     # print(geodata.head())
     geodata["index"]=geodata.index
@@ -227,8 +263,8 @@ def update_map_select(geodata,levels,terrain,crosshair):
             mapbox_style="carto-positron",
             hover_data=show,
             hover_name=geodata["binomial"],
-            opacity=0.5
-            )
+            opacity=1,
+            width=1000, height=800,zoom=1)
     else:
         fig = px.choropleth_mapbox(geodata,
             geojson=geodata.geometry,
@@ -238,10 +274,11 @@ def update_map_select(geodata,levels,terrain,crosshair):
             mapbox_style="carto-positron",
             hover_data=show,
             hover_name=geodata["binomial"],
-            opacity=0.5
-            )
+            opacity=0.7,
+            width=1000, height=800,zoom=1)
     # fig.update_geos(fitbounds="locations")
     fig.update_layout(uirevision="don't update")
+    fig.update_layout(clickmode='event+select')
     # fig.update_layout(height=300, margin={"r":0,"t":0,"l":0,"b":0})
     
     # coordinates = [[-180, 89],
@@ -262,24 +299,37 @@ def update_map_select(geodata,levels,terrain,crosshair):
             # )
     # fig.show()
     x,y=crosshair
-    fig.add_scattermapbox(lat = [x],lon = [y])
+    fig.add_scattermapbox(lat = [x],lon = [y], 
+        mode='markers',
+        marker=go.scattermapbox.Marker(size=14, color="red"),
+        text=['Crosshair'],)
+    # fig.add_scattermapbox(lat = [x],lon = [y])
     # fig.add_shape(type="line",x0=x-1, y0=y, x1=x+1, y1=y)
     # fig.add_shape(type="line",x0=x, y0=y-1, x1=x, y1=y+1)
     
+    # trace = dict(
+         # x=[crosshair[0]],
+         # y=[crosshair[1]],
+         # hoverinfo='skip'
+        # )
+    # fig.add_trace(trace)
     return fig
 
+##################################################################################################################
+##################################################################################################################
+##################################################################################################################
 plotlyConfig = {'topojsonURL':'http://127.0.0.1:%i/assets/'%5500} 
-class_names = 'MAMMALIA', 'JUNGERMANNIOPSIDA', 'CHAROPHYACEAE', 'SARCOPTERYGII', 'CLITELLATA', 'LYCOPODIOPSIDA', 'BRANCHIOPODA', 'MAGNOLIOPSIDA', 'CHONDRICHTHYES', 'AMPHIBIA', 'INSECTA', 'BIVALVIA', 'ACTINOPTERYGII', 'AGARICOMYCETES', 'HYDROZOA', 'BRYOPSIDA', 'ANTHOZOA', 'CEPHALASPIDOMORPHI', 'LILIOPSIDA', 'MYXINI', 'GASTROPODA', 'LECANOROMYCETES', 'POLYPODIOPSIDA', 'MARCHANTIOPSIDA', 'REPTILIA', 'AVES', 'MALACOSTRACA'
+
 # class_names = ['TETRAODONTIFORMES',"CHIMAERIFORMES"]
-multiselect_options = [{"label":classe,"value":classe} for classe in class_names]
-multiselect_values = class_names[:]
+# multiselect_options = [{"label":classe,"value":classe} for classe in class_names]
+# multiselect_values = class_names[:]
 
 #checklist_options  = [{"label":html.Mark(children=cat_names[i],id=cat),"value":cat} for i,cat in enumerate(categories)]
 checklist_options  = [{"label":cat_names[i],"value":cat} for i,cat in enumerate(categories)]
 checklist_values = categories[:]
 
-habitat_values = ["Marine","Terestial","Freshwater"]
-habitat_options = [{"label":hab,"value":hab} for hab in habitat_values]
+# habitat_values = ["Marine","Terestial","Freshwater"]
+# habitat_options = [{"label":hab,"value":hab} for hab in habitat_values]
 
 app.layout = html.Div(
     style={"backgroundColor": colors["background"]},
@@ -288,46 +338,39 @@ app.layout = html.Div(
         style={"textAlign":"center","color":colors["text"]}
         ),
     html.Div(
-    children="Animal extinction status across the world. Click on the map"),
+    children="Animal extinction status across the world."),
     
-    html.Div(children=[
-        html.Label(id="animals_count"),
-        " animals at ",
-        dcc.Input(id='longitude', value="0", type='number'),
-        dcc.Input(id='latitude', value="0", type='number')
-    ]),
-    html.Button('Submit', id='submit_coords', n_clicks=0),
-    dcc.Graph(id="map_graph",config=plotlyConfig), 
-    
-    html.Button("Select all",id="select_all_classes"),
-    html.Label(' or Select the databases to search in'),
-    dcc.Dropdown(
-        id="selected_classes",
-        options=multiselect_options,
-        value=multiselect_values,
-        multi=True
-    ),
     html.Label('Select the extinction level categories to search in'),
     dcc.Checklist(
         options=checklist_options,
         value=checklist_values,
         id="extinction_category"
     ),
-    html.Label('Habitat type'),
-    dcc.Checklist(
-        options=habitat_options,
-        value=habitat_values,
-        id="habitat_type"
-    ),
-    html.Label('Aggregation mode'),
-    dcc.Checklist(
-        options=[{"label":"Aggregate","value":"aggregate"}],
-        value=["aggregate"],
-        id="aggregate_toggle"
-    ),
-    html.Div(children="Table area",id="table_to_fill"),
-    dcc.Store(id="intermediate_value")
+    html.Button('Submit', id='submit_coords', n_clicks=0),
+    html.Div(id="bigdiv",children=[
+        dcc.Graph(id="map_graph",config=plotlyConfig), 
+        html.Label("+",id="crosshair"),
+        html.Div(children=[
+            html.Div(children=["Current database:",html.Label(id="selected_database_text")]),
+            html.Div(children=[html.Button(dname, id=dname, n_clicks=0) for dname in available_databases]),
+            html.Div(children=["Selection: ",html.Label("0 0",id="mouse_coord")," ",html.Button("Toggle selection",id="crosshair_selection")]),
+            html.Hr(),
+            html.Label("0",id="animals_count")," ",html.Label("animals",id="animal_type")," in ",html.Label("the world",id="selection_brag"),
+            html.Hr(),
+            html.Div(children="Table area",id="table_to_fill")]
+            ,id="div_right"),
+        dcc.Store(id="no_id")])
 ])
+
+            # html.Label('Aggregation mode'),
+            # dcc.Checklist(
+                # options=[{"label":"Aggregate","value":"aggregate"}],
+                # value=["aggregate"],
+                # id="aggregate_toggle"
+            # ),
+##################################################################################################################
+##################################################################################################################
+##################################################################################################################
 
 from dash.dependencies import Input, Output
 from dash.exceptions import PreventUpdate
@@ -358,6 +401,21 @@ def search_aggregated_data(orders,modifs):
     ordata.reset_index(drop=True,inplace=True)
     return ordata
     
+    
+@app.callback(
+    Output("selected_database_text","children"),
+    Output("animal_type","children"),
+    *(Input(dbname,"n_clicks") for dbname in available_databases)
+    )
+def set_selected_dbname(*nclicks):
+    ctx = dash.callback_context
+    if not ctx.triggered:
+        # button_id = 'No clicks yet'
+        raise PreventUpdate
+    else:
+        button_id = ctx.triggered[0]['prop_id'].split('.')[0]
+        return button_id, button_id
+    # if nckick == 0:
 # @app.callback(
     # Output(component_id='table_to_fill', component_property='children'),
     # Output(component_id='animals_count', component_property="children"),
@@ -398,83 +456,131 @@ def search_aggregated_data(orders,modifs):
     
     
 
-@app.callback(
-    Output('aggregate_toggle', 'value'),
-    Input('submit_coords', 'n_clicks')
-    )
-def start_looking_at_point(nclick):
-    print("Nclick:",nclick)
-    if nclick is 0:
-        raise PreventUpdate
-    return []
+# @app.callback(
+    # Output('aggregate_toggle', 'value'),
+    # Input('submit_coords', 'n_clicks')
+    # )
+# def start_looking_at_point(nclick):
+    # print("Nclick:",nclick)
+    # if nclick == 0:
+        # raise PreventUpdate
+    # return []
 
+    #Output('intermediate_value', 'data'),
+    # Input('longitude','value'),
+    # Input('latitude','value'),
+    
 @app.callback(
-    Output('intermediate_value', 'data'),
+    Output("mouse_coord","children"),
+    Input("map_graph","relayoutData"))
+def update_location(relayoutData):
+    print("v"*20,relayoutData)
+    # if(relayoutData and 'mapbox.center' in relayoutData):
+        # x=relayoutData["mapbox.center"]["lon"]
+        # y=relayoutData["mapbox.center"]["lat"]    
+    if(relayoutData and 'mapbox._derived' in relayoutData):
+        x,y=relayoutData["mapbox._derived"]["coordinates"][0]
+        xx,yy=relayoutData["mapbox._derived"]["coordinates"][2]
+        x=(float(x)+float(xx))/2
+        y=(float(y)+float(yy))/2
+        x,y=y,x
+    # if(relayoutData and "xaxis.range[0]" in relayoutData):
+        # x = relayoutData["xaxis.range[0]"]
+        # xx = relayoutData["xaxis.range[1]"]
+        # y = relayoutData["yaxis.range[0]"]
+        # yy = relayoutData["yaxis.range[1]"]
+        # coord = str((float(x)+float(xx))/2)+" "+str((float(y)+float(yy)))
+        coord = "%.2f %.2f"%(float(x),float(y))
+        return coord
+    else:
+        raise PreventUpdate
+    
+# def display_relayout_data(relayoutData):
+    # return json.dumps(relayoutData, indent=2)
+    #selectedData is useless now
+@app.callback(
     Output('table_to_fill', 'children'),
     Output('animals_count', "children"),
-    Input('map_graph', 'selectedData'),
-    Input('longitude','value'),
-    Input('latitude','value')
+    Output("selection_brag", "children"),
+    Input("selected_database_text","children"),
+    Input("crosshair_selection","n_clicks"),
+    Input("mouse_coord","children")
 )
-def update_selection(selectedData,longitude,latitude):
+def update_selection(selected_database_name,n_clicks,mouse_coords):
+    x,y = (float(i) for i in mouse_coords.split())
     print(dash.callback_context.triggered)
     
-    
-    if(selectedData and selectedData["range"]):
-        ranges = selectedpoints_local['range']
-        selection_bounds = {'x0': ranges['x'][0], 'x1': ranges['x'][1],
-                            'y0': ranges['y'][0], 'y1': ranges['y'][1]}
-        point = (ranges['x'][0],ranges['y'][0])
+    # print("*"*20,relayoutData)
+    # if(selectedData and "range" in selectedData):
+        # #https://dash.plotly.com/interactive-graphing
+        # x = sum(float(selectedData["range"]["x"]))/2
+        # y = sum(float(selectedData["range"]["y"]))/2
+        # point = (x,y)
+    # if(relayoutData):
+        # #https://dash.plotly.com/interactive-graphing
+        # x = sum(float(selectedData["range"]["x"]))/2
+        # y = sum(float(selectedData["range"]["y"]))/2
+    if(n_clicks!=None and n_clicks%2):
+        point = (x,y)
+        print("Clicked at",point)
+        sel=recalculate_intersection(point,selected_database_name)
+        sel.reset_index(inplace=True,drop=True)
+        global selected_shapes
+        selected_shapes = sel
+        # output_div = "Selection: [%4s:%4s] "%(x,y)
+        return generate_table(selected_shapes,1000), len(selected_shapes), "%.2f %.2f"%(x,y)
+        # and selectedData["range"]):
+        # ranges = selectedpoints_local['range']
+        # selection_bounds = {'x0': ranges['x'][0], 'x1': ranges['x'][1],
+                            # 'y0': ranges['y'][0], 'y1': ranges['y'][1]}
+        # point = (ranges['x'][0],ranges['y'][0])
     else:
         #raise PreventUpdate
-        point = (float(longitude),float(latitude))
-    print("Clicked at",point)
-    sel=recalculate_intersection(point)
-    sel.reset_index(inplace=True,drop=True)
-    global selected_shapes
-    selected_shapes = sel
-    sel = sel.to_json()
+        #point = (float(longitude),float(latitude))
+        selected_animals = alldata[alldata["origin"]==selected_database_name]
+        # output_text = "%4s %4s"%(x,y)
+        return generate_table(selected_animals,1000), len(selected_animals), "the world"
+    #sel = sel.to_json()
     # print("Received selection:")
     # print(sel)
-    return sel, generate_table(selected_shapes,10), len(selected_shapes)
+    #return sel, 
     
+    
+# @app.callback(
+    # Output("mouse_coord","data"),
+    # dash.dependencies.Input("map_graph","hoverData"))
+# def updage_pos(hoverData):
+    # print(hoverData)
+    # return "15 15"
 
 import json
 #from shapely import MultiPolygon
+    #Input('intermediate_value', 'data'),
+    # Input('longitude','value'),
+    # Input('latitude','value'),
+    #Input('aggregate_toggle','value'),
 @app.callback(
     Output('map_graph', 'figure'),
-    Input('intermediate_value', 'data'),
     Input('extinction_category', 'value'),
-    Input('habitat_type', 'value'),
-    Input('longitude','value'),
-    Input('latitude','value'),
-    Input('aggregate_toggle','value')
+    Input("selected_database_text","children"),
+    Input("selection_brag","children"),
+    Input("mouse_coord","children")
 )
-def update_graph_selection(selection_shapes,classes,habitats,longitude,latitude,aggregate_toggle):
-    point=(float(longitude),float(latitude))
-    # if(not selection_shapes):
-    if("aggregate" in aggregate_toggle):
-        graph=update_map_agg(aggregated_data,classes,habitats,point)
-        # raise PreventUpdate
+def update_graph_selection(classes,selected_database_name,selection_text,mouse_coords):
+    if(selection_text=="the world"):
+        graph=update_map_agg(aggregated_data[aggregated_data["origin"]==selected_database_name],classes)
     else:
-        jj = json.loads(selection_shapes)
-        #print("Json of thing=",jj["features"])
-        #df =  pd.DataFrame.from_dict(jj["features"])
-        #print(df)
-        #gdf = gpd.GeoDataFrame(df, geometry='geometry')
-        
-        #gdf.set_crs(epsg=4326,inplace=True)
-        #print("Geodata received size",len(gdf))
+        x,y = (float(i) for i in mouse_coords.split())
         gdf = selected_shapes
-        graph = update_map_select(gdf,classes,habitats,point)
+        graph = update_map_select(gdf,classes,(x,y))
     return graph
 
-@app.callback(
-    Output(component_id='selected_classes', component_property='value'),
-    Input(component_id='select_all_classes', component_property='n_clicks')
-)
-def set_all_classes(ignore):
-    return class_names[:]
+# @app.callback(
+    # Output(component_id='selected_classes', component_property='value'),
+    # Input(component_id='select_all_classes', component_property='n_clicks')
+# )
+# def set_all_classes(ignore):
+    # return class_names[:]
 
 
 
