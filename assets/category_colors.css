@@ -1,0 +1,35 @@
+#extinction_category label:nth-child(1){
+background-color: #d4d4d4
+}
+#extinction_category label:nth-child(2){
+background-color: #646464
+}
+#extinction_category label:nth-child(3){
+background-color: #5a4664
+}
+#extinction_category label:nth-child(4){
+background-color: #460359
+}
+#extinction_category label:nth-child(5){
+background-color: #3c1e64
+}
+#extinction_category label:nth-child(6){
+background-color: #3a538b
+}
+#extinction_category label:nth-child(7){
+background-color: #32b57a
+}
+#extinction_category label:nth-child(8){
+background-color: #afdc2e
+}
+#extinction_category label:nth-child(9){
+background-color: #fdb524
+}
+#extinction_category label:nth-child(10){
+background-color: #ff3e4c
+}
+
+.is-focused:not(.is-open) > .Select-control {
+  border-color: darkorange;
+  box-shadow: 0 0 0 3px #fcba0366;
+}
