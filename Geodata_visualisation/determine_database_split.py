@@ -80,4 +80,14 @@ def split_down(d,parentage = []):
     else:
         # print("total",total)
         return False
-split_down(genegraph)
+#split_down(genegraph)
+
+def select_all_orders(d, parentage = []):
+    if(len(parentage)==2):
+        return set(d.keys())
+    else:
+        orders = set()
+        for k in d.keys():
+            orders=orders.union(select_all_orders(d[k],parentage+[k]))
+        return orders
+print(select_all_orders(genegraph))
