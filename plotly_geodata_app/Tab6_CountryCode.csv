@@ -1,0 +1,1001 @@
+,Unnamed: 0,Name,EX,EW,Subtotal (EX+EW),CR(PE),CR(PEW),Subtotal (EX+EW+ CR(PE)+CR(PEW)),CR,EN,VU,Subtotal (threatened spp.),LR/cd,NT or LR/nt,LC or LR/lc,DD,Total,species,CODE
+0,0,Antarctica,0,0,0,0,0,0,0,1,7,8,0,5,162,35,210,animal,ATA
+1,0,Antarctica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,plant,ATA
+2,0,Antarctica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ATA
+3,42,Åland Islands,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,ALA
+4,1,Bouvet Island,0,0,0,0,0,0,0,0,2,2,0,0,93,3,98,animal,BVT
+5,1,Bouvet Island,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,plant,BVT
+6,1,Bouvet Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BVT
+7,224,Afghanistan,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus,AFG
+8,2,French Southern Territories,1,0,1,0,0,1,3,10,16,29,0,7,977,54,"1,068",animal,ATF
+9,2,French Southern Territories,0,0,0,0,0,0,0,1,0,1,0,0,7,0,8,plant,ATF
+10,2,French Southern Territories,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ATF
+11,43,Albania,0,0,0,0,0,0,0,0,0,0,0,1,1,0,2,fungus,ALB
+12,3,Heard Island and McDonald Islands,0,0,0,0,0,0,0,4,9,13,0,1,125,6,145,animal,HMD
+13,3,Heard Island and McDonald Islands,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,plant,HMD
+14,3,Heard Island and McDonald Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,HMD
+15,98,Algeria,0,0,0,0,0,0,0,0,2,2,0,1,3,0,6,fungus,DZA
+16,4,South Georgia and the South Sandwich Islands,0,0,0,0,0,0,0,4,5,9,0,6,195,12,222,animal,SGS
+17,4,South Georgia and the South Sandwich Islands,0,0,0,0,0,0,0,0,0,0,0,0,7,0,7,plant,SGS
+18,4,South Georgia and the South Sandwich Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SGS
+19,111,American Samoa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,ASM
+20,5,Anguilla,1,0,1,0,0,1,9,14,35,58,0,23,"1,156",67,"1,305",animal,AIA
+21,5,Anguilla,0,0,0,0,0,0,1,1,1,3,0,0,96,0,99,plant,AIA
+22,5,Anguilla,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,AIA
+23,44,Andorra,0,0,0,0,0,0,0,0,0,0,0,0,23,0,23,fungus,AND
+24,6,Antigua and Barbuda,3,0,3,0,0,3,12,14,37,63,0,29,"1,274",68,"1,437",animal,ATG
+25,6,Antigua and Barbuda,0,0,0,0,0,0,0,2,1,3,0,1,180,1,185,plant,ATG
+26,6,Antigua and Barbuda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ATG
+27,172,Angola,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,AGO
+28,7,Aruba,0,0,0,0,0,0,7,10,30,47,0,23,"1,111",55,"1,236",animal,ABW
+29,7,Aruba,0,0,0,0,0,0,0,2,3,5,0,1,65,0,71,plant,ABW
+30,7,Aruba,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ABW
+31,5,Anguilla,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,AIA
+32,8,Bahamas,2,0,2,1,0,3,14,22,52,88,0,41,"1,711",116,"1,958",animal,BHS
+33,8,Bahamas,0,0,0,0,0,0,2,13,6,21,0,10,235,3,269,plant,BHS
+34,8,Bahamas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BHS
+35,0,Antarctica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,ATA
+36,9,Barbados,1,0,1,3,0,4,13,14,35,62,0,32,"1,277",70,"1,442",animal,BRB
+37,9,Barbados,0,0,0,0,0,0,0,1,3,4,0,0,138,2,144,plant,BRB
+38,9,Barbados,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BRB
+39,6,Antigua and Barbuda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,ATG
+40,10,Bermuda,5,0,5,1,1,7,31,12,30,73,0,25,947,70,"1,120",animal,BMU
+41,10,Bermuda,0,1,1,0,0,1,2,5,1,8,0,1,42,1,53,plant,BMU
+42,10,Bermuda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BMU
+43,139,Argentina,0,0,0,0,0,0,5,4,10,19,0,4,30,3,56,fungus,ARG
+44,11,"Bonaire, Sint Eustatius and Saba",1,0,1,0,0,1,11,12,42,65,0,25,"1,232",75,"1,398",animal,BES
+45,11,"Bonaire, Sint Eustatius and Saba",0,0,0,0,0,0,0,2,4,6,0,1,151,0,158,plant,BES
+46,11,"Bonaire, Sint Eustatius and Saba",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BES
+47,225,Armenia,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,fungus,ARM
+48,12,Cayman Islands,2,0,2,0,0,2,11,19,32,62,0,32,"1,182",70,"1,348",animal,CYM
+49,12,Cayman Islands,0,0,0,0,0,0,11,7,5,23,0,4,163,3,193,plant,CYM
+50,12,Cayman Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CYM
+51,7,Aruba,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,ABW
+52,13,Cuba,7,0,7,3,0,10,37,69,82,188,0,69,"1,782",130,"2,176",animal,CUB
+53,13,Cuba,8,1,9,0,0,9,31,66,90,187,0,13,539,4,752,plant,CUB
+54,112,Australia,0,0,0,0,0,0,1,5,7,13,0,2,12,3,30,fungus,AUS
+55,13,Cuba,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CUB
+56,14,Curaçao,0,0,0,0,0,0,10,14,36,60,0,24,"1,125",77,"1,286",animal,CUW
+57,14,Curaçao,0,0,0,0,0,0,0,1,3,4,0,1,88,0,93,plant,CUW
+58,45,Austria,0,0,0,0,0,0,0,6,40,46,0,21,39,1,107,fungus,AUT
+59,14,Curaçao,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CUW
+60,15,Dominica,1,0,1,1,0,2,11,17,37,65,0,34,"1,306",72,"1,478",animal,DMA
+61,15,Dominica,0,0,0,0,0,0,1,3,8,12,0,3,234,3,252,plant,DMA
+62,15,Dominica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,DMA
+63,226,Azerbaijan,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,fungus,AZE
+64,16,Dominican Republic,9,0,9,6,0,15,32,62,66,160,0,56,"1,462",79,"1,766",animal,DOM
+65,16,Dominican Republic,0,0,0,1,0,1,7,16,30,53,0,8,428,8,497,plant,DOM
+66,8,Bahamas,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BHS
+67,16,Dominican Republic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,DOM
+68,17,Grenada,0,0,0,0,0,0,10,14,38,62,0,28,"1,252",72,"1,414",animal,GRD
+69,17,Grenada,0,0,0,0,0,0,0,1,3,4,0,3,173,0,180,plant,GRD
+70,17,Grenada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GRD
+71,227,Bahrain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BHR
+72,18,Guadeloupe,7,0,7,2,0,9,13,20,42,75,0,36,"1,235",70,"1,423",animal,GLP
+73,18,Guadeloupe,0,0,0,0,0,0,0,3,8,11,0,2,243,2,258,plant,GLP
+74,18,Guadeloupe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GLP
+75,153,Bangladesh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BGD
+76,19,Haiti,10,0,10,13,0,23,61,53,66,180,0,54,"1,406",75,"1,725",animal,HTI
+77,19,Haiti,1,0,1,18,0,19,52,44,39,135,0,7,406,20,569,plant,HTI
+78,19,Haiti,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,HTI
+79,9,Barbados,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BRB
+80,20,Jamaica,3,0,3,5,0,8,25,41,45,111,0,46,"1,328",79,"1,567",animal,JAM
+81,20,Jamaica,2,0,2,0,0,2,43,54,118,215,0,76,416,7,716,plant,JAM
+82,107,Belarus,0,0,0,0,0,0,0,1,2,3,0,2,7,0,12,fungus,BLR
+83,20,Jamaica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,JAM
+84,21,Martinique,6,0,6,3,0,9,10,15,29,54,0,27,"1,209",61,"1,357",animal,MTQ
+85,21,Martinique,0,0,0,0,0,0,0,3,7,10,0,3,237,2,252,plant,MTQ
+86,21,Martinique,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MTQ
+87,46,Belgium,0,0,0,0,0,0,0,2,21,23,0,7,38,0,68,fungus,BEL
+88,22,Montserrat,0,0,0,1,0,1,9,12,36,57,0,26,"1,169",58,"1,310",animal,MSR
+89,22,Montserrat,0,0,0,1,0,1,3,1,3,7,0,1,156,0,164,plant,MSR
+90,22,Montserrat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MSR
+91,90,Belize,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BLZ
+92,23,Puerto Rico,5,0,5,4,0,9,19,23,40,82,0,41,"1,495",85,"1,708",animal,PRI
+93,23,Puerto Rico,0,0,0,0,0,0,23,23,22,68,0,17,396,4,485,plant,PRI
+94,173,Benin,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,BEN
+95,23,Puerto Rico,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PRI
+96,24,Saint Barthélemy,0,0,0,0,0,0,6,10,27,43,0,14,815,38,910,animal,BLM
+97,24,Saint Barthélemy,0,0,0,0,0,0,0,1,1,2,0,1,86,0,89,plant,BLM
+98,24,Saint Barthélemy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BLM
+99,10,Bermuda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BMU
+100,25,Saint Kitts and Nevis,1,0,1,0,0,1,10,11,37,58,0,29,"1,225",65,"1,378",animal,KNA
+101,25,Saint Kitts and Nevis,0,0,0,0,0,0,0,0,2,2,0,1,128,2,133,plant,KNA
+102,25,Saint Kitts and Nevis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,KNA
+103,154,Bhutan,0,0,0,0,0,0,0,0,2,2,0,0,2,0,4,fungus,BTN
+104,26,Saint Lucia,3,0,3,0,0,3,10,21,35,66,0,31,"1,274",62,"1,436",animal,LCA
+105,26,Saint Lucia,0,0,0,0,0,0,0,2,6,8,0,3,207,1,219,plant,LCA
+106,26,Saint Lucia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LCA
+107,140,Bolivia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,BOL
+108,27,Saint Martin (French part),0,0,0,1,0,1,9,11,35,55,0,19,"1,038",65,"1,177",animal,MAF
+109,27,Saint Martin (French part),0,0,0,0,0,0,0,2,1,3,0,1,118,1,123,plant,MAF
+110,27,Saint Martin (French part),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MAF
+111,11,"Bonaire, Sint Eustatius and Saba",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BES
+112,28,Saint Vincent and the Grenadines,1,0,1,0,0,1,9,16,38,63,0,29,"1,302",68,"1,463",animal,VCT
+113,28,Saint Vincent and the Grenadines,0,0,0,0,0,0,0,1,4,5,0,3,220,2,230,plant,VCT
+114,28,Saint Vincent and the Grenadines,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,VCT
+115,47,Bosnia and Herzegovina,0,0,0,0,0,0,0,0,1,1,0,1,4,0,6,fungus,BIH
+116,29,Sint Maarten (Dutch part),0,0,0,1,0,1,9,11,35,55,0,17,"1,016",58,"1,146",animal,SXM
+117,29,Sint Maarten (Dutch part),0,0,0,0,0,0,0,2,0,2,0,1,67,0,70,plant,SXM
+118,29,Sint Maarten (Dutch part),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SXM
+119,174,Botswana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BWA
+120,30,Trinidad and Tobago,0,0,0,0,0,0,14,18,49,81,1,38,"1,906",89,"2,115",animal,TTO
+121,30,Trinidad and Tobago,0,0,0,6,0,6,15,20,15,50,0,8,479,7,544,plant,TTO
+122,30,Trinidad and Tobago,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TTO
+123,1,Bouvet Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BVT
+124,31,Turks and Caicos Islands,0,0,0,0,0,0,7,14,37,58,0,28,"1,195",67,"1,348",animal,TCA
+125,31,Turks and Caicos Islands,0,0,0,0,0,0,1,7,1,9,0,2,107,1,119,plant,TCA
+126,31,Turks and Caicos Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TCA
+127,141,Brazil,0,0,0,0,0,0,1,2,13,16,0,1,5,4,26,fungus,BRA
+128,32,"Virgin Islands, British",0,0,0,2,0,2,14,15,38,67,0,29,"1,263",72,"1,431",animal,VGB
+129,32,"Virgin Islands, British",0,0,0,0,0,0,2,15,7,24,0,12,180,0,216,plant,VGB
+130,32,"Virgin Islands, British",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,VGB
+131,155,British Indian Ocean Territory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,IOT
+132,33,"Virgin Islands, U.S.",1,0,1,5,0,6,11,16,30,57,0,29,"1,243",71,"1,401",animal,VIR
+133,33,"Virgin Islands, U.S.",0,0,0,0,0,0,2,10,8,20,0,12,201,0,233,plant,VIR
+134,33,"Virgin Islands, U.S.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,VIR
+135,156,Brunei Darussalam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BRN
+136,34,China,4,1,5,17,0,22,105,198,314,617,1,247,"4,316","1,045","6,231",animal,CHN
+137,34,China,3,0,3,8,4,15,113,291,262,666,4,98,"2,349",202,"3,322",plant,CHN
+138,48,Bulgaria,0,0,0,0,0,0,0,0,8,8,0,5,12,0,25,fungus,BGR
+139,34,China,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CHN
+140,35,Hong Kong,0,0,0,1,0,1,13,24,40,77,1,30,940,91,"1,139",animal,HKG
+141,35,Hong Kong,0,0,0,0,0,0,3,6,5,14,0,5,295,2,316,plant,HKG
+142,175,Burkina Faso,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BFA
+143,35,Hong Kong,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,HKG
+144,36,Japan,14,1,15,1,0,16,46,149,256,451,3,267,"3,372",508,"4,616",animal,JPN
+145,36,Japan,0,0,0,0,0,0,14,22,18,54,0,17,704,29,804,plant,JPN
+146,176,Burundi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BDI
+147,36,Japan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,JPN
+148,37,"Korea, Democratic People's Republic of",1,0,1,0,0,1,7,26,47,80,0,37,718,72,908,animal,PRK
+149,37,"Korea, Democratic People's Republic of",0,0,0,0,0,0,1,11,7,19,0,3,267,14,303,plant,PRK
+150,184,Côte d'Ivoire,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,CIV
+151,37,"Korea, Democratic People's Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PRK
+152,38,"Korea, Republic of",1,0,1,0,0,1,12,39,61,112,0,50,"1,242",108,"1,513",animal,KOR
+153,38,"Korea, Republic of",0,0,0,0,0,0,6,20,11,37,0,7,340,9,393,plant,KOR
+154,177,Cabo Verde,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,CPV
+155,38,"Korea, Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,KOR
+156,39,Macao,0,0,0,0,0,0,5,10,11,26,0,5,402,31,464,animal,MAC
+157,39,Macao,0,0,0,0,0,0,0,0,0,0,0,0,27,0,27,plant,MAC
+158,39,Macao,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MAC
+159,157,Cambodia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,KHM
+160,40,Mongolia,0,0,0,0,0,0,5,11,24,40,0,29,546,10,625,animal,MNG
+161,40,Mongolia,0,0,0,0,0,0,0,0,0,0,0,1,217,10,228,plant,MNG
+162,178,Cameroon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,CMR
+163,40,Mongolia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MNG
+164,41,"Taiwan, Province of China",0,0,0,0,0,0,21,69,221,311,2,214,"2,997",308,"3,832",animal,TWN
+165,41,"Taiwan, Province of China",0,1,1,2,1,4,16,41,31,88,1,14,591,16,711,plant,TWN
+166,104,Canada,0,0,0,0,0,0,1,10,14,25,0,16,36,2,79,fungus,CAN
+167,41,"Taiwan, Province of China",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TWN
+168,42,Åland Islands,0,0,0,0,0,0,0,0,0,0,0,0,17,1,18,animal,ALA
+169,42,Åland Islands,0,0,0,0,0,0,0,0,1,1,0,0,12,0,13,plant,ALA
+170,12,Cayman Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,CYM
+171,42,Åland Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ALA
+172,43,Albania,1,0,1,1,0,2,19,49,72,140,0,88,"1,045",79,"1,353",animal,ALB
+173,43,Albania,0,0,0,0,0,0,1,0,4,5,0,6,489,32,532,plant,ALB
+174,179,Central African Republic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,CAF
+175,43,Albania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ALB
+176,44,Andorra,0,0,0,0,0,0,0,3,11,14,0,20,309,7,350,animal,AND
+177,44,Andorra,0,0,0,0,0,0,0,0,1,1,0,1,124,7,133,plant,AND
+178,180,Chad,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,TCD
+179,44,Andorra,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,AND
+180,45,Austria,3,0,3,4,0,7,24,29,52,105,0,81,851,66,"1,106",animal,AUT
+181,45,Austria,0,0,0,0,0,0,6,17,15,38,0,10,479,30,557,plant,AUT
+182,142,Chile,0,0,0,0,0,0,1,7,7,15,0,5,27,2,49,fungus,CHL
+183,45,Austria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,AUT
+184,46,Belgium,1,0,1,0,0,1,6,6,32,44,0,48,704,38,835,animal,BEL
+185,46,Belgium,0,1,1,0,0,1,0,1,2,3,0,5,368,13,390,plant,BEL
+186,34,China,0,0,0,0,0,0,0,1,7,8,0,5,19,1,33,fungus,CHN
+187,46,Belgium,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BEL
+188,47,Bosnia and Herzegovina,0,0,0,0,0,0,9,29,62,100,0,69,908,89,"1,166",animal,BIH
+189,47,Bosnia and Herzegovina,0,0,0,0,0,0,1,2,2,5,0,7,370,22,404,plant,BIH
+190,113,Christmas Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,CXR
+191,47,Bosnia and Herzegovina,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BIH
+192,48,Bulgaria,0,0,0,0,0,0,16,19,73,108,0,86,938,72,"1,204",animal,BGR
+193,48,Bulgaria,0,0,0,0,0,0,1,4,8,13,0,10,510,47,580,plant,BGR
+194,114,Cocos (Keeling) Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,CCK
+195,48,Bulgaria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BGR
+196,49,Croatia,1,0,1,3,0,4,34,42,105,181,0,99,"1,208",124,"1,613",animal,HRV
+197,49,Croatia,1,0,1,0,0,1,1,6,4,11,0,11,513,36,572,plant,HRV
+198,143,Colombia,0,0,0,0,0,0,1,0,4,5,0,5,8,0,18,fungus,COL
+199,49,Croatia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,HRV
+200,50,Czechia,0,0,0,0,0,0,4,10,31,45,0,55,706,39,845,animal,CZE
+201,50,Czechia,0,0,0,0,0,0,10,14,7,31,0,5,408,25,469,plant,CZE
+202,181,Comoros,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,COM
+203,50,Czechia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CZE
+204,51,Denmark,0,0,0,0,0,0,7,9,36,52,0,42,688,32,814,animal,DNK
+205,51,Denmark,0,0,0,0,0,0,0,0,2,2,0,4,321,9,336,plant,DNK
+206,182,Congo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,COG
+207,51,Denmark,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,DNK
+208,52,Estonia,0,0,0,0,0,0,2,4,17,23,0,29,517,9,578,animal,EST
+209,52,Estonia,0,0,0,0,0,0,1,0,1,2,0,1,256,4,263,plant,EST
+210,183,"Congo, The Democratic Republic of the",0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus,COD
+211,52,Estonia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,EST
+212,53,Faroe Islands,1,0,1,0,0,1,3,5,19,27,0,16,300,20,364,animal,FRO
+213,53,Faroe Islands,0,0,0,0,0,0,0,0,1,1,0,0,89,0,90,plant,FRO
+214,115,Cook Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,COK
+215,53,Faroe Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,FRO
+216,54,Finland,0,0,0,0,0,0,4,3,23,30,0,38,537,14,619,animal,FIN
+217,54,Finland,0,0,0,0,0,0,0,1,3,4,0,2,330,10,346,plant,FIN
+218,91,Costa Rica,0,0,0,0,0,0,0,0,4,4,0,5,5,0,14,fungus,CRI
+219,54,Finland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,FIN
+220,55,France,8,0,8,6,0,14,30,63,169,262,0,159,"1,943",287,"2,659",animal,FRA
+221,55,France,1,1,2,0,0,2,8,22,33,63,0,42,798,40,945,plant,FRA
+222,49,Croatia,0,0,0,0,0,0,0,5,19,24,0,8,19,1,52,fungus,HRV
+223,55,France,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,FRA
+224,56,Germany,4,0,4,5,0,9,18,29,62,109,0,83,939,82,"1,217",animal,DEU
+225,56,Germany,0,0,0,0,0,0,17,18,16,51,0,14,485,25,575,plant,DEU
+226,13,Cuba,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,fungus,CUB
+227,56,Germany,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,DEU
+228,57,Gibraltar,0,0,0,0,0,0,5,8,30,43,0,20,530,32,625,animal,GIB
+229,57,Gibraltar,0,0,0,0,0,0,0,0,1,1,0,0,37,1,39,plant,GIB
+230,57,Gibraltar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GIB
+231,14,Curaçao,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,CUW
+232,58,Greece,4,0,4,11,1,16,77,114,250,441,0,161,"1,528",264,"2,398",animal,GRC
+233,58,Greece,0,0,0,1,0,1,17,28,32,77,0,31,607,76,791,plant,GRC
+234,228,Cyprus,0,0,0,0,0,0,0,0,1,1,0,1,1,0,3,fungus,CYP
+235,58,Greece,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GRC
+236,59,Greenland,1,0,1,0,0,1,2,5,20,27,0,8,217,20,273,animal,GRL
+237,59,Greenland,0,0,0,0,0,0,0,0,1,1,0,0,124,0,125,plant,GRL
+238,50,Czechia,0,0,0,0,0,0,0,2,29,31,0,17,31,3,82,fungus,CZE
+239,59,Greenland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GRL
+240,60,Guernsey,0,0,0,0,0,0,1,1,11,13,0,3,197,12,225,animal,GGY
+241,60,Guernsey,0,0,0,0,0,0,0,0,0,0,0,0,66,0,66,plant,GGY
+242,51,Denmark,0,0,0,0,0,0,0,2,27,29,0,11,38,0,78,fungus,DNK
+243,60,Guernsey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GGY
+244,61,Holy See (Vatican City State),0,0,0,0,0,0,0,0,2,2,0,3,21,2,28,animal,VAT
+245,61,Holy See (Vatican City State),0,0,0,0,0,0,0,0,0,0,0,0,12,0,12,plant,VAT
+246,61,Holy See (Vatican City State),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,VAT
+560,140,Bolivia,0,0,0,9,0,9,35,34,88,157,2,98,"2,312",132,"2,701",animal,BOL
+248,62,Hungary,0,0,0,0,0,0,7,15,41,63,0,54,693,47,857,animal,HUN
+249,62,Hungary,0,0,0,0,0,0,13,14,18,45,0,5,396,30,476,plant,HUN
+250,185,Djibouti,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,DJI
+251,62,Hungary,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,HUN
+252,63,Iceland,1,0,1,0,0,1,5,8,20,33,0,19,353,27,433,animal,ISL
+253,63,Iceland,0,0,0,0,0,0,0,0,0,0,0,0,145,2,147,plant,ISL
+254,15,Dominica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,DMA
+255,63,Iceland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ISL
+256,64,Ireland,1,0,1,0,0,1,9,11,37,57,0,37,768,65,928,animal,IRL
+257,64,Ireland,0,0,0,0,0,0,2,2,4,8,0,10,311,3,332,plant,IRL
+258,16,Dominican Republic,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,DOM
+259,64,Ireland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,IRL
+260,65,Isle of Man,0,0,0,0,0,0,1,2,4,7,0,3,79,6,95,animal,IMN
+261,65,Isle of Man,0,0,0,0,0,0,0,1,0,1,0,0,71,0,72,plant,IMN
+262,144,Ecuador,0,0,0,0,0,0,0,0,1,1,0,0,4,0,5,fungus,ECU
+263,65,Isle of Man,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,IMN
+264,66,Italy,3,0,3,7,0,10,48,97,181,326,0,199,"1,619",263,"2,410",animal,ITA
+265,66,Italy,0,0,0,1,0,1,41,42,38,121,0,55,810,68,"1,054",plant,ITA
+266,99,Egypt,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus,EGY
+267,66,Italy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ITA
+268,67,Jersey,0,0,0,0,0,0,1,1,12,14,0,2,204,12,232,animal,JEY
+269,67,Jersey,0,0,0,0,0,0,0,0,0,0,0,0,70,0,70,plant,JEY
+270,92,El Salvador,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,SLV
+271,67,Jersey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,JEY
+272,68,Latvia,0,0,0,0,0,0,2,4,25,31,0,39,556,16,642,animal,LVA
+273,68,Latvia,0,0,0,0,0,0,1,0,0,1,0,2,237,6,246,plant,LVA
+274,186,Equatorial Guinea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,GNQ
+275,68,Latvia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LVA
+276,69,Liechtenstein,0,0,0,0,0,0,0,1,7,8,0,24,396,7,435,animal,LIE
+277,69,Liechtenstein,0,0,0,0,0,0,0,1,0,1,0,1,205,10,217,plant,LIE
+278,187,Eritrea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,ERI
+279,69,Liechtenstein,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LIE
+280,70,Lithuania,0,0,0,0,0,0,2,3,21,26,0,34,541,15,616,animal,LTU
+281,70,Lithuania,0,0,0,0,0,0,0,1,1,2,0,2,239,8,251,plant,LTU
+282,52,Estonia,0,0,0,0,0,0,0,1,24,25,0,17,36,1,79,fungus,EST
+283,70,Lithuania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LTU
+284,71,Luxembourg,0,0,0,0,0,0,2,3,7,12,0,22,451,12,497,animal,LUX
+285,71,Luxembourg,0,1,1,0,0,1,0,1,2,3,0,2,229,9,244,plant,LUX
+286,188,Eswatini,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SWZ
+287,71,Luxembourg,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LUX
+288,72,Malta,0,0,0,0,0,0,8,9,31,48,0,27,563,42,680,animal,MLT
+289,72,Malta,0,0,0,0,0,0,2,1,1,4,0,3,168,8,183,plant,MLT
+290,189,Ethiopia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,ETH
+291,72,Malta,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MLT
+292,73,Monaco,0,0,0,0,0,0,6,7,23,36,0,13,382,26,457,animal,MCO
+293,73,Monaco,0,0,0,0,0,0,0,1,1,2,0,0,39,1,42,plant,MCO
+294,73,Monaco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MCO
+295,145,Falkland Islands (Malvinas),0,0,0,0,0,0,0,0,6,6,0,0,0,0,6,fungus,FLK
+296,74,Montenegro,1,0,1,1,0,2,17,31,59,107,0,87,978,82,"1,255",animal,MNE
+297,74,Montenegro,0,0,0,0,0,0,1,2,3,6,0,10,371,17,404,plant,MNE
+298,53,Faroe Islands,0,0,0,0,0,0,0,0,4,4,0,0,5,0,9,fungus,FRO
+299,74,Montenegro,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MNE
+300,75,Netherlands,1,0,1,0,0,1,8,5,33,46,0,49,752,37,885,animal,NLD
+301,75,Netherlands,0,0,0,0,0,0,0,1,2,3,0,2,342,10,357,plant,NLD
+302,116,Fiji,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,FJI
+303,75,Netherlands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NLD
+304,76,North Macedonia,2,0,2,2,0,4,19,35,67,121,0,60,725,49,957,animal,MKD
+305,76,North Macedonia,0,0,0,0,0,0,0,2,4,6,0,6,375,31,418,plant,MKD
+306,54,Finland,0,0,0,0,0,0,0,2,27,29,0,14,38,1,82,fungus,FIN
+307,76,North Macedonia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MKD
+308,77,Norway,0,0,0,0,0,0,7,11,40,58,0,46,661,30,795,animal,NOR
+309,77,Norway,0,0,0,0,0,0,1,8,11,20,0,6,371,10,407,plant,NOR
+310,55,France,0,0,0,0,0,0,1,9,44,54,0,22,42,1,119,fungus,FRA
+311,77,Norway,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NOR
+312,78,Poland,1,0,1,0,0,1,3,13,36,52,0,59,756,34,902,animal,POL
+313,78,Poland,0,0,0,0,0,0,1,4,11,16,0,10,418,16,460,plant,POL
+314,146,French Guiana,0,0,0,0,0,0,0,0,0,0,0,1,1,0,2,fungus,GUF
+315,78,Poland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,POL
+316,79,Portugal,6,0,6,17,0,23,107,94,133,334,0,123,"1,698",290,"2,451",animal,PRT
+317,79,Portugal,3,0,3,0,0,3,33,54,57,144,0,59,576,44,826,plant,PRT
+318,117,French Polynesia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,PYF
+319,79,Portugal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PRT
+320,80,Romania,2,0,2,2,0,4,19,28,76,123,0,74,930,74,"1,203",animal,ROU
+321,80,Romania,0,0,0,0,0,0,1,8,5,14,0,10,453,44,521,plant,ROU
+322,2,French Southern Territories,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,ATF
+323,80,Romania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ROU
+324,81,San Marino,0,0,0,0,0,0,1,0,2,3,0,5,61,4,73,animal,SMR
+325,81,San Marino,0,0,0,0,0,0,0,0,0,0,0,0,31,0,31,plant,SMR
+326,81,San Marino,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SMR
+327,190,Gabon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,GAB
+328,82,Serbia,0,0,0,1,0,1,10,12,50,72,0,65,824,29,990,animal,SRB
+329,82,Serbia,0,0,0,0,0,0,0,6,3,9,0,10,416,37,472,plant,SRB
+330,191,Gambia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,GMB
+331,82,Serbia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SRB
+332,83,Slovakia,0,0,0,0,0,0,6,12,36,54,0,60,723,44,881,animal,SVK
+333,83,Slovakia,0,0,0,0,0,0,9,13,10,32,0,7,330,32,401,plant,SVK
+334,229,Georgia,0,0,0,0,0,0,0,0,4,4,0,1,9,0,14,fungus,GEO
+335,83,Slovakia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SVK
+336,84,Slovenia,0,0,0,0,0,0,12,27,107,146,0,56,"1,081",85,"1,368",animal,SVN
+337,84,Slovenia,0,0,0,0,0,0,1,5,7,13,0,10,449,25,497,plant,SVN
+338,56,Germany,0,0,0,0,0,0,1,7,39,47,0,23,41,2,113,fungus,DEU
+339,84,Slovenia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SVN
+340,85,Spain,2,0,2,12,0,14,77,142,230,449,0,275,"2,175",495,"3,396",animal,ESP
+341,85,Spain,1,1,2,1,0,3,81,110,90,281,2,85,851,47,"1,268",plant,ESP
+342,192,Ghana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,GHA
+343,85,Spain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ESP
+344,86,Svalbard and Jan Mayen,0,0,0,0,0,0,0,1,10,11,0,7,74,4,96,animal,SJM
+345,86,Svalbard and Jan Mayen,0,0,0,0,0,0,0,1,0,1,0,0,42,0,43,plant,SJM
+346,57,Gibraltar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,GIB
+347,86,Svalbard and Jan Mayen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SJM
+348,87,Sweden,0,0,0,0,0,0,5,7,36,48,0,50,681,32,811,animal,SWE
+349,87,Sweden,0,0,0,0,0,0,0,4,6,10,0,9,404,14,437,plant,SWE
+350,58,Greece,0,0,0,0,0,0,0,3,4,7,0,2,12,0,21,fungus,GRC
+351,87,Sweden,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SWE
+352,88,Switzerland,6,0,6,0,0,6,4,15,53,72,0,68,782,58,986,animal,CHE
+353,88,Switzerland,0,0,0,0,0,0,3,7,10,20,0,10,460,21,511,plant,CHE
+354,59,Greenland,0,0,0,0,0,0,0,0,2,2,0,1,1,0,4,fungus,GRL
+355,88,Switzerland,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CHE
+356,89,United Kingdom,2,0,2,0,0,2,12,21,58,91,0,60,986,72,"1,211",animal,GBR
+357,89,United Kingdom,0,1,1,0,0,1,21,16,16,53,0,13,420,17,504,plant,GBR
+358,17,Grenada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,GRD
+359,89,United Kingdom,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GBR
+360,90,Belize,1,0,1,0,0,1,11,28,58,97,0,59,"2,074",94,"2,325",animal,BLZ
+361,90,Belize,0,0,0,0,0,0,3,28,27,58,0,11,832,4,905,plant,BLZ
+362,90,Belize,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BLZ
+363,18,Guadeloupe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,GLP
+364,91,Costa Rica,4,0,4,7,0,11,35,82,154,271,0,107,"3,392",235,"4,009",animal,CRI
+365,91,Costa Rica,0,0,0,0,0,0,14,67,100,181,2,63,"1,767",22,"2,035",plant,CRI
+366,118,Guam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,GUM
+367,91,Costa Rica,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CRI
+368,92,El Salvador,0,0,0,0,0,0,8,24,52,84,0,49,"1,615",84,"1,832",animal,SLV
+369,92,El Salvador,0,0,0,0,0,0,3,14,27,44,0,8,674,10,736,plant,SLV
+370,93,Guatemala,0,0,0,0,0,0,0,0,1,1,0,0,1,0,2,fungus,GTM
+371,92,El Salvador,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SLV
+372,93,Guatemala,3,0,3,5,0,8,47,88,122,257,0,83,"2,810",167,"3,320",animal,GTM
+373,93,Guatemala,0,0,0,0,0,0,17,70,81,168,2,30,"1,205",19,"1,424",plant,GTM
+374,60,Guernsey,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,GGY
+375,93,Guatemala,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GTM
+376,94,Honduras,4,0,4,10,0,14,62,76,107,245,0,88,"3,030",160,"3,527",animal,HND
+377,94,Honduras,0,1,1,0,0,1,43,59,41,143,1,24,"1,173",6,"1,348",plant,HND
+378,193,Guinea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,GIN
+379,94,Honduras,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,HND
+380,95,Mexico,21,9,30,35,3,68,202,343,362,907,1,217,"4,930",585,"6,670",animal,MEX
+381,95,Mexico,2,3,5,5,3,13,162,460,358,980,5,115,"2,370",143,"3,618",plant,MEX
+382,194,Guinea-Bissau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,GNB
+383,95,Mexico,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MEX
+384,96,Nicaragua,1,0,1,0,0,1,26,31,95,152,0,82,"2,948",162,"3,345",animal,NIC
+385,96,Nicaragua,0,0,0,0,0,0,4,23,29,56,1,30,"1,280",6,"1,373",plant,NIC
+386,96,Nicaragua,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NIC
+387,147,Guyana,0,0,0,0,0,0,0,0,1,1,0,0,2,8,11,fungus,GUY
+388,97,Panama,2,0,2,8,1,11,56,82,131,269,0,118,"3,534",296,"4,219",animal,PAN
+389,97,Panama,0,0,0,0,1,1,21,82,107,210,2,63,"1,806",65,"2,146",plant,PAN
+390,19,Haiti,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,HTI
+391,97,Panama,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PAN
+392,98,Algeria,2,1,3,0,0,3,18,40,77,135,0,56,928,142,"1,264",animal,DZA
+393,98,Algeria,0,0,0,0,0,0,6,9,15,30,0,33,442,15,520,plant,DZA
+394,3,Heard Island and McDonald Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,HMD
+395,98,Algeria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,DZA
+396,99,Egypt,1,1,2,0,0,2,15,36,129,180,2,134,"1,759",184,"2,261",animal,EGY
+397,99,Egypt,0,0,0,0,0,0,2,5,1,8,0,2,323,5,338,plant,EGY
+398,61,Holy See (Vatican City State),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,VAT
+399,99,Egypt,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,EGY
+400,100,Libya,0,1,1,0,0,1,11,18,45,74,0,29,689,69,862,animal,LBY
+401,100,Libya,0,0,0,0,0,0,1,2,6,9,0,7,220,3,239,plant,LBY
+402,94,Honduras,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,fungus,HND
+403,100,Libya,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LBY
+404,101,Morocco,2,0,2,0,0,2,30,63,95,188,0,79,"1,458",176,"1,903",animal,MAR
+405,101,Morocco,0,0,0,0,0,0,4,26,27,57,0,44,474,18,593,plant,MAR
+406,35,Hong Kong,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,HKG
+407,101,Morocco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MAR
+408,102,Tunisia,11,0,11,1,0,12,16,26,61,103,0,47,856,102,"1,119",animal,TUN
+409,102,Tunisia,0,0,0,0,0,0,3,3,6,12,0,24,306,9,351,plant,TUN
+410,62,Hungary,0,0,0,0,0,0,0,3,15,18,0,8,20,1,47,fungus,HUN
+411,102,Tunisia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TUN
+412,103,Western Sahara,0,1,1,0,0,1,7,22,36,65,0,36,930,102,"1,134",animal,ESH
+413,103,Western Sahara,0,0,0,0,0,0,0,0,0,0,0,0,32,0,32,plant,ESH
+414,103,Western Sahara,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ESH
+415,63,Iceland,0,0,0,0,0,0,0,0,6,6,0,3,19,0,28,fungus,ISL
+416,104,Canada,9,0,9,3,0,12,18,32,84,134,0,64,"1,902",87,"2,196",animal,CAN
+417,104,Canada,1,0,1,0,0,1,6,6,9,21,0,17,992,13,"1,044",plant,CAN
+418,159,India,0,0,0,0,0,0,0,1,2,3,0,2,12,0,17,fungus,IND
+419,104,Canada,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CAN
+420,105,Saint Pierre and Miquelon,0,0,0,0,0,0,2,4,16,22,0,16,403,17,458,animal,SPM
+421,105,Saint Pierre and Miquelon,0,0,0,0,0,0,0,0,0,0,0,0,50,0,50,plant,SPM
+422,105,Saint Pierre and Miquelon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SPM
+423,160,Indonesia,0,0,0,0,0,0,0,1,1,2,0,0,0,0,2,fungus,IDN
+424,106,United States,237,4,241,29,0,270,224,298,566,"1,088",5,336,"5,719",609,"7,998",animal,USA
+425,106,United States,34,5,39,14,12,65,306,197,127,630,0,74,"1,935",36,"2,714",plant,USA
+426,230,"Iran, Islamic Republic of",0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus,IRN
+427,106,United States,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,USA
+428,107,Belarus,0,0,0,0,0,0,3,2,21,26,0,38,482,8,554,animal,BLR
+429,107,Belarus,0,0,0,0,0,0,1,1,0,2,0,2,243,13,260,plant,BLR
+430,231,Iraq,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,IRQ
+431,107,Belarus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BLR
+561,140,Bolivia,1,3,4,0,1,5,15,86,127,228,1,46,"1,968",67,"2,314",plant,BOL
+563,140,Bolivia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BOL
+434,64,Ireland,0,0,0,0,0,0,0,2,17,19,0,3,29,0,51,fungus,IRL
+247,158,Disputed Territory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,None
+436,109,Russian Federation,3,1,4,2,0,6,28,49,111,188,0,118,"1,735",233,"2,278",animal,RUS
+437,109,Russian Federation,0,0,0,0,0,0,8,30,28,66,0,22,677,57,822,plant,RUS
+438,65,Isle of Man,0,0,0,0,0,0,0,0,0,0,0,0,18,0,18,fungus,IMN
+439,109,Russian Federation,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,RUS
+440,110,Ukraine,2,0,2,1,0,3,12,26,56,94,0,66,889,78,"1,129",animal,UKR
+441,110,Ukraine,1,0,1,0,0,1,3,14,12,29,0,8,433,51,522,plant,UKR
+442,232,Israel,0,0,0,0,0,0,0,0,1,1,0,1,4,0,6,fungus,ISR
+443,110,Ukraine,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,UKR
+444,111,American Samoa,1,0,1,0,0,1,3,20,77,100,3,82,"1,248",57,"1,491",animal,ASM
+445,111,American Samoa,0,0,0,0,0,0,0,1,1,2,0,4,74,0,80,plant,ASM
+446,111,American Samoa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ASM
+447,66,Italy,0,0,0,0,0,0,1,8,35,44,0,19,41,0,104,fungus,ITA
+448,112,Australia,42,0,42,7,0,49,138,255,613,"1,006",3,442,"5,868",661,"8,022",animal,AUS
+449,112,Australia,3,0,3,2,0,5,92,266,382,740,3,245,"2,512",76,"3,579",plant,AUS
+450,20,Jamaica,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,JAM
+451,112,Australia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,AUS
+452,113,Christmas Island,4,2,6,1,0,7,3,16,30,49,0,29,939,31,"1,054",animal,CXR
+453,113,Christmas Island,0,0,0,0,0,0,0,0,2,2,0,0,43,0,45,plant,CXR
+454,113,Christmas Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CXR
+455,36,Japan,0,0,0,0,0,0,0,4,8,12,0,9,25,2,48,fungus,JPN
+456,114,Cocos (Keeling) Islands,0,0,0,0,0,0,1,13,33,47,0,26,842,31,946,animal,CCK
+457,114,Cocos (Keeling) Islands,0,0,0,0,0,0,0,0,0,0,0,0,19,0,19,plant,CCK
+458,114,Cocos (Keeling) Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CCK
+459,67,Jersey,0,0,0,0,0,0,0,0,1,1,0,1,0,0,2,fungus,JEY
+460,115,Cook Islands,15,0,15,0,0,15,1,15,53,69,1,52,"1,011",50,"1,198",animal,COK
+461,115,Cook Islands,1,0,1,0,0,1,8,2,2,12,0,0,49,3,65,plant,COK
+462,115,Cook Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,COK
+463,233,Jordan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,JOR
+464,116,Fiji,1,0,1,5,0,6,28,52,166,246,3,163,"1,809",132,"2,354",animal,FJI
+465,116,Fiji,1,0,1,0,1,2,30,24,36,90,0,17,236,21,365,plant,FJI
+466,116,Fiji,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,FJI
+467,234,Kazakhstan,0,0,0,0,0,0,0,0,1,1,0,3,4,1,9,fungus,KAZ
+468,117,French Polynesia,60,11,71,2,0,73,46,26,67,139,2,62,"1,290",107,"1,671",animal,PYF
+469,117,French Polynesia,2,1,3,0,0,3,29,5,18,52,0,16,119,35,225,plant,PYF
+470,117,French Polynesia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PYF
+471,195,Kenya,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus,KEN
+472,118,Guam,5,1,6,0,0,6,8,26,72,106,2,91,"1,220",105,"1,530",animal,GUM
+473,118,Guam,0,0,0,0,0,0,1,2,2,5,0,1,45,1,52,plant,GUM
+474,118,Guam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GUM
+475,119,Kiribati,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,KIR
+476,119,Kiribati,1,0,1,0,0,1,0,17,96,113,3,117,"1,277",63,"1,574",animal,KIR
+477,119,Kiribati,0,0,0,0,0,0,0,0,0,0,0,0,29,0,29,plant,KIR
+478,119,Kiribati,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,KIR
+479,37,"Korea, Democratic People's Republic of",0,0,0,0,0,0,0,1,1,2,0,0,13,0,15,fungus,PRK
+480,120,Marshall Islands,0,0,0,0,0,0,1,14,94,109,3,118,"1,325",63,"1,618",animal,MHL
+481,120,Marshall Islands,0,0,0,0,0,0,0,0,0,0,0,1,33,0,34,plant,MHL
+482,120,Marshall Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MHL
+483,38,"Korea, Republic of",0,0,0,0,0,0,0,1,2,3,0,4,17,0,24,fungus,KOR
+484,121,"Micronesia, Federated States of",2,0,2,1,0,3,6,29,139,174,3,148,"1,641",126,"2,094",animal,FSM
+485,121,"Micronesia, Federated States of",0,0,0,0,0,0,1,3,3,7,0,4,113,2,126,plant,FSM
+486,121,"Micronesia, Federated States of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,FSM
+487,235,Kuwait,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,KWT
+488,122,Nauru,0,0,0,0,0,0,1,10,79,90,0,110,"1,032",39,"1,271",animal,NRU
+489,122,Nauru,0,0,0,0,0,0,0,0,0,0,0,0,20,0,20,plant,NRU
+490,122,Nauru,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NRU
+491,236,Kyrgyzstan,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus,KGZ
+492,123,New Caledonia,5,0,5,3,0,8,41,56,159,256,3,163,"2,187",182,"2,796",animal,NCL
+493,123,New Caledonia,4,0,4,9,0,13,134,235,223,592,5,143,491,40,"1,275",plant,NCL
+494,161,Lao People's Democratic Republic,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,fungus,LAO
+495,123,New Caledonia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NCL
+496,124,New Zealand,23,0,23,7,0,30,45,77,109,231,0,66,"1,066",210,"1,596",animal,NZL
+497,124,New Zealand,6,0,6,0,0,6,4,5,12,21,2,19,124,2,174,plant,NZL
+498,68,Latvia,0,0,0,0,0,0,0,0,9,9,0,3,11,0,23,fungus,LVA
+499,124,New Zealand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NZL
+500,125,Niue,0,0,0,0,0,0,1,13,44,58,0,54,885,34,"1,031",animal,NIU
+501,125,Niue,0,0,0,0,0,0,0,1,0,1,0,0,41,0,42,plant,NIU
+502,125,Niue,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NIU
+503,237,Lebanon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,LBN
+504,126,Norfolk Island,8,0,8,0,0,8,2,11,36,49,0,28,637,27,749,animal,NFK
+505,126,Norfolk Island,1,0,1,0,0,1,1,0,1,2,0,0,16,0,19,plant,NFK
+506,126,Norfolk Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NFK
+507,196,Lesotho,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,LSO
+508,127,Northern Mariana Islands,2,0,2,0,0,2,9,24,72,105,3,91,"1,293",70,"1,564",animal,MNP
+509,127,Northern Mariana Islands,0,0,0,0,0,0,2,2,2,6,0,1,56,0,63,plant,MNP
+510,127,Northern Mariana Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MNP
+511,197,Liberia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,LBR
+512,128,Palau,1,0,1,13,0,14,28,35,128,191,4,146,"1,884",107,"2,333",animal,PLW
+513,128,Palau,0,0,0,0,0,0,0,2,3,5,0,3,96,2,106,plant,PLW
+514,128,Palau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PLW
+515,100,Libya,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus,LBY
+516,129,Papua New Guinea,1,0,1,2,0,3,49,87,301,437,3,284,"4,051",525,"5,301",animal,PNG
+517,129,Papua New Guinea,0,0,0,22,1,23,103,180,211,494,0,99,"1,417",321,"2,331",plant,PNG
+518,69,Liechtenstein,0,0,0,0,0,0,0,0,4,4,0,0,1,0,5,fungus,LIE
+519,129,Papua New Guinea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PNG
+520,130,Pitcairn,0,0,0,0,0,0,1,8,28,37,1,25,523,27,613,animal,PCN
+521,130,Pitcairn,0,1,1,0,0,1,2,2,5,9,0,0,23,0,33,plant,PCN
+522,130,Pitcairn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PCN
+523,70,Lithuania,0,0,0,0,0,0,0,2,11,13,0,6,12,0,31,fungus,LTU
+524,131,Samoa,2,0,2,0,0,2,5,20,75,100,3,85,"1,344",78,"1,612",animal,WSM
+525,131,Samoa,0,0,0,1,0,1,3,2,2,7,0,4,101,0,112,plant,WSM
+526,131,Samoa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,WSM
+527,71,Luxembourg,0,0,0,0,0,0,0,0,2,2,0,1,29,0,32,fungus,LUX
+528,132,Solomon Islands,2,0,2,3,0,5,15,39,189,243,3,201,"2,210",145,"2,804",animal,SLB
+529,132,Solomon Islands,0,0,0,0,0,0,0,6,20,26,0,19,329,21,395,plant,SLB
+530,132,Solomon Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SLB
+531,39,Macao,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MAC
+532,133,Tokelau,0,0,0,0,0,0,1,11,46,58,2,58,899,34,"1,051",animal,TKL
+533,133,Tokelau,0,0,0,0,0,0,0,0,0,0,0,0,10,0,10,plant,TKL
+534,133,Tokelau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TKL
+535,198,Madagascar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MDG
+536,134,Tonga,2,0,2,2,0,4,5,20,68,93,3,70,"1,418",59,"1,645",animal,TON
+537,134,Tonga,0,0,0,0,0,0,1,2,4,7,0,1,103,1,112,plant,TON
+538,134,Tonga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TON
+539,199,Malawi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MWI
+540,135,Tuvalu,0,0,0,0,0,0,1,14,87,102,3,113,"1,094",46,"1,358",animal,TUV
+541,135,Tuvalu,0,0,0,0,0,0,0,0,0,0,0,0,22,0,22,plant,TUV
+542,135,Tuvalu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TUV
+543,162,Malaysia,0,0,0,0,0,0,0,2,2,4,0,0,1,1,6,fungus,MYS
+544,136,United States Minor Outlying Islands,1,0,1,0,0,1,4,9,63,76,1,75,"1,256",53,"1,462",animal,UMI
+545,136,United States Minor Outlying Islands,0,0,0,0,0,0,0,0,0,0,0,0,23,0,23,plant,UMI
+546,136,United States Minor Outlying Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,UMI
+547,163,Maldives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MDV
+548,137,Vanuatu,1,0,1,0,0,1,2,23,114,139,3,135,"1,804",96,"2,178",animal,VUT
+549,137,Vanuatu,0,0,0,0,0,0,1,4,5,10,1,9,159,2,181,plant,VUT
+550,137,Vanuatu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,VUT
+551,200,Mali,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MLI
+552,138,Wallis and Futuna,0,0,0,0,0,0,2,13,78,93,0,94,"1,201",50,"1,438",animal,WLF
+553,138,Wallis and Futuna,0,0,0,0,0,0,0,0,1,1,0,1,55,0,57,plant,WLF
+554,138,Wallis and Futuna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,WLF
+555,72,Malta,0,0,0,0,0,0,0,0,1,1,0,1,1,0,3,fungus,MLT
+556,139,Argentina,3,3,6,6,0,12,41,69,118,228,0,127,"2,211",178,"2,750",animal,ARG
+557,139,Argentina,0,1,1,0,0,1,7,21,44,72,0,23,777,22,895,plant,ARG
+558,120,Marshall Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MHL
+559,139,Argentina,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ARG
+632,158,Disputed Territory,0,0,0,0,0,0,1,5,14,20,0,5,"1,086",34,"1,145",animal,None
+633,158,Disputed Territory,0,0,0,0,0,0,0,0,0,0,0,0,4,0,4,plant,None
+562,21,Martinique,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MTQ
+634,158,Disputed Territory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,None
+564,141,Brazil,11,2,13,11,0,24,105,144,287,536,9,230,"4,768",700,"6,256",animal,BRA
+565,141,Brazil,5,3,8,7,2,17,184,431,353,968,22,164,"3,774",247,"5,183",plant,BRA
+566,201,Mauritania,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,MRT
+567,141,Brazil,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BRA
+568,142,Chile,1,0,1,3,0,4,25,62,81,168,0,84,"1,302",201,"1,756",animal,CHL
+569,142,Chile,1,3,4,0,0,4,23,30,33,86,1,18,242,7,358,plant,CHL
+570,202,Mauritius,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,fungus,MUS
+571,142,Chile,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CHL
+572,143,Colombia,1,0,1,40,2,43,126,227,361,714,2,259,"5,283",586,"6,845",animal,COL
+573,143,Colombia,2,4,6,1,1,8,169,299,245,713,3,131,"3,317",98,"4,268",plant,COL
+574,203,Mayotte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MYT
+575,143,Colombia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,COL
+576,144,Ecuador,3,6,9,48,0,57,271,743,955,"1,969",1,279,"2,130",336,"4,724",plant,ECU
+577,144,Ecuador,8,0,8,41,0,49,112,164,296,572,2,207,"3,527",371,"4,687",animal,ECU
+578,144,Ecuador,0,0,0,4,0,4,4,1,1,6,0,0,0,9,15,chromist,ECU
+579,95,Mexico,0,0,0,0,0,0,1,1,4,6,0,3,19,1,29,fungus,MEX
+580,145,Falkland Islands (Malvinas),1,0,1,0,0,1,0,8,11,19,0,10,281,17,328,animal,FLK
+581,145,Falkland Islands (Malvinas),0,0,0,0,0,0,0,5,0,5,0,1,20,1,27,plant,FLK
+582,121,"Micronesia, Federated States of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,FSM
+583,145,Falkland Islands (Malvinas),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,FLK
+584,146,French Guiana,0,0,0,0,0,0,13,16,45,74,1,46,"2,081",93,"2,295",animal,GUF
+585,146,French Guiana,0,0,0,0,0,0,4,3,13,20,1,4,"1,224",16,"1,265",plant,GUF
+432,108,Moldova,1,0,1,0,0,1,6,5,22,33,0,33,442,6,515,animal,MDA
+587,146,French Guiana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GUF
+588,147,Guyana,0,0,0,0,0,0,14,28,61,103,2,57,"2,281",109,"2,552",animal,GUY
+589,147,Guyana,0,0,0,0,0,0,3,9,23,35,1,11,"1,452",22,"1,521",plant,GUY
+590,73,Monaco,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MCO
+591,147,Guyana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GUY
+592,148,Paraguay,0,3,3,2,0,5,7,12,30,49,0,61,"1,106",38,"1,257",animal,PRY
+593,148,Paraguay,0,0,0,0,0,0,3,6,11,20,0,10,564,11,605,plant,PRY
+594,40,Mongolia,0,0,0,0,0,0,0,1,3,4,0,0,6,1,11,fungus,MNG
+595,148,Paraguay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PRY
+596,149,Peru,1,0,1,10,0,11,58,155,209,422,2,204,"3,891",474,"4,994",animal,PER
+597,149,Peru,1,3,4,0,0,4,40,132,300,472,4,72,"2,355",124,"3,031",plant,PER
+598,74,Montenegro,0,0,0,0,0,0,0,0,4,4,0,2,3,0,9,fungus,MNE
+599,149,Peru,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PER
+600,150,Suriname,0,0,0,0,0,0,10,17,45,72,0,53,"2,141",95,"2,361",animal,SUR
+601,150,Suriname,0,0,0,0,0,0,1,3,25,29,0,5,"1,175",13,"1,222",plant,SUR
+602,150,Suriname,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SUR
+603,22,Montserrat,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MSR
+604,151,Uruguay,2,0,2,2,0,4,21,30,60,111,0,51,988,64,"1,216",animal,URY
+605,151,Uruguay,0,0,0,0,0,0,4,5,13,22,0,2,254,6,284,plant,URY
+606,101,Morocco,0,0,0,0,0,0,0,1,4,5,0,2,4,0,11,fungus,MAR
+607,151,Uruguay,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,URY
+608,152,"Venezuela, Bolivarian Republic of",1,0,1,11,0,12,58,108,170,336,1,168,"3,758",316,"4,580",animal,VEN
+609,152,"Venezuela, Bolivarian Republic of",0,0,0,1,0,1,29,45,94,168,1,75,"2,470",142,"2,856",plant,VEN
+610,204,Mozambique,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MOZ
+611,152,"Venezuela, Bolivarian Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,VEN
+612,153,Bangladesh,0,1,1,0,0,1,31,54,76,161,0,78,"1,617",107,"1,964",animal,BGD
+613,153,Bangladesh,0,0,0,0,0,0,5,9,15,29,0,11,578,14,632,plant,BGD
+614,153,Bangladesh,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BGD
+615,164,Myanmar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MMR
+616,154,Bhutan,0,0,0,0,0,0,7,17,34,58,0,40,714,6,818,animal,BTN
+617,154,Bhutan,1,0,1,1,0,2,13,19,16,48,0,15,577,31,672,plant,BTN
+618,205,Namibia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,NAM
+619,154,Bhutan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BTN
+620,155,British Indian Ocean Territory,0,0,0,0,0,0,3,14,78,95,2,103,"1,063",46,"1,309",animal,IOT
+621,155,British Indian Ocean Territory,0,0,0,0,0,0,0,0,0,0,0,1,19,0,20,plant,IOT
+622,155,British Indian Ocean Territory,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,IOT
+623,122,Nauru,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,NRU
+624,156,Brunei Darussalam,0,0,0,0,0,0,13,42,84,139,0,126,"1,588",87,"1,940",animal,BRN
+625,156,Brunei Darussalam,0,0,0,0,0,0,10,47,113,170,3,80,411,10,674,plant,BRN
+626,156,Brunei Darussalam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BRN
+627,165,Nepal,0,0,0,0,0,0,0,0,2,2,0,0,3,0,5,fungus,NPL
+628,157,Cambodia,0,0,0,1,0,1,35,60,160,255,0,169,"2,157",187,"2,768",animal,KHM
+629,157,Cambodia,0,0,0,0,0,0,3,19,20,42,0,19,578,19,658,plant,KHM
+630,157,Cambodia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,KHM
+631,75,Netherlands,0,0,0,0,0,0,0,2,24,26,0,9,35,0,70,fungus,NLD
+433,108,Moldova,0,0,0,0,0,0,0,0,2,2,0,4,208,13,227,plant,MDA
+435,108,Moldova,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MDA
+586,108,Moldova,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus,MDA
+635,123,New Caledonia,0,0,0,0,0,0,1,3,0,4,0,1,0,1,6,fungus,NCL
+636,159,India,0,0,0,7,0,7,94,230,398,722,2,331,"4,332",868,"6,255",animal,IND
+637,159,India,2,2,4,1,0,5,93,197,159,449,1,66,"1,617",98,"2,235",plant,IND
+638,124,New Zealand,0,0,0,0,0,0,2,9,2,13,0,4,13,10,40,fungus,NZL
+639,159,India,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,IND
+640,160,Indonesia,3,0,3,23,3,29,185,323,654,"1,162",4,640,"6,307","1,392","9,508",animal,IDN
+641,160,Indonesia,1,2,3,22,0,25,144,241,378,763,4,208,"2,023",267,"3,268",plant,IDN
+642,96,Nicaragua,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,NIC
+643,160,Indonesia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,IDN
+644,161,Lao People's Democratic Republic,1,0,1,2,0,3,34,58,101,193,0,95,"1,530",223,"2,042",animal,LAO
+645,161,Lao People's Democratic Republic,0,0,0,0,0,0,5,30,32,67,0,19,714,39,839,plant,LAO
+646,206,Niger,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,NER
+647,161,Lao People's Democratic Republic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LAO
+648,162,Malaysia,1,0,1,14,0,15,96,183,434,713,3,442,"4,168",504,"5,831",animal,MYS
+649,162,Malaysia,1,1,2,21,2,25,183,295,684,"1,162",98,213,"1,622",120,"3,217",plant,MYS
+650,207,Nigeria,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,NGA
+651,162,Malaysia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MYS
+652,163,Maldives,0,0,0,0,0,0,6,22,59,87,2,94,"1,347",70,"1,600",animal,MDV
+653,163,Maldives,0,0,0,0,0,0,0,0,0,0,0,0,51,0,51,plant,MDV
+654,163,Maldives,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MDV
+655,125,Niue,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,NIU
+656,164,Myanmar,0,0,0,1,0,1,38,85,177,300,3,258,"3,226",434,"4,221",animal,MMR
+657,164,Myanmar,0,0,0,3,0,3,14,42,33,89,0,39,"1,134",46,"1,308",plant,MMR
+658,164,Myanmar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MMR
+659,126,Norfolk Island,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,NFK
+660,165,Nepal,0,0,0,0,0,0,14,25,54,93,0,66,"1,271",65,"1,495",animal,NPL
+661,165,Nepal,0,0,0,0,0,0,2,9,11,22,0,5,693,15,735,plant,NPL
+662,76,North Macedonia,0,0,0,0,0,0,0,2,5,7,0,2,3,0,12,fungus,MKD
+663,165,Nepal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NPL
+664,166,Philippines,15,0,15,3,0,18,54,184,409,647,5,352,"3,652",597,"5,268",animal,PHL
+665,166,Philippines,0,0,0,6,0,6,205,236,160,601,3,95,961,48,"1,708",plant,PHL
+666,127,Northern Mariana Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MNP
+667,166,Philippines,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PHL
+668,167,Singapore,1,0,1,1,0,2,21,49,208,278,3,229,"1,853",154,"2,518",animal,SGP
+669,167,Singapore,0,0,0,0,0,0,11,17,41,69,8,32,428,9,546,plant,SGP
+670,77,Norway,0,0,0,0,0,0,2,6,34,42,0,19,40,1,102,fungus,NOR
+671,167,Singapore,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SGP
+672,168,Sri Lanka,18,0,18,9,0,27,88,134,155,377,2,177,"2,044",165,"2,783",animal,LKA
+673,168,Sri Lanka,1,1,2,1,0,3,83,79,136,298,3,9,630,6,948,plant,LKA
+674,238,Oman,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,OMN
+675,168,Sri Lanka,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LKA
+676,169,Thailand,2,0,2,5,0,7,58,122,341,521,2,366,"3,974",528,"5,393",animal,THA
+677,169,Thailand,0,0,0,0,0,0,18,80,98,196,2,68,"1,353",94,"1,713",plant,THA
+678,239,Pakistan,0,0,0,0,0,0,0,0,0,0,0,1,4,0,5,fungus,PAK
+679,169,Thailand,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,THA
+680,170,Timor-Leste,0,0,0,0,0,0,8,16,20,44,0,36,"1,393",59,"1,532",animal,TLS
+681,170,Timor-Leste,0,0,0,0,0,0,1,3,1,5,0,2,194,2,203,plant,TLS
+682,170,Timor-Leste,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TLS
+683,128,Palau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,PLW
+684,171,Viet Nam,1,0,1,9,0,10,74,151,280,505,2,253,"3,392",640,"4,793",animal,VNM
+685,171,Viet Nam,0,1,1,2,1,4,64,100,114,278,1,55,"1,305",99,"1,739",plant,VNM
+686,240,"Palestine, State of",0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,PSE
+687,171,Viet Nam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,VNM
+688,172,Angola,0,0,0,0,0,0,16,44,78,138,0,66,"2,655",228,"3,087",animal,AGO
+689,172,Angola,0,0,0,1,0,1,2,10,37,49,0,20,"1,273",63,"1,405",plant,AGO
+690,172,Angola,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,AGO
+691,97,Panama,0,0,0,0,0,0,0,0,1,1,0,0,1,0,2,fungus,PAN
+692,173,Benin,0,0,0,0,0,0,15,26,51,92,0,48,"1,748",107,"1,995",animal,BEN
+693,173,Benin,0,0,0,0,0,0,0,4,14,18,0,7,833,1,859,plant,BEN
+694,129,Papua New Guinea,0,0,0,0,0,0,0,3,0,3,0,0,1,1,5,fungus,PNG
+695,173,Benin,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BEN
+696,174,Botswana,0,0,0,0,0,0,4,11,17,32,0,27,"1,111",9,"1,179",animal,BWA
+697,174,Botswana,0,0,0,0,0,0,0,1,2,3,0,2,606,9,620,plant,BWA
+698,174,Botswana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BWA
+699,148,Paraguay,0,0,0,0,0,0,0,1,0,1,0,0,0,0,1,fungus,PRY
+700,175,Burkina Faso,0,1,1,0,0,1,7,11,12,30,0,18,817,9,875,animal,BFA
+701,175,Burkina Faso,0,0,0,0,0,0,0,2,3,5,0,3,604,3,615,plant,BFA
+702,175,Burkina Faso,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BFA
+703,149,Peru,0,0,0,0,0,0,1,0,0,1,0,0,1,0,2,fungus,PER
+704,176,Burundi,0,0,0,0,0,0,6,19,32,57,0,38,"1,072",36,"1,203",animal,BDI
+705,176,Burundi,0,0,0,16,1,17,22,63,49,134,1,18,674,9,836,plant,BDI
+706,176,Burundi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BDI
+707,166,Philippines,0,0,0,0,0,0,0,1,0,1,0,0,2,0,3,fungus,PHL
+708,177,Cabo Verde,1,0,1,0,0,1,9,22,39,70,0,30,905,95,"1,101",animal,CPV
+709,177,Cabo Verde,2,0,2,0,0,2,17,27,7,51,0,7,80,9,149,plant,CPV
+710,130,Pitcairn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,PCN
+711,177,Cabo Verde,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CPV
+712,178,Cameroon,0,0,0,6,0,6,67,117,118,302,0,78,"2,704",209,"3,293",animal,CMR
+713,178,Cameroon,1,0,1,8,1,10,138,225,326,689,2,76,"1,461",32,"2,261",plant,CMR
+714,178,Cameroon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CMR
+715,78,Poland,0,0,0,0,0,0,0,4,24,28,0,18,32,2,80,fungus,POL
+716,179,Central African Republic,0,0,0,0,0,0,9,13,24,46,0,27,"1,408",50,"1,531",animal,CAF
+717,179,Central African Republic,0,0,0,0,0,0,2,13,22,37,1,10,968,7,"1,023",plant,CAF
+718,179,Central African Republic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CAF
+719,79,Portugal,0,0,0,0,0,0,1,4,5,10,0,5,26,0,41,fungus,PRT
+720,180,Chad,0,1,1,1,0,2,11,11,23,45,0,20,860,13,939,animal,TCD
+721,180,Chad,0,0,0,0,0,0,1,2,4,7,0,2,567,4,580,plant,TCD
+722,23,Puerto Rico,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus,PRI
+723,180,Chad,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TCD
+724,181,Comoros,0,0,0,1,0,1,7,29,87,123,0,112,"1,344",77,"1,656",animal,COM
+725,181,Comoros,0,0,0,0,0,0,2,5,5,12,0,0,143,0,155,plant,COM
+726,181,Comoros,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,COM
+727,241,Qatar,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,QAT
+728,182,Congo,0,0,0,0,0,0,10,25,67,102,0,50,"2,038",142,"2,332",animal,COG
+729,182,Congo,0,0,0,0,0,0,1,19,48,68,1,15,977,5,"1,066",plant,COG
+730,182,Congo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,COG
+731,208,Réunion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,REU
+732,183,"Congo, The Democratic Republic of the",0,0,0,4,0,4,31,84,152,267,0,98,"3,700",423,"4,488",animal,COD
+733,183,"Congo, The Democratic Republic of the",2,0,2,4,0,6,16,86,143,245,3,50,"1,636",43,"1,979",plant,COD
+734,80,Romania,0,0,0,0,0,0,0,1,7,8,0,3,16,0,27,fungus,ROU
+735,183,"Congo, The Democratic Republic of the",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,COD
+736,184,Côte d'Ivoire,0,0,0,2,0,2,19,49,84,152,0,80,"2,075",138,"2,445",animal,CIV
+737,184,Côte d'Ivoire,2,0,2,1,0,3,5,30,104,139,1,36,"1,075",10,"1,263",plant,CIV
+738,184,Côte d'Ivoire,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CIV
+739,109,Russian Federation,0,0,0,0,0,0,0,4,33,37,0,23,45,4,109,fungus,RUS
+740,185,Djibouti,0,0,0,0,0,0,11,18,86,115,0,119,"1,463",112,"1,809",animal,DJI
+741,185,Djibouti,0,0,0,0,0,0,0,2,1,3,0,0,121,0,124,plant,DJI
+742,185,Djibouti,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,DJI
+743,209,Rwanda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,RWA
+744,186,Equatorial Guinea,0,0,0,0,0,0,16,35,57,108,0,42,"1,593",113,"1,856",animal,GNQ
+745,186,Equatorial Guinea,0,0,0,0,0,0,2,38,78,118,0,31,628,8,785,plant,GNQ
+746,186,Equatorial Guinea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GNQ
+747,24,Saint Barthélemy,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,BLM
+748,187,Eritrea,0,0,0,0,0,0,16,27,104,147,0,134,"1,607",118,"2,006",animal,ERI
+749,187,Eritrea,0,0,0,0,0,0,0,2,4,6,0,6,262,2,276,plant,ERI
+750,187,Eritrea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ERI
+751,210,"Saint Helena, Ascension and Tristan da Cunha",0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,fungus,SHN
+752,188,Eswatini,0,0,0,0,0,0,4,10,17,31,0,20,883,6,940,animal,SWZ
+753,188,Eswatini,0,1,1,0,0,1,2,4,9,15,0,5,517,4,542,plant,SWZ
+754,188,Eswatini,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SWZ
+755,25,Saint Kitts and Nevis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,KNA
+756,189,Ethiopia,0,0,0,2,0,2,17,41,60,118,0,44,"1,402",63,"1,627",animal,ETH
+757,189,Ethiopia,0,0,0,3,0,3,10,26,29,65,1,29,895,19,"1,009",plant,ETH
+758,189,Ethiopia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ETH
+759,26,Saint Lucia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,LCA
+760,190,Gabon,0,0,0,0,0,0,12,37,69,118,0,50,"2,078",165,"2,411",animal,GAB
+761,190,Gabon,0,0,0,6,0,6,50,104,160,314,1,45,"1,026",16,"1,402",plant,GAB
+762,190,Gabon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GAB
+763,27,Saint Martin (French part),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,MAF
+764,191,Gambia,0,0,0,0,0,0,16,23,50,89,0,48,"1,551",112,"1,800",animal,GMB
+765,191,Gambia,0,0,0,0,0,0,0,1,7,8,0,2,365,1,376,plant,GMB
+766,191,Gambia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GMB
+767,105,Saint Pierre and Miquelon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SPM
+768,192,Ghana,0,0,0,2,0,2,27,35,79,141,0,76,"2,157",132,"2,506",animal,GHA
+769,192,Ghana,0,0,0,0,0,0,3,31,93,127,1,24,"1,048",7,"1,207",plant,GHA
+770,192,Ghana,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GHA
+771,28,Saint Vincent and the Grenadines,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,VCT
+772,193,Guinea,0,0,0,1,0,1,21,58,101,180,0,75,"2,061",148,"2,464",animal,GIN
+773,193,Guinea,0,0,0,14,0,14,32,87,75,194,1,31,909,13,"1,148",plant,GIN
+774,193,Guinea,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GIN
+775,131,Samoa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,WSM
+776,194,Guinea-Bissau,0,0,0,0,0,0,13,22,50,85,0,45,"1,522",111,"1,763",animal,GNB
+777,194,Guinea-Bissau,0,0,0,0,0,0,1,1,10,12,0,8,524,2,546,plant,GNB
+778,194,Guinea-Bissau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GNB
+779,81,San Marino,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SMR
+780,195,Kenya,2,0,2,18,0,20,56,70,160,286,2,181,"3,388",243,"4,102",animal,KEN
+781,195,Kenya,0,0,0,2,0,2,29,127,169,325,1,75,"1,291",22,"1,714",plant,KEN
+782,211,Sao Tome and Principe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,STP
+783,195,Kenya,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,KEN
+784,196,Lesotho,0,0,0,0,0,0,0,8,8,16,0,19,423,3,461,animal,LSO
+785,196,Lesotho,0,0,0,0,0,0,0,2,3,5,0,1,185,1,192,plant,LSO
+786,196,Lesotho,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LSO
+787,242,Saudi Arabia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,SAU
+788,197,Liberia,0,0,0,2,0,2,22,43,74,139,0,68,"1,809",128,"2,144",animal,LBR
+789,197,Liberia,0,0,0,1,0,1,5,29,68,102,0,20,724,4,850,plant,LBR
+790,197,Liberia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LBR
+791,212,Senegal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SEN
+792,198,Madagascar,0,1,1,101,7,109,499,"1,343",852,"2,694",0,212,"1,455",85,"4,447",plant,MDG
+793,198,Madagascar,13,0,13,9,0,22,150,318,321,789,2,284,"2,391",433,"3,912",animal,MDG
+794,198,Madagascar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MDG
+795,82,Serbia,0,0,0,0,0,0,0,0,7,7,0,5,23,0,35,fungus,SRB
+796,199,Malawi,1,0,1,5,0,6,28,28,35,91,0,66,"1,569",59,"1,786",animal,MWI
+797,199,Malawi,0,0,0,0,0,0,1,21,24,46,1,11,"1,008",24,"1,090",plant,MWI
+798,199,Malawi,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MWI
+799,213,Seychelles,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SYC
+800,200,Mali,0,1,1,0,0,1,7,12,24,43,0,21,986,13,"1,064",animal,MLI
+801,200,Mali,0,0,0,0,0,0,3,14,11,28,0,9,642,12,691,plant,MLI
+802,200,Mali,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MLI
+803,214,Sierra Leone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SLE
+804,201,Mauritania,0,1,1,0,0,1,15,28,61,104,0,52,"1,449",119,"1,725",animal,MRT
+805,201,Mauritania,0,0,0,0,0,0,0,0,0,0,0,2,234,0,236,plant,MRT
+806,167,Singapore,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,SGP
+807,201,Mauritania,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MRT
+808,202,Mauritius,44,0,44,1,0,45,19,43,124,186,2,117,"1,485",139,"1,973",animal,MUS
+809,202,Mauritius,1,0,1,0,0,1,64,17,11,92,0,0,154,1,248,plant,MUS
+810,29,Sint Maarten (Dutch part),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SXM
+811,202,Mauritius,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MUS
+812,203,Mayotte,5,0,5,0,0,5,2,18,83,103,0,110,"1,208",59,"1,485",animal,MYT
+813,203,Mayotte,0,0,0,0,0,0,0,6,4,10,0,0,78,0,88,plant,MYT
+814,203,Mayotte,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MYT
+815,83,Slovakia,0,0,0,0,0,0,0,4,28,32,0,12,35,2,81,fungus,SVK
+816,204,Mozambique,1,0,1,2,0,3,22,63,151,236,2,187,"3,344",223,"3,993",animal,MOZ
+817,204,Mozambique,0,0,0,1,0,1,22,99,133,254,0,42,"1,261",50,"1,607",plant,MOZ
+818,204,Mozambique,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,MOZ
+819,84,Slovenia,0,0,0,0,0,0,0,1,19,20,0,11,36,0,67,fungus,SVN
+820,205,Namibia,1,0,1,0,0,1,10,33,55,98,0,53,"1,930",96,"2,178",animal,NAM
+821,205,Namibia,0,0,0,1,0,1,3,4,24,31,0,12,694,11,748,plant,NAM
+822,132,Solomon Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SLB
+823,205,Namibia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NAM
+824,206,Niger,0,1,1,0,0,1,6,11,20,37,0,19,733,7,797,animal,NER
+825,206,Niger,0,0,0,0,0,0,0,1,3,4,0,2,386,3,395,plant,NER
+826,206,Niger,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NER
+827,215,Somalia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SOM
+828,207,Nigeria,0,1,1,3,0,4,28,61,89,178,0,74,"2,500",152,"2,905",animal,NGA
+829,207,Nigeria,0,0,0,1,0,1,19,51,152,222,2,34,"1,343",12,"1,613",plant,NGA
+830,216,South Africa,0,0,0,0,0,0,0,0,0,0,0,0,7,0,7,fungus,ZAF
+831,207,Nigeria,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,NGA
+832,208,Réunion,20,0,20,1,0,21,10,26,94,130,0,100,"1,303",94,"1,647",animal,REU
+833,208,Réunion,0,0,0,0,0,0,9,8,4,21,0,1,100,2,124,plant,REU
+834,208,Réunion,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,REU
+835,4,South Georgia and the South Sandwich Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SGS
+836,209,Rwanda,1,0,1,0,0,1,11,16,31,58,0,32,"1,029",19,"1,139",animal,RWA
+837,209,Rwanda,0,1,1,3,0,4,4,52,56,112,1,17,670,7,808,plant,RWA
+838,209,Rwanda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,RWA
+839,217,South Sudan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SSD
+840,210,"Saint Helena, Ascension and Tristan da Cunha",28,0,28,13,0,41,46,58,39,143,0,17,611,52,851,animal,SHN
+841,210,"Saint Helena, Ascension and Tristan da Cunha",8,2,10,0,0,10,27,6,11,44,0,1,26,5,86,plant,SHN
+842,85,Spain,0,0,0,0,0,0,0,4,38,42,0,14,43,2,101,fungus,ESP
+843,210,"Saint Helena, Ascension and Tristan da Cunha",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SHN
+844,211,Sao Tome and Principe,0,0,0,0,0,0,9,21,31,61,0,17,741,97,916,animal,STP
+845,211,Sao Tome and Principe,2,0,2,0,0,2,1,21,32,54,0,13,166,0,235,plant,STP
+846,211,Sao Tome and Principe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,STP
+847,168,Sri Lanka,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,LKA
+848,212,Senegal,0,1,1,0,0,1,19,42,73,134,0,64,"1,885",152,"2,236",animal,SEN
+849,212,Senegal,2,0,2,0,0,2,1,9,14,24,0,9,737,7,779,plant,SEN
+850,212,Senegal,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SEN
+851,218,Sudan,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,SDN
+852,213,Seychelles,20,0,20,29,0,49,86,158,152,396,2,125,"1,623",114,"2,280",animal,SYC
+853,213,Seychelles,2,0,2,0,0,2,17,13,31,61,0,8,116,0,187,plant,SYC
+854,213,Seychelles,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SYC
+855,150,Suriname,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,SUR
+856,214,Sierra Leone,0,0,0,1,0,1,20,39,72,131,0,67,"1,867",140,"2,205",animal,SLE
+857,214,Sierra Leone,1,0,1,1,0,2,8,37,77,122,1,26,811,9,970,plant,SLE
+858,214,Sierra Leone,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SLE
+859,86,Svalbard and Jan Mayen,0,0,0,0,0,0,0,0,0,0,0,0,2,0,2,fungus,SJM
+860,215,Somalia,0,0,0,1,0,1,16,35,108,159,0,144,"2,307",188,"2,798",animal,SOM
+861,215,Somalia,0,0,0,0,0,0,3,23,30,56,0,44,419,12,531,plant,SOM
+862,215,Somalia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SOM
+863,87,Sweden,0,0,0,0,0,0,1,5,39,45,0,25,41,1,112,fungus,SWE
+864,216,South Africa,6,0,6,6,0,12,85,178,213,476,2,189,"3,720",340,"4,733",animal,ZAF
+865,216,South Africa,2,3,5,7,3,15,63,115,136,314,2,121,"1,361",38,"1,841",plant,ZAF
+866,88,Switzerland,0,0,0,0,0,0,1,5,34,40,0,19,34,1,94,fungus,CHE
+867,216,South Africa,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ZAF
+868,217,South Sudan,0,0,0,0,0,0,6,16,22,44,0,20,"1,117",21,"1,202",animal,SSD
+869,217,South Sudan,0,0,0,0,0,0,0,4,14,18,1,7,622,2,650,plant,SSD
+870,217,South Sudan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SSD
+871,243,Syrian Arab Republic,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,SYR
+872,218,Sudan,0,1,1,0,0,1,18,28,100,146,0,130,"2,161",135,"2,573",animal,SDN
+873,218,Sudan,0,0,0,0,0,0,1,3,15,19,1,5,661,4,690,plant,SDN
+874,41,"Taiwan, Province of China",0,0,0,0,0,0,0,1,1,2,0,1,8,0,11,fungus,TWN
+875,218,Sudan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SDN
+876,219,"Tanzania, United Republic of",2,1,3,61,1,65,128,158,261,547,0,221,"3,994",351,"5,116",animal,TZA
+877,219,"Tanzania, United Republic of",0,0,0,40,1,41,109,404,350,863,2,102,"1,744",63,"2,774",plant,TZA
+878,219,"Tanzania, United Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TZA
+879,244,Tajikistan,0,0,0,0,0,0,0,0,1,1,0,0,2,0,3,fungus,TJK
+880,220,Togo,0,0,0,1,0,1,18,20,48,86,0,45,"1,764",105,"2,000",animal,TGO
+881,220,Togo,0,0,0,0,0,0,0,3,11,14,0,6,722,1,743,plant,TGO
+882,219,"Tanzania, United Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,TZA
+883,220,Togo,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TGO
+884,221,Uganda,0,0,0,28,0,28,49,39,73,161,0,58,"1,874",125,"2,218",animal,UGA
+885,221,Uganda,0,0,0,3,0,3,8,34,66,108,1,26,"1,145",13,"1,293",plant,UGA
+886,221,Uganda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,UGA
+887,169,Thailand,0,0,0,0,0,0,0,1,0,1,0,0,3,0,4,fungus,THA
+888,222,Zambia,0,0,0,0,0,0,10,26,40,76,0,40,"1,868",71,"2,055",animal,ZMB
+889,222,Zambia,0,0,0,0,0,0,3,15,18,36,0,19,"1,125",35,"1,215",plant,ZMB
+890,170,Timor-Leste,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,TLS
+891,222,Zambia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ZMB
+892,223,Zimbabwe,0,0,0,1,0,1,9,15,27,51,0,32,"1,424",26,"1,533",animal,ZWE
+893,223,Zimbabwe,0,0,0,0,2,2,2,21,50,73,0,21,"1,116",19,"1,229",plant,ZWE
+894,223,Zimbabwe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ZWE
+895,220,Togo,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,TGO
+896,224,Afghanistan,0,0,0,0,0,0,4,9,24,37,0,27,590,21,675,animal,AFG
+897,224,Afghanistan,0,0,0,0,0,0,1,4,3,8,0,6,324,13,351,plant,AFG
+898,133,Tokelau,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,TKL
+899,224,Afghanistan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,AFG
+900,225,Armenia,0,0,0,0,0,0,7,8,26,41,0,38,471,18,568,animal,ARM
+901,225,Armenia,0,0,0,0,0,0,18,43,15,76,0,12,245,36,369,plant,ARM
+902,134,Tonga,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,TON
+903,225,Armenia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ARM
+904,226,Azerbaijan,0,1,1,2,0,3,13,10,31,54,0,41,583,45,724,animal,AZE
+905,226,Azerbaijan,0,0,0,0,0,0,7,18,21,46,0,18,262,25,351,plant,AZE
+906,30,Trinidad and Tobago,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,TTO
+907,226,Azerbaijan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,AZE
+908,227,Bahrain,0,0,0,0,0,0,10,10,30,50,0,53,642,31,776,animal,BHR
+909,227,Bahrain,0,0,0,0,0,0,0,0,0,0,0,0,26,0,26,plant,BHR
+910,227,Bahrain,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,BHR
+911,102,Tunisia,0,0,0,0,0,0,0,1,1,2,0,0,2,0,4,fungus,TUN
+912,228,Cyprus,0,0,0,1,0,1,10,21,35,66,0,37,650,66,819,animal,CYP
+913,228,Cyprus,0,0,0,0,0,0,7,5,11,23,0,10,230,11,274,plant,CYP
+914,245,Turkey,0,0,0,0,0,0,0,0,7,7,0,3,8,0,18,fungus,TUR
+915,228,Cyprus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,CYP
+916,229,Georgia,0,0,0,0,0,0,7,10,39,56,0,47,601,24,728,animal,GEO
+917,229,Georgia,0,0,0,0,0,0,9,17,39,65,0,13,319,27,424,plant,GEO
+918,246,Turkmenistan,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,fungus,TKM
+919,229,Georgia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,GEO
+920,230,"Iran, Islamic Republic of",0,1,1,1,0,2,23,40,94,157,0,98,"1,698",163,"2,117",animal,IRN
+921,230,"Iran, Islamic Republic of",0,0,0,0,0,0,2,7,4,13,0,12,420,30,475,plant,IRN
+922,31,Turks and Caicos Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,TCA
+923,230,"Iran, Islamic Republic of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,IRN
+924,231,Iraq,0,0,0,1,0,1,12,16,53,81,0,71,935,48,"1,135",animal,IRQ
+925,231,Iraq,0,0,0,0,0,0,0,3,1,4,0,6,252,16,278,plant,IRQ
+926,135,Tuvalu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,TUV
+927,231,Iraq,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,IRQ
+928,232,Israel,4,0,4,0,0,4,23,46,122,191,0,135,"1,601",154,"2,085",animal,ISR
+929,232,Israel,0,0,0,0,0,0,3,23,13,39,0,9,282,9,339,plant,ISR
+930,221,Uganda,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,UGA
+931,232,Israel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ISR
+932,233,Jordan,0,0,0,0,0,0,4,26,88,118,0,118,"1,253",97,"1,586",animal,JOR
+933,233,Jordan,0,0,0,0,0,0,0,5,3,8,0,4,191,7,210,plant,JOR
+934,233,Jordan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,JOR
+935,110,Ukraine,0,0,0,0,0,0,0,2,10,12,0,5,18,1,36,fungus,UKR
+936,234,Kazakhstan,1,1,2,2,0,4,15,19,44,78,0,38,760,60,938,animal,KAZ
+937,234,Kazakhstan,0,0,0,0,0,0,5,5,3,13,0,2,304,26,345,plant,KAZ
+938,247,United Arab Emirates,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,ARE
+939,234,Kazakhstan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,KAZ
+940,235,Kuwait,1,0,1,0,0,1,8,13,39,60,0,55,753,35,904,animal,KWT
+941,235,Kuwait,0,0,0,0,0,0,0,0,0,0,0,1,29,0,30,plant,KWT
+942,89,United Kingdom,0,0,0,0,0,0,1,2,34,37,0,10,40,0,87,fungus,GBR
+943,235,Kuwait,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,KWT
+944,236,Kyrgyzstan,0,0,0,0,0,0,1,12,26,39,0,24,461,14,538,animal,KGZ
+945,236,Kyrgyzstan,0,0,0,0,0,0,6,4,2,12,0,2,187,21,222,plant,KGZ
+946,106,United States,0,0,0,1,0,1,12,30,30,72,0,19,43,6,140,fungus,USA
+947,236,Kyrgyzstan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,KGZ
+948,237,Lebanon,0,0,0,0,0,0,9,27,47,83,0,40,722,69,914,animal,LBN
+949,237,Lebanon,0,0,0,5,0,5,17,61,22,100,0,11,315,19,445,plant,LBN
+950,237,Lebanon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,LBN
+951,136,United States Minor Outlying Islands,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,UMI
+952,238,Oman,0,0,0,1,0,1,13,34,70,117,0,94,"1,581",129,"1,921",animal,OMN
+953,238,Oman,0,0,0,0,0,0,0,1,5,6,0,5,154,1,166,plant,OMN
+954,238,Oman,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,OMN
+955,151,Uruguay,0,0,0,0,0,0,0,0,0,0,0,0,3,0,3,fungus,URY
+956,239,Pakistan,0,0,0,1,0,1,20,46,89,155,0,97,"1,667",96,"2,015",animal,PAK
+957,239,Pakistan,0,0,0,0,0,0,4,6,7,17,0,7,480,20,524,plant,PAK
+958,248,Uzbekistan,0,0,0,0,0,0,0,0,0,0,0,0,5,0,5,fungus,UZB
+959,239,Pakistan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PAK
+960,240,"Palestine, State of",0,0,0,0,0,0,4,13,17,34,0,22,366,21,443,animal,PSE
+961,240,"Palestine, State of",0,0,0,0,0,0,1,6,4,11,0,6,224,5,246,plant,PSE
+962,137,Vanuatu,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,VUT
+963,240,"Palestine, State of",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,PSE
+964,241,Qatar,0,0,0,0,0,0,11,10,36,57,0,54,666,25,802,animal,QAT
+965,241,Qatar,0,0,0,0,0,0,0,0,0,0,0,0,31,0,31,plant,QAT
+966,152,"Venezuela, Bolivarian Republic of",0,0,0,0,0,0,0,0,1,1,0,0,4,0,5,fungus,VEN
+967,241,Qatar,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,QAT
+968,242,Saudi Arabia,1,0,1,0,0,1,13,34,106,153,2,139,"1,602",151,"2,048",animal,SAU
+969,242,Saudi Arabia,0,0,0,0,0,0,0,3,1,4,0,0,259,0,263,plant,SAU
+970,171,Viet Nam,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,VNM
+971,242,Saudi Arabia,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SAU
+972,243,Syrian Arab Republic,1,0,1,6,0,7,18,37,65,120,0,51,857,90,"1,119",animal,SYR
+973,243,Syrian Arab Republic,0,0,0,0,0,0,5,25,14,44,0,14,307,28,393,plant,SYR
+974,32,"Virgin Islands, British",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,VGB
+975,243,Syrian Arab Republic,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,SYR
+976,244,Tajikistan,0,0,0,1,0,1,3,9,24,36,0,21,460,26,543,animal,TJK
+977,244,Tajikistan,0,0,0,0,0,0,6,3,2,11,0,2,190,19,222,plant,TJK
+978,33,"Virgin Islands, U.S.",0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,VIR
+979,244,Tajikistan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TJK
+980,245,Turkey,4,0,4,12,0,16,69,108,124,301,0,104,"1,295",196,"1,900",animal,TUR
+981,245,Turkey,0,0,0,0,0,0,67,42,23,132,0,31,651,71,885,plant,TUR
+982,138,Wallis and Futuna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,WLF
+983,245,Turkey,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TUR
+984,246,Turkmenistan,0,1,1,1,0,2,11,14,30,55,0,29,573,44,702,animal,TKM
+985,246,Turkmenistan,0,0,0,0,0,0,0,2,2,4,0,3,180,11,198,plant,TKM
+986,103,Western Sahara,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,ESH
+987,246,Turkmenistan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,TKM
+988,247,United Arab Emirates,0,0,0,0,0,0,10,25,45,80,0,57,"1,072",58,"1,267",animal,ARE
+989,247,United Arab Emirates,0,0,0,0,0,0,0,0,0,0,0,0,54,0,54,plant,ARE
+990,247,United Arab Emirates,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,ARE
+991,249,Yemen,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,YEM
+992,248,Uzbekistan,0,0,0,2,0,2,9,10,28,47,0,28,505,22,602,animal,UZB
+993,248,Uzbekistan,0,0,0,0,0,0,4,7,3,14,0,1,198,16,229,plant,UZB
+994,222,Zambia,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,fungus,ZMB
+995,248,Uzbekistan,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,UZB
+996,249,Yemen,2,0,2,1,0,3,11,34,118,163,0,154,"1,909",185,"2,413",animal,YEM
+997,249,Yemen,3,0,3,0,0,3,6,28,129,163,0,23,426,32,647,plant,YEM
+998,223,Zimbabwe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,fungus,ZWE
+999,249,Yemen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,chromist,YEM

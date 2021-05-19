@@ -318,8 +318,8 @@ def update_map_select(geodata,levels,crosshair):
 ##################################################################################################################
 ##################################################################################################################
 ##################################################################################################################
-plotlyConfig = {'topojsonURL':'http://127.0.0.1:%i/assets/'%5500} 
-
+#plotlyConfig = {'topojsonURL':'http://127.0.0.1:%i/assets/'%5500} 
+#import T6_sample
 # class_names = ['TETRAODONTIFORMES',"CHIMAERIFORMES"]
 # multiselect_options = [{"label":classe,"value":classe} for classe in class_names]
 # multiselect_values = class_names[:]
@@ -331,9 +331,11 @@ checklist_values = categories[:]
 # habitat_values = ["Marine","Terestial","Freshwater"]
 # habitat_options = [{"label":hab,"value":hab} for hab in habitat_values]
 
-app.layout = html.Div(
+layout = html.Div(
     style={"backgroundColor": colors["background"]},
     children=[
+    #T6_sample.app.layout,
+    html.Hr(),
     html.H1(children="Worldwide Animal Extinction Status",
         style={"textAlign":"center","color":colors["text"]}
         ),
@@ -348,7 +350,7 @@ app.layout = html.Div(
     ),
     html.Button('Submit', id='submit_coords', n_clicks=0),
     html.Div(id="bigdiv",children=[
-        dcc.Graph(id="map_graph",config=plotlyConfig), 
+        dcc.Graph(id="map_graph"),#,config=plotlyConfig), 
         html.Label("+",id="crosshair"),
         html.Div(children=[
             html.Div(children=["Current database:",html.Label(id="selected_database_text")]),
@@ -567,7 +569,12 @@ import json
     Input("mouse_coord","children")
 )
 def update_graph_selection(classes,selected_database_name,selection_text,mouse_coords):
+    ctx = dash.callback_context
     if(selection_text=="the world"):
+        #and ctx.triggered and ctx.triggered[0]['prop_id'].split('.')[0] in ["selected_database_text","extinction_category","selection_brag"]):
+        """try: 
+            if "selection_brag" in ctx.triggered["prop_id"] or
+                "selected_database_text" in  ctx.triggered["prop_id"]"""
         graph=update_map_agg(aggregated_data[aggregated_data["origin"]==selected_database_name],classes)
     else:
         x,y = (float(i) for i in mouse_coords.split())
@@ -585,4 +592,5 @@ def update_graph_selection(classes,selected_database_name,selection_text,mouse_c
 
 
 if __name__ == "__main__":
+    app.layout=layout
     app.run_server(debug=True)

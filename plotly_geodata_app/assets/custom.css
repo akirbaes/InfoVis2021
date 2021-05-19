@@ -1,0 +1,35 @@
+.custom {
+
+    width: 1200px;
+    height: 600px;
+    padding: 0px;
+    margin-top: -320px;
+    margin-left: 10px;
+    padding-top: -30px;
+    /* position: relative; */
+}
+
+.sidebar{
+    width: 160px; 
+   position: absolute;     
+    z-index: 1;
+    top: 0; 
+    bottom: 0;
+    background-color: #F5B7B1   ;  
+    overflow-x: hidden; 
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    font-size: 13.5px;
+    padding: 0px;
+}
+/* .custom_side {
+
+    width: 162px;
+    height: 300px;
+    padding: 0px;
+    /* margin-top: -320px;
+    margin-left: 10px; */
+    /* padding-top: -30px; 
+    position: relative;
+    border: solid 1px green;
+} */
