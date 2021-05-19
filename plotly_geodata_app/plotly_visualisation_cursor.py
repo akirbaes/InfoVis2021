@@ -7,12 +7,13 @@ import geopandas as gpd
 import os
 import time
 from shapely.geometry import Point, Polygon
+import plotly.graph_objects as go
+import pprint
+import pyproj
 
 start_time = time.time()
 last_time = time.time()
-
-selected_shapes = None
-
+selected_shapes = None #Should not be a global if we want the server to serve several pages
 
 def timer():
     global start_time
@@ -24,22 +25,9 @@ def timerstring():
     if("." in s):
         s=s[:s.index(".")+2]
     return s.ljust(5)+"s "
-
-def laptime():
-    global last_time
-    old_time = last_time
-    last_time=time.time()
-    return last_time-old_time
-def lapstring():
-    s=str(laptime())
-    if("." in s):
-        s=s[:s.index(".")+2]
-    return s.ljust(5)+"s "
 def timestamp():
     return datetime.now().strftime("%H:%M:%S")
 	
-laptime()
-print(dir(dcc))
 
 external_stylesheets = ["https://codepen.iochriddyp/pen/bWLwgP.css"]
 
@@ -48,36 +36,43 @@ colors = {
     'background': '#F8F8F8',
     'text': '#011020'
 }
-#load_data
-def load_all_data():
-    path="assets/DATA" #"SIMPLIFIED_DATA"
+
+def load_all_data(path):
     has_data = False
     alldata = None
     counter = 0
     for dirpath, dirnames, filenames in os.walk(path):
         for name in filenames:
-            if name.endswith(("LOBSTERS.shp")): #BIRCHES BONEFISH_TARPONS MAMMALS
+            if name.endswith((".shp")): #BIRCHES BONEFISH_TARPONS MAMMALS
                 pathname =os.path.join(dirpath, name)
                 print("Open",str(counter),pathname)
                 counter+=1
                 db = gpd.read_file(pathname)
-                print(timerstring(),"Finished reading database")
+                db["origin"]=name
+                # print(timerstring(),"Finished reading database")
                 if(has_data==False):
                     has_data=True
                     alldata=db
                 else:
                     alldata=alldata.append(db,ignore_index=False)
-                
-                #print(timerstring(),"Merged databases")
                 print("Elements:",alldata.size,"Shape:",alldata.shape)
     return alldata
-#data is in alldata
 
-alldata = load_all_data()
+#aggregated_data = gpd.read_file("AGGREGATED_DATA/_agg_LOBSTERS.shp")
+path="assets/Light_server/SIMPLIFIED_DATA"
+path="assets/Mammals_server/SIMPLIFIED_DATA"
+alldata = load_all_data(path)
+print("Finished loading all simplified habitat data")
 print(alldata)
 
 #aggregated_data = gpd.read_file("AGGREGATED_DATA/_agg_LOBSTERS.shp")
-aggregated_data = gpd.read_file("assets/AGG/_agg_LOBSTERS.shp")
+path="assets/Light_server/AGGREGATED_DATA"
+path="assets/Mammals_server/AGGREGATED_DATA"
+aggregated_data = load_all_data(path)
+print("Finished loading all available aggregated data")
+print(aggregated_data)
+
+
 
 categories=['DD', 'LC', 'LR/lc', 'NT', 'LR/cd', 'VU', 'EN', 'CR', 'EW', "EX"]
 palette=categories
@@ -91,47 +86,46 @@ color_of_category = {cat:cat_colors[id] for (id,cat) in enumerate(cat_names)}
 
 
 def generate_table(dataframe, max_rows=10):
-    dataframe=dataframe.filter(["binomial","kingdom","phylum","class","order_","family","genus","category"])
+    selection = ["binomial","kingdom","phylum","class","order_","family","genus","category"]
+    limit = dataframe.columns
+    selection = [x for x in selection if x in limit]
+    dataframe=dataframe.filter(selection)
     return html.Table([
         html.Thead(
-            html.Tr([html.Th(col) for col in dataframe.columns[:-2]])
+            html.Tr([html.Th(col) for col in selection])
             ),
             html.Tbody([
                 html.Tr([
-                    html.Td(dataframe.iloc[i][col]) for col in dataframe.columns[:-2] 
+                    html.Td(dataframe.iloc[i][col]) for col in selection 
                 ])for i in range(min(len(dataframe),max_rows))
             ])
         ])
 
-# print(alldata.head(10))
-# print(alldata.columns)
 
-print("My crs:",alldata.crs)
+# print("My crs:",alldata.crs)
 
-point_coords = [0,0]
+# def subset_by(database, column=None, identifier=None, terrains=None, categories=None):
+    # return subset(database, (column, identifier, terrains, categories))
 
-def subset_by(database, column=None, identifier=None, terrains=None, categories=None):
-    return subset(database, (column, identifier, terrains, categories))
-
-def subset(database, selector):
-    column, identifier, terrains, categories = selector
-    if(column!="global" and column!=None):
-        database = database[database[column]==identifier]
-    if(terrains!=None):
-        all_terrains = ("marine","terrestial","freshwater")
-        truth = [t in terrains and "true" or "irrelevant" for t in all_terrains]
-        marine,terrestial,freshwater = truth
-        database = database[(database["marine"]==marine) | (database["terrestial"]==terrestial) | (database["freshwater"]==freshwater)]
-    if(categories!=None):
-        database = database.loc[database["category"].isin(categories)]
-    return database
+# def subset(database, selector):
+    # column, identifier, terrains, categories = selector
+    # if(column!="global" and column!=None):
+        # database = database[database[column]==identifier]
+    # if(terrains!=None):
+        # all_terrains = ("marine","terrestial","freshwater")
+        # truth = [t in terrains and "true" or "irrelevant" for t in all_terrains]
+        # marine,terrestial,freshwater = truth
+        # database = database[(database["marine"]==marine) | (database["terrestial"]==terrestial) | (database["freshwater"]==freshwater)]
+    # if(categories!=None):
+        # database = database.loc[database["category"].isin(categories)]
+    # return database
 
 def recalculate_intersection(point_coords):
     #global intersection
     point = gpd.GeoSeries(Point(point_coords))
     point=gpd.GeoDataFrame(geometry=point)
     point.set_crs(epsg=4326,inplace=True)
-    print("Point's crs:",point.crs)
+    # print("Point's crs:",point.crs)
     # print(selected_categories)
     # relevant_data = alldata.loc[alldata["category"].isin(selected_categories)]
     intersection = gpd.sjoin(alldata, point, op='intersects')
@@ -140,11 +134,7 @@ def recalculate_intersection(point_coords):
     return intersection
     
     
-    
-import plotly.graph_objects as go
 
-import pprint
-import pyproj
 
 def update_map_agg(geodata,levels,terrain,crosshair):
     def get_color(cat):
@@ -153,14 +143,18 @@ def update_map_agg(geodata,levels,terrain,crosshair):
     geodata.to_crs(pyproj.CRS.from_epsg(4326), inplace=True)
     geodata = geodata[geodata['category'].isin(levels)]
     geodata["index"]=geodata.index
-    geodata["identifier"]="Lobster"
-    geodata["id_type"]="order_"
+    #geodata["identifier"]="Lobster"
+    #geodata["id_type"]="order_"
     # columns = ["binomial","kingdom","phylum","class","order_","family","genus","category"]
     
     columns = ["identifier","id_type","category"]
+    columns = ["category"]
     def get_full_name(color):
         return cat_names[color]
     geodata["category"]=geodata["color"].apply(get_full_name)
+    def get_file_name(origin):
+        return origin[5:-4]
+    geodata["origin"]=geodata["origin"].apply(get_file_name)
     show = {c:True for c in columns}
     show["color"]=False
     show["index"]=False
@@ -173,6 +167,7 @@ def update_map_agg(geodata,levels,terrain,crosshair):
             color_discrete_map=color_of_category,
             mapbox_style="carto-positron",
             hover_data=show,
+            hover_name=geodata["origin"],
             opacity=1
             )
     else:
@@ -183,6 +178,7 @@ def update_map_agg(geodata,levels,terrain,crosshair):
             color_discrete_map=color_of_category,
             mapbox_style="carto-positron",
             hover_data=show,
+            hover_name=geodata["origin"],
             opacity=0.8
             )
     fig.update_layout(uirevision="don't update")
@@ -194,7 +190,7 @@ def update_map_agg(geodata,levels,terrain,crosshair):
     return fig
     
 
-def update_map_any(geodata,levels,terrain,crosshair):
+def update_map_select(geodata,levels,terrain,crosshair):
     def get_color(cat):
         return palette.index(cat)
     
@@ -206,10 +202,13 @@ def update_map_any(geodata,levels,terrain,crosshair):
     ticks = [i for i in range(max_color)]
     # geodata=geodata.filter(["color","geometry","category"])
     geodata = geodata[geodata['category'].isin(levels)]
-    print("####Received geodata:",len(geodata))
-    print(geodata.head())
+    def get_file_name(origin):
+        return origin[5:-4]
+    geodata["origin"]=geodata["origin"].apply(get_file_name)
+    # print("####Received geodata:",len(geodata))
+    # print(geodata.head())
     geodata["index"]=geodata.index
-    columns = ["binomial","kingdom","phylum","class","order_","family","genus","category"]
+    columns = ["category","origin","kingdom","phylum","class","order_","family","genus"]
     
     def get_full_name(color):
         return cat_names[color]
@@ -227,11 +226,9 @@ def update_map_any(geodata,levels,terrain,crosshair):
             color_discrete_map=color_of_category,
             mapbox_style="carto-positron",
             hover_data=show,
+            hover_name=geodata["binomial"],
             opacity=0.5
             )
-        # fig = px.choropleth_mapbox(mapbox_style="carto-positron")
-        # fig.update_layout(uirevision="don't update")
-        # return fig
     else:
         fig = px.choropleth_mapbox(geodata,
             geojson=geodata.geometry,
@@ -240,28 +237,11 @@ def update_map_any(geodata,levels,terrain,crosshair):
             color_discrete_map=color_of_category,
             mapbox_style="carto-positron",
             hover_data=show,
+            hover_name=geodata["binomial"],
             opacity=0.5
             )
-    # fig.update_geos(
-        # projection={"type": "cassini"}
-        # )
-    # fig.update_layout(margin={'r':0,'t':0,'l':0,'b':0},
     # fig.update_geos(fitbounds="locations")
     fig.update_layout(uirevision="don't update")
-    # fig.update_layout(
-    # coloraxis_colorbar={
-        # 'title':'Extinction rate',
-        # 'tickvals':values,
-        # 'ticktext':cat_names        
-        # }
-    # )   
-    #print("/"*20)
-    # print(fig.layout.xaxis.range)
-    # print(fig.layout.yaxis.range)
-    # print(dir(app.layout["map_graph"]))
-    # print(app.layout["map_graph"]["relayoutData"])
-    # print(app.layout["map_graph"].xaxis.range)
-    # print(app.layout["map_graph"].layout.yaxis.range)
     # fig.update_layout(height=300, margin={"r":0,"t":0,"l":0,"b":0})
     
     # coordinates = [[-180, 89],
@@ -282,10 +262,10 @@ def update_map_any(geodata,levels,terrain,crosshair):
             # )
     # fig.show()
     x,y=crosshair
+    fig.add_scattermapbox(lat = [x],lon = [y])
     # fig.add_shape(type="line",x0=x-1, y0=y, x1=x+1, y1=y)
     # fig.add_shape(type="line",x0=x, y0=y-1, x1=x, y1=y+1)
     
-    fig.add_scattermapbox(lat = [x],lon = [y])
     return fig
 
 plotlyConfig = {'topojsonURL':'http://127.0.0.1:%i/assets/'%5500} 
@@ -313,8 +293,8 @@ app.layout = html.Div(
     html.Div(children=[
         html.Label(id="animals_count"),
         " animals at ",
-        dcc.Input(id='longitude', value=str(point_coords[0]), type='number'),
-        dcc.Input(id='latitude', value=str(point_coords[1]), type='number')
+        dcc.Input(id='longitude', value="0", type='number'),
+        dcc.Input(id='latitude', value="0", type='number')
     ]),
     html.Button('Submit', id='submit_coords', n_clicks=0),
     dcc.Graph(id="map_graph",config=plotlyConfig), 
@@ -486,7 +466,7 @@ def update_graph_selection(selection_shapes,classes,habitats,longitude,latitude,
         #gdf.set_crs(epsg=4326,inplace=True)
         #print("Geodata received size",len(gdf))
         gdf = selected_shapes
-        graph = update_map_any(gdf,classes,habitats,point)
+        graph = update_map_select(gdf,classes,habitats,point)
     return graph
 
 @app.callback(
