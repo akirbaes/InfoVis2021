@@ -1,3 +1,8 @@
+#extinction_category {
+	font-size: 18px;
+	font-weight: 800;
+}
+
 #extinction_category label:nth-child(1){
 background-color: #d4d4d4
 }
@@ -34,6 +39,50 @@ background-color: #fdb524
 background-color: #ff3e4c
 }
 
+#bigdiv{
+  position: relative;
+  /*border: 3px solid green;*/
+}
+
+#crosshair{
+	position: absolute;
+	left:1000px;
+	top:400px;
+}
+
+
+#map_graph{
+  position: absolute;
+	left:0px;
+  /*border: 3px solid blue;*/
+}
+#div_right {
+  position: absolute;
+  right: 0px;
+  left: 1000px;
+  /*border: 3px solid red;*/
+}
+table {
+    width: 750px; 
+    border-spacing: 0;
+}
+thead, tbody { display: block; 
+font-size: 12px;
+font-family: 'Courier New', monospace;}
+
+tbody {
+    height: 400px;      
+    overflow-y: auto;   
+    overflow-x: hidden;
+}
+
+tbody td, thead th {
+    width: 150px;
+}
+thead th:last-child {
+    width: 130px; 
+}
+/*https://stackoverflow.com/questions/17067294/html-table-with-100-width-with-vertical-scroll-inside-tbody*/
 .is-focused:not(.is-open) > .Select-control {
   border-color: darkorange;
   box-shadow: 0 0 0 3px #fcba0366;

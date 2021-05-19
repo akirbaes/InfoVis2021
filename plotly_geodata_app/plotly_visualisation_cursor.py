@@ -117,7 +117,7 @@ def generate_table(dataframe, max_rows=10):
     selection = ["binomial","kingdom","phylum","class","order_","family","genus","category"]
     limit = dataframe.columns
     selection = [x for x in selection if x in limit]
-    dataframe=dataframe.filter(selection)
+    dataframe=dataframe.filter(selection).drop_duplicates(ignore_index=True)
     
     
     return html.Table([
@@ -511,7 +511,7 @@ def update_location(relayoutData):
 def update_selection(selected_database_name,n_clicks,mouse_coords):
     x,y = (float(i) for i in mouse_coords.split())
     print(dash.callback_context.triggered)
-    
+    ctx = dash.callback_context
     # print("*"*20,relayoutData)
     # if(selectedData and "range" in selectedData):
         # #https://dash.plotly.com/interactive-graphing
@@ -537,6 +537,8 @@ def update_selection(selected_database_name,n_clicks,mouse_coords):
                             # 'y0': ranges['y'][0], 'y1': ranges['y'][1]}
         # point = (ranges['x'][0],ranges['y'][0])
     else:
+        if(ctx.triggered!=None and "mouse_coord" in ctx.triggered[0]['prop_id'].split('.')[0]):
+            raise PreventUpdate
         #raise PreventUpdate
         #point = (float(longitude),float(latitude))
         selected_animals = alldata[alldata["origin"]==selected_database_name]
@@ -571,10 +573,8 @@ import json
 def update_graph_selection(classes,selected_database_name,selection_text,mouse_coords):
     ctx = dash.callback_context
     if(selection_text=="the world"):
-        #and ctx.triggered and ctx.triggered[0]['prop_id'].split('.')[0] in ["selected_database_text","extinction_category","selection_brag"]):
-        """try: 
-            if "selection_brag" in ctx.triggered["prop_id"] or
-                "selected_database_text" in  ctx.triggered["prop_id"]"""
+        #if(ctx.triggered!=None and (ctx.triggered[0]['prop_id'].split('.')[0] not in ["selected_database_text","extinction_category"])):
+        #    raise PreventUpdate
         graph=update_map_agg(aggregated_data[aggregated_data["origin"]==selected_database_name],classes)
     else:
         x,y = (float(i) for i in mouse_coords.split())
