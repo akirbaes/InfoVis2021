@@ -104,15 +104,15 @@ timer(2)
 path="databases/SMALLER_AGGREGATED_DATA"
 aggregated_data = load_names(groupnames,path)
 print(timerstring(2),"Finished loading all available aggregated data")
-for entry in aggregated_data.values():
-    print(entry)
+# for entry in aggregated_data.values():
+    # print(entry)
 
 timer(2)
 path="databases/SMALLER_DATABASE_CLEAN_2"
 alldata = load_names(groupnames,path)
 print(timerstring(2),"Finished loading all habitat data")
-for entry in alldata.values():
-    print(entry)
+# for entry in alldata.values():
+    # print(entry)
 
 
 import dash_table
@@ -406,7 +406,7 @@ def set_selected_dbname(*nclicks):
     Output("mouse_coord","children"),
     Input("map_graph","relayoutData"))
 def update_location(relayoutData):
-    print("Relayout data",relayoutData)
+    # print("Relayout data",relayoutData)
     if(relayoutData and 'mapbox.center' in relayoutData):
         y=relayoutData["mapbox.center"]["lon"]
         x=relayoutData["mapbox.center"]["lat"] 
@@ -446,7 +446,7 @@ def update_selection(selected_database_name,n_clicks,mouse_coords,extinction_cla
     y,x = (float(i) for i in mouse_coords.split())
     global selected_shapes
     ctx = check_context(dash.callback_context)
-    print("Context for update selection:",ctx)
+    # print("Context for update selection:",ctx)
     # print("*"*20,relayoutData)
     # if(selectedData and "range" in selectedData):
         # #https://dash.plotly.com/interactive-graphing
@@ -464,19 +464,19 @@ def update_selection(selected_database_name,n_clicks,mouse_coords,extinction_cla
         else:
             current_mode="aggregate"
             selected_shapes = []
-    print("Selected database:",selected_database_name)
+    # print("Selected database:",selected_database_name)
     if(selected_database_name!=None):
-        print("Current mode:",current_mode)
+        # print("Current mode:",current_mode)
         if(current_mode=="crosshair"):
             point = (x,y)
-            print("Clicked at",point)
-            print(selected_database_name,selected_database_name in groupnames)
+            # print("Clicked at",point)
+            # print(selected_database_name,selected_database_name in groupnames)
             sel=recalculate_intersection(point,selected_database_name)
             # print("<<<<<<<<<<selection of size",len(sel))
-            print(sel[["binomial","category"]])
+            # print(sel[["binomial","category"]])
             selected_shapes = sel
             gen = generate_table(selected_shapes,extinction_classes,1000)
-            print(gen)
+            # print(gen)
             return gen, len(selected_shapes), "%.2f %.2f"%(x,y)
         else: #aggregate mode
             if(ctx==["mouse_coord"]):
@@ -524,9 +524,9 @@ def update_graph_selection(extinction_classes,selected_database_name,selection_t
             print("NO SELECTED SHAPE DETECTED")
             return instruction, unchanged_graph
         y,x = (float(i) for i in mouse_coords.split())
-        print("Sending %i selected shapes to graph..."%len(selected_shapes))
+        # print("Sending %i selected shapes to graph..."%len(selected_shapes))
         gdf = selected_shapes
-        print(gdf)
+        # print(gdf)
         graph = update_map_select(gdf,extinction_classes,(y,x))
         instruction = "Updating graph, please wait"
     return instruction, graph
@@ -545,8 +545,8 @@ def update_graph_selection(extinction_classes,selected_database_name,selection_t
     Output("i2","value"),
     Input('map_graph', 'figure'))
 def update_instructions_graph(fig):
-    print("Entered Update Graph callback")
-    print(bool(unchanged_graph),bool(len(selected_shapes)))
+    # print("Entered Update Graph callback")
+    # print(bool(unchanged_graph),bool(len(selected_shapes)))
     #print(unchanged_graph)
     if(unchanged_graph):
         if(len(selected_shapes)==0):
@@ -565,10 +565,10 @@ def update_instructions_graph(fig):
     Input("update_node","value"), 
     prevent_initial_call=True)
 def update_instructions_funnel(i1,i2,u1):
-    print("Entered I1I2 callback")
-    print(i1,i2)
+    # print("Entered I1I2 callback")
+    # print(i1,i2)
     ctx = check_context(dash.callback_context)
-    print(ctx)
+    # print(ctx)
     if("i2" in ctx):
         return i2
     elif("i1" in ctx):
@@ -579,4 +579,4 @@ def update_instructions_funnel(i1,i2,u1):
 
 if __name__ == "__main__":
     app.layout=layout
-    app.run_server(debug=True)
+    app.run_server()
