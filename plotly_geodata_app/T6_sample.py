@@ -1,9 +1,11 @@
-# python D:\DAMA_Notes\Semester2\IV\project\myCodes\T6_sample.py
+# This is the code where we visualise statistical data and temporal data
+# We also included the spatial data visualisation within the code
+
+# run comment: python T6_sample.py
 
 import pandas as pd
 import matplotlib.pyplot as plt
 import pycountry  # generate country code  based on country name 
-# import pysal
 import os
 import numpy as np
 import plotly.graph_objects as go
@@ -20,16 +22,17 @@ import os
 app = dash.Dash(__name__)
 
 
-# Visualizaing Table 6
-# Tab2=pd.read_csv(os.path.relpath('InfoVis2021/Table6_processed/redlist/processedTable/table2_processed_main.csv'))
-Tab2=pd.read_csv(('table2_processed_main.csv'))
-Tab2_CR=Tab2[Tab2['Threatened_category']=='CR']
-Tab2_EN=Tab2[Tab2['Threatened_category']=='EN']
-Tab2_VU=Tab2[Tab2['Threatened_category']=='VU']
+# https://plotly.com/python/animations/
+# Visualizaing Table 2
+Tab2=pd.read_csv(('table2_processed_main.csv'))         # reading the preprocessed table 2 csv file
+Tab2_CR=Tab2[Tab2['Threatened_category']=='CR']         # filter the critically endangered
+Tab2_EN=Tab2[Tab2['Threatened_category']=='EN']         # filter the threatened endangered
+Tab2_VU=Tab2[Tab2['Threatened_category']=='VU']         # filter the vulnerable
 
 years = ["1996", "1998", "2000", "2002", "2003", "2004", "2006", "2007", "2008", "2009","2010"
         ,"2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020"]
-         
+
+# function to generate the bar chart with years in the slider
 def barchart_tab2(bar_categ,threat_limit):
     Tab2_bar=px.bar(
         data_frame=bar_categ,
@@ -58,6 +61,8 @@ def barchart_tab2(bar_categ,threat_limit):
     )
     return Tab2_bar
 
+# generate bar charts with slider for each category by passing the filtered data into the function
+# and store them into objects
 CR_bar= barchart_tab2(Tab2_CR,[0,8000])
 EN_bar= barchart_tab2(Tab2_EN,[0,14000])
 VU_bar= barchart_tab2(Tab2_VU,[0,15000])
@@ -68,21 +73,20 @@ bar_tab2_animations={
     'Vulnerable (VU)':VU_bar
 }
 
+# https://plotly.com/python/choropleth-maps/
 # Visualizaing Table 6
-Tab6=pd.read_csv('Tab6_CountryCode.csv')
+Tab6=pd.read_csv('Tab6_CountryCode.csv')                            # read the preprocessed table 6 data from csv
 
-Tab6_animal = Tab6.query('species=="animal"', inplace = False)
-Tab6_plant = Tab6.query('species=="plant"', inplace = False)
-Tab6_chromist = Tab6.query('species=="chromist"', inplace = False)
-Tab6_fungi = Tab6.query('species=="fungus"', inplace = False)
+Tab6_animal = Tab6.query('species=="animal"', inplace = False)      # filter data related to animals
+Tab6_plant = Tab6.query('species=="plant"', inplace = False)        # filter data related to plants
+Tab6_chromist = Tab6.query('species=="chromist"', inplace = False)  # filter data related to chromist
+Tab6_fungi = Tab6.query('species=="fungus"', inplace = False)       # filter data related to fungus
 
+# function to create choropeth map 
 def createGraph(table,heading,colorbarTitle,colorScale,visible):
     data=go.Choropleth(
         locations = table['CODE'],
         z = table['Total'].replace(',','', regex=True).astype(int),
-        # zmax=10000,
-        # zmin=1000,
-        # zmid=5000,
         zauto=True,
         meta= table['Name']+";"+ table['EX'].astype(str)
                         +";"+ table['EW'].astype(str)
@@ -94,10 +98,7 @@ def createGraph(table,heading,colorbarTitle,colorScale,visible):
                         +";"+ table['LR/cd'].astype(str)
                         +";"+ table['NT or LR/nt'].astype(str)
                         +";"+ table['LC or LR/lc'].astype(str)
-                        +";"+ table['DD'].astype(str),
-        
-        
-        
+                        +";"+ table['DD'].astype(str), 
         text = table['Name'],
         colorscale = colorScale,
         autocolorscale=False,
@@ -107,11 +108,12 @@ def createGraph(table,heading,colorbarTitle,colorScale,visible):
         colorbar_title = heading,
         visible = visible,
     )
-
     return data
-    # data.write_html("D:\DAMA_Notes\Semester2\IV\project\myCodes\\animalPlotted.html")
 
+# generate the choropeth maps for animals, plants, fungi and chromist 
+# and store them into objects
 
+# color code for kingdom animalia
 animalColorScale=[[0, 'rgb(254,229,217)'], 
                     [0.25, 'rgb(252,174,145)'],
                     [0.5, 'rgb(251,106,74)'],
@@ -119,6 +121,7 @@ animalColorScale=[[0, 'rgb(254,229,217)'],
                 ]
 animalFig=createGraph(Tab6_animal,"Threatened Animals","Threatened Animals",animalColorScale,True)
 
+# color code for kingdom plantae
 plantColorScale=[[0, 'rgb(237,248,233)'], 
                     [0.25, 'rgb(186,228,179)'],
                     [0.5, 'rgb(116,196,118)'],
@@ -126,6 +129,7 @@ plantColorScale=[[0, 'rgb(237,248,233)'],
                 ]
 plantFig=createGraph(Tab6_plant,"Threatened Plants","Threatened Plants",plantColorScale,False)
 
+# color code for kingdom fungi
 fungiColorScale=[[0, 'rgb(254,237,222)'], 
                     [0.25, 'rgb(253,190,133)'],
                     [0.5, 'rgb(253,141,60)'],
@@ -133,6 +137,7 @@ fungiColorScale=[[0, 'rgb(254,237,222)'],
                 ]    
 fungiFig = createGraph(Tab6_fungi,"Threatened Fungi","Threatened Fungi",fungiColorScale,False)
 
+# color code for kingdom chromista
 chromistColorScale=[[0, 'rgb(239,243,255)'], 
                     [0.25, 'rgb(189,215,231)'],
                     [0.5, 'rgb(107,174,214)'],
@@ -140,6 +145,7 @@ chromistColorScale=[[0, 'rgb(239,243,255)'],
                 ]    
 chromistFig = createGraph(Tab6_chromist,"Threatened Chromist","Threatened Chromist",chromistColorScale,False)
 
+# Array of Kingdoms
 graphToShow=[animalFig,plantFig,fungiFig,chromistFig]
 labels = ["Animal","Plant","Fungi","Chromist"]
 # is going to be visible
@@ -147,6 +153,7 @@ visible = np.array(labels)
 
 traces = []
 buttons = []
+# create drop downlist to select between animals, plansts, fungi or chromist
 for value in labels:
     buttons.append(dict(label=value,
                         method='update',
@@ -159,25 +166,29 @@ updatemenus = [{"active":0,
                 "buttons":buttons,
                 "direction": 'up',
                 }]       
-# Show figure
+# Show figure with option to select them from drop downlist
 speciesFig = go.Figure(data=graphToShow,
                 layout=dict(updatemenus=updatemenus))
-                # speciesFig = go.Figure(data=traces,
-                # layout=dict(updatemenus=updatemenus))
+
 # This is in order to get the first title displayed correctly
 first_title = labels[0]
 speciesFig.update_layout(title=f"<b>{first_title}</b>",title_x=0.5)
 
+# import the plotly_visualisation_cursor to include in the main application
 from plotly_visualisation_cursor import *
 
 # http://127.0.0.1:8050/
 # https://www.phillipsj.net/posts/creating-maps-with-dash/
+
+#create the HTML app and include all the figures generated 
 app.layout = html.Div(children=[
+    # Navigation bar
     html.H1(
         className="app-header",
         children=[
             html.Div('Red List', className="app-header--title")
-        ]),    
+        ]), 
+    # side bar   
     html.Div(
         id="custom",
         className="custom",
@@ -207,11 +218,13 @@ app.layout = html.Div(children=[
         html.Div(style={'margin-top': '541px','height':'20px','border-bottom':'solid 2px black'},
                 id="details12",className="sidebar"),                      
     ]),
+    # chorpleth map as per the selected kingdom
     dcc.Graph(
         className="custom",
         id='example-map',
         figure=speciesFig
     ),
+    # Bar chart visualization as per the selected threatened category
     html.Div([
         html.P("Select the threatened category:"),
         dcc.RadioItems(
@@ -219,6 +232,9 @@ app.layout = html.Div(children=[
             options=[{'label': x, 'value': x} for x in bar_tab2_animations],
             value='Critically Endangered (CR)'
         ),
+        html.Div(
+            '(NOTE: Please drag and select the bars if you need to see the rate of an individual taxonomic group)',
+            style={'color': 'blue','font-size':'13px'}),
         dcc.Graph(id="graph"),
     ])
     ,
@@ -239,7 +255,6 @@ def update_figure(value):
     meta = ""
     metaData =["","","","","","","","","","","",""]  
     print(value)
-
     return(bar_tab2_animations[value])
 
 
@@ -270,9 +285,7 @@ def update_meta(clickData):
         meta = clickData['points'][0]['meta']
         print(name)
         metaData=meta.split(";")
-    
-
-
+    # returning data for corresponding clicked country
     return ([metaData[0],
     "Extinct: {}".format(metaData[1]),
     "Extinct in the Wild: {}".format(metaData[2]),
@@ -288,4 +301,4 @@ def update_meta(clickData):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server()

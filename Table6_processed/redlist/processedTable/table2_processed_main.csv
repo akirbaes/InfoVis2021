@@ -1,0 +1,631 @@
+Year,Threatened_category,Classification_organism,Number_of_Species
+1996,CR,Mammals,169
+1996,EN,Mammals,315
+1996,VU,Mammals,612
+1996,CR,Birds,168
+1996,EN,Birds,235
+1996,VU,Birds,704
+1996,CR,Amphibians,18
+1996,EN,Amphibians,31
+1996,VU,Amphibians,75
+1996,CR,Fishes,157
+1996,EN,Fishes,134
+1996,VU,Fishes,443
+1996,CR,  Insects,44
+1996,EN,  Insects,116
+1996,VU,  Insects,377
+1996,CR,Molluscs,257
+1996,EN,Molluscs,212
+1996,VU,Molluscs,451
+1996,CR,Other invertebrates,57
+1996,EN,Other invertebrates,76
+1996,VU,Other invertebrates,300
+1996,CR,Plants,909
+1996,EN,Plants,1197
+1996,VU,Plants,3222
+1996,CR,Fungi &protists,0
+1996,EN,Fungi &protists,0
+1996,VU,Fungi &protists,0
+1996,CR,TOTAL,1820
+1996,EN,TOTAL,2375
+1996,VU,TOTAL,6337
+1998,CR,Mammals,169
+1998,EN,Mammals,315
+1998,VU,Mammals,612
+1998,CR,Birds,168
+1998,EN,Birds,235
+1998,VU,Birds,704
+1998,CR,Amphibians,18
+1998,EN,Amphibians,31
+1998,VU,Amphibians,75
+1998,CR,Fishes,157
+1998,EN,Fishes,134
+1998,VU,Fishes,443
+1998,CR,  Insects,44
+1998,EN,  Insects,116
+1998,VU,  Insects,377
+1998,CR,Molluscs,257
+1998,EN,Molluscs,212
+1998,VU,Molluscs,451
+1998,CR,Other invertebrates,57
+1998,EN,Other invertebrates,76
+1998,VU,Other invertebrates,300
+1998,CR,Plants,909
+1998,EN,Plants,1197
+1998,VU,Plants,3222
+1998,CR,Fungi &protists,0
+1998,EN,Fungi &protists,0
+1998,VU,Fungi &protists,0
+1998,CR,TOTAL,1820
+1998,EN,TOTAL,2375
+1998,VU,TOTAL,6337
+2000,CR,Mammals,180
+2000,EN,Mammals,340
+2000,VU,Mammals,610
+2000,CR,Birds,182
+2000,EN,Birds,321
+2000,VU,Birds,680
+2000,CR,Amphibians,25
+2000,EN,Amphibians,38
+2000,VU,Amphibians,83
+2000,CR,Fishes,156
+2000,EN,Fishes,144
+2000,VU,Fishes,452
+2000,CR,  Insects,45
+2000,EN,  Insects,118
+2000,VU,  Insects,392
+2000,CR,Molluscs,222
+2000,EN,Molluscs,237
+2000,VU,Molluscs,479
+2000,CR,Other invertebrates,59
+2000,EN,Other invertebrates,76
+2000,VU,Other invertebrates,300
+2000,CR,Plants,1014
+2000,EN,Plants,1266
+2000,VU,Plants,3331
+2000,CR,Fungi &protists,0
+2000,EN,Fungi &protists,0
+2000,VU,Fungi &protists,0
+2000,CR,TOTAL,1939
+2000,EN,TOTAL,2614
+2000,VU,TOTAL,6488
+2002,CR,Mammals,181
+2002,EN,Mammals,339
+2002,VU,Mammals,617
+2002,CR,Birds,182
+2002,EN,Birds,326
+2002,VU,Birds,684
+2002,CR,Amphibians,30
+2002,EN,Amphibians,37
+2002,VU,Amphibians,90
+2002,CR,Fishes,157
+2002,EN,Fishes,143
+2002,VU,Fishes,442
+2002,CR,  Insects,46
+2002,EN,  Insects,118
+2002,VU,  Insects,393
+2002,CR,Molluscs,222
+2002,EN,Molluscs,236
+2002,VU,Molluscs,481
+2002,CR,Other invertebrates,59
+2002,EN,Other invertebrates,77
+2002,VU,Other invertebrates,300
+2002,CR,Plants,1046
+2002,EN,Plants,1291
+2002,VU,Plants,3377
+2002,CR,Fungi &protists,0
+2002,EN,Fungi &protists,0
+2002,VU,Fungi &protists,0
+2002,CR,TOTAL,1978
+2002,EN,TOTAL,2646
+2002,VU,TOTAL,6543
+2003,CR,Mammals,184
+2003,EN,Mammals,337
+2003,VU,Mammals,609
+2003,CR,Birds,182
+2003,EN,Birds,331
+2003,VU,Birds,681
+2003,CR,Amphibians,30
+2003,EN,Amphibians,37
+2003,VU,Amphibians,90
+2003,CR,Fishes,162
+2003,EN,Fishes,144
+2003,VU,Fishes,444
+2003,CR,  Insects,46
+2003,EN,  Insects,118
+2003,VU,  Insects,389
+2003,CR,Molluscs,250
+2003,EN,Molluscs,243
+2003,VU,Molluscs,474
+2003,CR,Other invertebrates,61
+2003,EN,Other invertebrates,76
+2003,VU,Other invertebrates,302
+2003,CR,Plants,1276
+2003,EN,Plants,1634
+2003,VU,Plants,3864
+2003,CR,Fungi &protists,1
+2003,EN,Fungi &protists,1
+2003,VU,Fungi &protists,0
+2003,CR,TOTAL,2249
+2003,EN,TOTAL,2999
+2003,VU,TOTAL,7011
+2004,CR,Mammals,162
+2004,EN,Mammals,352
+2004,VU,Mammals,587
+2004,CR,Birds,179
+2004,EN,Birds,345
+2004,VU,Birds,688
+2004,CR,Amphibians,413
+2004,EN,Amphibians,729
+2004,VU,Amphibians,628
+2004,CR,Fishes,171
+2004,EN,Fishes,160
+2004,VU,Fishes,470
+2004,CR,  Insects,47
+2004,EN,  Insects,120
+2004,VU,  Insects,392
+2004,CR,Molluscs,265
+2004,EN,Molluscs,221
+2004,VU,Molluscs,488
+2004,CR,Other invertebrates,61
+2004,EN,Other invertebrates,82
+2004,VU,Other invertebrates,316
+2004,CR,Plants,1490
+2004,EN,Plants,2239
+2004,VU,Plants,4592
+2004,CR,Fungi &protists,1
+2004,EN,Fungi &protists,1
+2004,VU,Fungi &protists,0
+2004,CR,TOTAL,2853
+2004,EN,TOTAL,4328
+2004,VU,TOTAL,8322
+2006,CR,Mammals,162
+2006,EN,Mammals,348
+2006,VU,Mammals,583
+2006,CR,Birds,181
+2006,EN,Birds,351
+2006,VU,Birds,674
+2006,CR,Amphibians,442
+2006,EN,Amphibians,738
+2006,VU,Amphibians,631
+2006,CR,Fishes,253
+2006,EN,Fishes,237
+2006,VU,Fishes,681
+2006,CR,  Insects,68
+2006,EN,  Insects,129
+2006,VU,  Insects,426
+2006,CR,Molluscs,265
+2006,EN,Molluscs,222
+2006,VU,Molluscs,488
+2006,CR,Other invertebrates,84
+2006,EN,Other invertebrates,96
+2006,VU,Other invertebrates,323
+2006,CR,Plants,1541
+2006,EN,Plants,2258
+2006,VU,Plants,4591
+2006,CR,Fungi &protists,2
+2006,EN,Fungi &protists,1
+2006,VU,Fungi &protists,0
+2006,CR,TOTAL,3071
+2006,EN,TOTAL,4481
+2006,VU,TOTAL,8564
+2007,CR,Mammals,163
+2007,EN,Mammals,349
+2007,VU,Mammals,582
+2007,CR,Birds,189
+2007,EN,Birds,356
+2007,VU,Birds,672
+2007,CR,Amphibians,441
+2007,EN,Amphibians,737
+2007,VU,Amphibians,630
+2007,CR,Fishes,254
+2007,EN,Fishes,254
+2007,VU,Fishes,693
+2007,CR,  Insects,69
+2007,EN,  Insects,129
+2007,VU,  Insects,425
+2007,CR,Molluscs,268
+2007,EN,Molluscs,224
+2007,VU,Molluscs,486
+2007,CR,Other invertebrates,86
+2007,EN,Other invertebrates,96
+2007,VU,Other invertebrates,325
+2007,CR,Plants,1569
+2007,EN,Plants,2278
+2007,VU,Plants,4600
+2007,CR,Fungi &protists,2
+2007,EN,Fungi &protists,1
+2007,VU,Fungi &protists,0
+2007,CR,TOTAL,3120
+2007,EN,TOTAL,4563
+2007,VU,TOTAL,8617
+2008,CR,Mammals,188
+2008,EN,Mammals,448
+2008,VU,Mammals,505
+2008,CR,Birds,190
+2008,EN,Birds,361
+2008,VU,Birds,671
+2008,CR,Amphibians,475
+2008,EN,Amphibians,755
+2008,VU,Amphibians,675
+2008,CR,Fishes,289
+2008,EN,Fishes,269
+2008,VU,Fishes,717
+2008,CR,  Insects,70
+2008,EN,  Insects,132
+2008,VU,  Insects,424
+2008,CR,Molluscs,268
+2008,EN,Molluscs,224
+2008,VU,Molluscs,486
+2008,CR,Other invertebrates,99
+2008,EN,Other invertebrates,165
+2008,VU,Other invertebrates,628
+2008,CR,Plants,1575
+2008,EN,Plants,2280
+2008,VU,Plants,4602
+2008,CR,Fungi &protists,2
+2008,EN,Fungi &protists,1
+2008,VU,Fungi &protists,0
+2008,CR,TOTAL,3242
+2008,EN,TOTAL,4769
+2008,VU,TOTAL,8911
+2009,CR,Mammals,188
+2009,EN,Mammals,449
+2009,VU,Mammals,505
+2009,CR,Birds,192
+2009,EN,Birds,362
+2009,VU,Birds,669
+2009,CR,Amphibians,484
+2009,EN,Amphibians,754
+2009,VU,Amphibians,657
+2009,CR,Fishes,306
+2009,EN,Fishes,298
+2009,VU,Fishes,810
+2009,CR,  Insects,89
+2009,EN,  Insects,151
+2009,VU,  Insects,471
+2009,CR,Molluscs,291
+2009,EN,Molluscs,245
+2009,VU,Molluscs,500
+2009,CR,Other invertebrates,99
+2009,EN,Other invertebrates,164
+2009,VU,Other invertebrates,629
+2009,CR,Plants,1577
+2009,EN,Plants,2316
+2009,VU,Plants,4607
+2009,CR,Fungi &protists,2
+2009,EN,Fungi &protists,1
+2009,VU,Fungi &protists,0
+2009,CR,TOTAL,3321
+2009,EN,TOTAL,4890
+2009,VU,TOTAL,9074
+2010,CR,Mammals,188
+2010,EN,Mammals,450
+2010,VU,Mammals,493
+2010,CR,Birds,190
+2010,EN,Birds,372
+2010,VU,Birds,678
+2010,CR,Amphibians,486
+2010,EN,Amphibians,758
+2010,VU,Amphibians,654
+2010,CR,Fishes,376
+2010,EN,Fishes,400
+2010,VU,Fishes,1075
+2010,CR,  Insects,89
+2010,EN,  Insects,166
+2010,VU,  Insects,478
+2010,CR,Molluscs,373
+2010,EN,Molluscs,328
+2010,VU,Molluscs,587
+2010,CR,Other invertebrates,132
+2010,EN,Other invertebrates,183
+2010,VU,Other invertebrates,568
+2010,CR,Plants,1619
+2010,EN,Plants,2397
+2010,VU,Plants,4708
+2010,CR,Fungi &protists,2
+2010,EN,Fungi &protists,1
+2010,VU,Fungi &protists,0
+2010,CR,TOTAL,3561
+2010,EN,TOTAL,5255
+2010,VU,TOTAL,9529
+2011,CR,Mammals,194
+2011,EN,Mammals,447
+2011,VU,Mammals,497
+2011,CR,Birds,189
+2011,EN,Birds,382
+2011,VU,Birds,682
+2011,CR,Amphibians,498
+2011,EN,Amphibians,764
+2011,VU,Amphibians,655
+2011,CR,Fishes,414
+2011,EN,Fishes,477
+2011,VU,Fishes,1137
+2011,CR,  Insects,91
+2011,EN,  Insects,169
+2011,VU,  Insects,481
+2011,CR,Molluscs,487
+2011,EN,Molluscs,417
+2011,VU,Molluscs,769
+2011,CR,Other invertebrates,132
+2011,EN,Other invertebrates,183
+2011,VU,Other invertebrates,568
+2011,CR,Plants,1731
+2011,EN,Plants,2564
+2011,VU,Plants,4861
+2011,CR,Fungi &protists,2
+2011,EN,Fungi &protists,1
+2011,VU,Fungi &protists,0
+2011,CR,TOTAL,3875
+2011,EN,TOTAL,5688
+2011,VU,TOTAL,10001
+2012,CR,Mammals,196
+2012,EN,Mammals,446
+2012,VU,Mammals,497
+2012,CR,Birds,197
+2012,EN,Birds,389
+2012,VU,Birds,727
+2012,CR,Amphibians,509
+2012,EN,Amphibians,767
+2012,VU,Amphibians,657
+2012,CR,Fishes,415
+2012,EN,Fishes,494
+2012,VU,Fishes,1149
+2012,CR,  Insects,119
+2012,EN,  Insects,207
+2012,VU,  Insects,503
+2012,CR,Molluscs,549
+2012,EN,Molluscs,480
+2012,VU,Molluscs,828
+2012,CR,Other invertebrates,132
+2012,EN,Other invertebrates,183
+2012,VU,Other invertebrates,569
+2012,CR,Plants,1821
+2012,EN,Plants,2655
+2012,VU,Plants,4914
+2012,CR,Fungi &protists,2
+2012,EN,Fungi &protists,1
+2012,VU,Fungi &protists,0
+2012,CR,TOTAL,4084
+2012,EN,TOTAL,5918
+2012,VU,TOTAL,10211
+2013,CR,Mammals,196
+2013,EN,Mammals,447
+2013,VU,Mammals,500
+2013,CR,Birds,198
+2013,EN,Birds,397
+2013,VU,Birds,713
+2013,CR,Amphibians,520
+2013,EN,Amphibians,783
+2013,VU,Amphibians,647
+2013,CR,Fishes,413
+2013,EN,Fishes,530
+2013,VU,Fishes,1167
+2013,CR,  Insects,125
+2013,EN,  Insects,247
+2013,VU,  Insects,524
+2013,CR,Molluscs,553
+2013,EN,Molluscs,486
+2013,VU,Molluscs,859
+2013,CR,Other invertebrates,154
+2013,EN,Other invertebrates,224
+2013,VU,Other invertebrates,650
+2013,CR,Plants,1957
+2013,EN,Plants,3009
+2013,VU,Plants,5099
+2013,CR,Fungi &protists,2
+2013,EN,Fungi &protists,1
+2013,VU,Fungi &protists,0
+2013,CR,TOTAL,4282
+2013,EN,TOTAL,6453
+2013,VU,TOTAL,10545
+2014,CR,Mammals,213
+2014,EN,Mammals,477
+2014,VU,Mammals,509
+2014,CR,Birds,213
+2014,EN,Birds,419
+2014,VU,Birds,741
+2014,CR,Amphibians,518
+2014,EN,Amphibians,789
+2014,VU,Amphibians,650
+2014,CR,Fishes,443
+2014,EN,Fishes,587
+2014,VU,Fishes,1192
+2014,CR,  Insects,168
+2014,EN,  Insects,270
+2014,VU,  Insects,555
+2014,CR,Molluscs,576
+2014,EN,Molluscs,501
+2014,VU,Molluscs,873
+2014,CR,Other invertebrates,205
+2014,EN,Other invertebrates,307
+2014,VU,Other invertebrates,685
+2014,CR,Plants,2119
+2014,EN,Plants,3231
+2014,VU,Plants,5234
+2014,CR,Fungi &protists,2
+2014,EN,Fungi &protists,1
+2014,VU,Fungi &protists,0
+2014,CR,TOTAL,4631
+2014,EN,TOTAL,6938
+2014,VU,TOTAL,10836
+2015,CR,Mammals,209
+2015,EN,Mammals,481
+2015,VU,Mammals,507
+2015,CR,Birds,218
+2015,EN,Birds,416
+2015,VU,Birds,741
+2015,CR,Amphibians,528
+2015,EN,Amphibians,810
+2015,VU,Amphibians,656
+2015,CR,Fishes,446
+2015,EN,Fishes,614
+2015,VU,Fishes,1211
+2015,CR,  Insects,176
+2015,EN,  Insects,305
+2015,VU,  Insects,565
+2015,CR,Molluscs,576
+2015,EN,Molluscs,503
+2015,VU,Molluscs,871
+2015,CR,Other invertebrates,209
+2015,EN,Other invertebrates,311
+2015,VU,Other invertebrates,685
+2015,CR,Plants,2347
+2015,EN,Plants,3510
+2015,VU,Plants,5376
+2015,CR,Fungi &protists,5
+2015,EN,Fungi &protists,11
+2015,VU,Fungi &protists,13
+2015,CR,TOTAL,4894
+2015,EN,TOTAL,7322
+2015,VU,TOTAL,11028
+2016,CR,Mammals,204
+2016,EN,Mammals,464
+2016,VU,Mammals,526
+2016,CR,Birds,225
+2016,EN,Birds,448
+2016,VU,Birds,787
+2016,CR,Amphibians,546
+2016,EN,Amphibians,852
+2016,VU,Amphibians,670
+2016,CR,Fishes,461
+2016,EN,Fishes,660
+2016,VU,Fishes,1238
+2016,CR,  Insects,226
+2016,EN,  Insects,408
+2016,VU,  Insects,634
+2016,CR,Molluscs,586
+2016,EN,Molluscs,513
+2016,VU,Molluscs,885
+2016,CR,Other invertebrates,211
+2016,EN,Other invertebrates,312
+2016,VU,Other invertebrates,695
+2016,CR,Plants,2506
+2016,EN,Plants,3691
+2016,VU,Plants,5446
+2016,CR,Fungi &protists,8
+2016,EN,Fungi &protists,12
+2016,VU,Fungi &protists,14
+2016,CR,TOTAL,5210
+2016,EN,TOTAL,7781
+2016,VU,TOTAL,11316
+2017,CR,Mammals,202
+2017,EN,Mammals,476
+2017,VU,Mammals,526
+2017,CR,Birds,222
+2017,EN,Birds,461
+2017,VU,Birds,786
+2017,CR,Amphibians,552
+2017,EN,Amphibians,869
+2017,VU,Amphibians,679
+2017,CR,Fishes,468
+2017,EN,Fishes,676
+2017,VU,Fishes,1242
+2017,CR,  Insects,273
+2017,EN,  Insects,461
+2017,VU,  Insects,680
+2017,CR,Molluscs,625
+2017,EN,Molluscs,547
+2017,VU,Molluscs,1015
+2017,CR,Other invertebrates,243
+2017,EN,Other invertebrates,340
+2017,VU,Other invertebrates,709
+2017,CR,Plants,2722
+2017,EN,Plants,4123
+2017,VU,Plants,5660
+2017,CR,Fungi &protists,10
+2017,EN,Fungi &protists,18
+2017,VU,Fungi &protists,21
+2017,CR,TOTAL,5583
+2017,EN,TOTAL,8455
+2017,VU,TOTAL,11783
+2018,CR,Mammals,201
+2018,EN,Mammals,482
+2018,VU,Mammals,536
+2018,CR,Birds,224
+2018,EN,Birds,469
+2018,VU,Birds,799
+2018,CR,Amphibians,550
+2018,EN,Amphibians,903
+2018,VU,Amphibians,639
+2018,CR,Fishes,486
+2018,EN,Fishes,674
+2018,VU,Fishes,1172
+2018,CR,  Insects,300
+2018,EN,  Insects,537
+2018,VU,  Insects,700
+2018,CR,Molluscs,633
+2018,EN,Molluscs,546
+2018,VU,Molluscs,1016
+2018,CR,Other invertebrates,252
+2018,EN,Other invertebrates,348
+2018,VU,Other invertebrates,708
+2018,CR,Plants,2879
+2018,EN,Plants,4537
+2018,VU,Plants,5883
+2018,CR,Fungi &protists,14
+2018,EN,Fungi &protists,21
+2018,VU,Fungi &protists,24
+2018,CR,TOTAL,5826
+2018,EN,TOTAL,9032
+2018,VU,TOTAL,11982
+2019,CR,Mammals,203
+2019,EN,Mammals,505
+2019,VU,Mammals,536
+2019,CR,Birds,225
+2019,EN,Birds,461
+2019,VU,Birds,800
+2019,CR,Amphibians,588
+2019,EN,Amphibians,964
+2019,VU,Amphibians,648
+2019,CR,Fishes,592
+2019,EN,Fishes,868
+2019,VU,Fishes,1214
+2019,CR,  Insects,311
+2019,EN,  Insects,571
+2019,VU,  Insects,765
+2019,CR,Molluscs,667
+2019,EN,Molluscs,564
+2019,VU,Molluscs,1019
+2019,CR,Other invertebrates,270
+2019,EN,Other invertebrates,344
+2019,VU,Other invertebrates,710
+2019,CR,Plants,3229
+2019,EN,Plants,5727
+2019,VU,Plants,6818
+2019,CR,Fungi &protists,19
+2019,EN,Fungi &protists,60
+2019,VU,Fungi &protists,91
+2019,CR,TOTAL,6413
+2019,EN,TOTAL,10629
+2019,VU,TOTAL,13136
+2020,CR,Mammals,221
+2020,EN,Mammals,539
+2020,VU,Mammals,557
+2020,CR,Birds,223
+2020,EN,Birds,460
+2020,VU,Birds,798
+2020,CR,Amphibians,650
+2020,EN,Amphibians,1036
+2020,VU,Amphibians,704
+2020,CR,Fishes,666
+2020,EN,Fishes,1036
+2020,VU,Fishes,1338
+2020,CR,  Insects,347
+2020,EN,  Insects,690
+2020,VU,  Insects,811
+2020,CR,Molluscs,682
+2020,EN,Molluscs,586
+2020,VU,Molluscs,1032
+2020,CR,Other invertebrates,282
+2020,EN,Other invertebrates,347
+2020,VU,Other invertebrates,712
+2020,CR,Plants,4337
+2020,EN,Plants,7925
+2020,VU,Plants,8098
+2020,CR,Fungi &protists,30
+2020,EN,Fungi &protists,82
+2020,VU,Fungi &protists,127
+2020,CR,TOTAL,7762
+2020,EN,TOTAL,13285
+2020,VU,TOTAL,14718
