@@ -116,6 +116,7 @@ for entry in alldata.values():
 
 
 import dash_table
+
 def generate_table(dataframe, extinction_classes, max_rows=10):
     dataframe = dataframe[dataframe['category'].isin(extinction_classes)]
     dataframe = dataframe.sort_values(["color","area"],ascending=[False,True])
@@ -346,10 +347,10 @@ layout = html.Div(
         html.Img(id="cursor_center",src="assets/selector.png"),
         html.Div(children=[
         
-            html.Label("yes",id="update_node",style = dict(display='none')),
-            html.Label(id="work_node",style = dict(display='none')),
-            html.Label(id="i1",style = dict(display='none')),
-            html.Label(id="i2",style = dict(display='none')),
+            dcc.Input(value="yes",id="update_node",style = dict(display='none')),
+            dcc.Input(id="work_node",style = dict(display='none')),
+            dcc.Input(id="i1",style = dict(display='none')),
+            dcc.Input(id="i2",style = dict(display='none')),
             html.Label("Loading databases...",id="instructions"),
             html.Div(children=["Current database:",html.Label(id="selected_database_text")]),
             html.Div(children=[html.Button(dname, id=dname, n_clicks=0, disabled=not(dname in aggregated_data)) for dname in groupnames]),
@@ -436,10 +437,10 @@ def update_location(relayoutData):
     Input("selected_database_text","children"),
     Input("crosshair_selection","n_clicks"),
     Input("mouse_coord","children"),
-    State("selection_brag", "children"),
-    State("extinction_classes","values")
+    Input("extinction_category","value"),
+    State("selection_brag", "children")
 )
-def update_selection(selected_database_name,n_clicks,mouse_coords,current_selection,extinction_classes):
+def update_selection(selected_database_name,n_clicks,mouse_coords,extinction_classes,current_selection):
     y,x = (float(i) for i in mouse_coords.split())
     global selected_shapes
     ctx = check_context(dash.callback_context)
@@ -469,11 +470,13 @@ def update_selection(selected_database_name,n_clicks,mouse_coords,current_select
             print("Clicked at",point)
             print(selected_database_name,selected_database_name in groupnames)
             sel=recalculate_intersection(point,selected_database_name)
-            print("<<<<<<<<<<selection")
-            print(sel)
+            print("<<<<<<<<<<selection of size",len(sel))
+            print(sel["binomial","category"])
             selected_shapes = sel
-            return generate_table(selected_shapes,extinction_classes,1000), len(selected_shapes), "%.2f %.2f"%(x,y)
-        else:
+            gen = generate_table(selected_shapes,extinction_classes,1000)
+            print(gen)
+            return gen, len(selected_shapes), "%.2f %.2f"%(x,y)
+        else: #aggregate mode
             if(ctx==["mouse_coord"]):
                 raise PreventUpdate
             selected_animals = alldata[selected_database_name]
@@ -485,7 +488,7 @@ def update_selection(selected_database_name,n_clicks,mouse_coords,current_select
 
 import json
 @app.callback(
-    Output("i1","children"),
+    Output("i1","value"),
     Output('map_graph', 'figure'),
     Input('extinction_category', 'value'),
     Input("selected_database_text","children"),
@@ -507,7 +510,7 @@ def update_graph_selection(extinction_classes,selected_database_name,selection_t
         if(selected_database_name):
             graph=update_map_agg(aggregated_data[selected_database_name],extinction_classes)
             unchanged_graph=graph
-            instruction = "Aggregated view\nClick Toggle Selection to switch"
+            instruction = "Updating graph, please wait"
         else:
             graph = dict()
             
@@ -523,7 +526,7 @@ def update_graph_selection(extinction_classes,selected_database_name,selection_t
         gdf = selected_shapes
         print(gdf)
         graph = update_map_select(gdf,extinction_classes,(y,x))
-        instruction = "Crosshair view\nShows animals under the Crosshair"
+        instruction = "Updating graph, please wait"
     return instruction, graph
 
 
@@ -537,7 +540,7 @@ def update_graph_selection(extinction_classes,selected_database_name,selection_t
 
 
 @app.callback(
-    Output("i2","children"),
+    Output("i2","value"),
     Input('map_graph', 'figure'))
 def update_instructions_graph(fig):
     print("Entered Update Graph callback")
@@ -546,18 +549,18 @@ def update_instructions_graph(fig):
     if(unchanged_graph):
         if(len(selected_shapes)==0):
             print("NO SELECTED SHAPE...")
-            return "Updating graph, please wait"
+            return "Aggregated view\nClick Toggle Selection to switch"
         else:
-            return "Updating graph, please wait"
+            return "Crosshair view\nShows animals under the Crosshair"
     else:
         return "For starters, select one database"
         #raise PreventUpdate
 
 @app.callback(
     Output("instructions","children"),
-    Input("i1","children"),
-    Input("i2","children"),
-    Input("update_node","children"), 
+    Input("i1","value"),
+    Input("i2","value"),
+    Input("update_node","value"), 
     prevent_initial_call=True)
 def update_instructions_funnel(i1,i2,u1):
     print("Entered I1I2 callback")
