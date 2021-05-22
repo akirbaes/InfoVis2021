@@ -120,29 +120,31 @@ import dash_table
 def generate_table(dataframe, extinction_classes, max_rows=10):
     dataframe = dataframe[dataframe['category'].isin(extinction_classes)]
     dataframe = dataframe.sort_values(["color","area"],ascending=[False,True])
-    selection = ["binomial","kingdom","phylum","class","order_","family","category"]
+    selection = ["binomial","class","order_","family","category"]
     limit = dataframe.columns
     selection = [x for x in selection if x in limit]
-    dataframe=dataframe.filter(selection+["color"]).drop_duplicates(ignore_index=True)
+    dataframe=dataframe.filter(selection).drop_duplicates(ignore_index=True)
     
-    
-    return html.Table([
-        html.Thead(
-            html.Tr([html.Th(col.center(24)) for col in selection])
-            ),
-            html.Tbody([
-                html.Tr([html.Td(dataframe.iloc[i][col].center(24)) 
-                    for col in selection 
-                ],id="ex%i"%(dataframe.iloc[i]["color"]+1)
-                    )for i in range(min(len(dataframe),max_rows))
-            ])
-        ])
-    # return dash_table.DataTable(
-    # data=dataframe,
-    # columns=[{'id': c, 'name': c} for c in dataframe.columns],
-    # page_action='none',
-    # style_table={'height': '300px', 'overflowY': 'auto'}
-    # )
+    # dash_table.DataTable(
+    # id='table',
+    # columns=[{"name": i, "id": i} for i in df.columns],
+    # data=df.to_dict('records'),
+# )
+    # return html.Div(children=
+        # (html.Label(
+            # "".join((col.center(24) for col in selection))
+            # ),)+
+        # tuple(html.P(
+            # "".join((dataframe.iloc[i][col].center(24) for col in selection)),
+            # id="ex%i"%(dataframe.iloc[i]["color"]+1)
+            # )   for i in range(min(len(dataframe),max_rows)))
+        # )
+    return dash_table.DataTable(
+        data=dataframe.to_dict('records'),
+        columns=[{'id': c, 'name': c} for c in dataframe.columns],
+        page_action='none',
+        style_table={'height': '300px', 'overflowY': 'auto'}
+        )
 
 
 
@@ -470,8 +472,8 @@ def update_selection(selected_database_name,n_clicks,mouse_coords,extinction_cla
             print("Clicked at",point)
             print(selected_database_name,selected_database_name in groupnames)
             sel=recalculate_intersection(point,selected_database_name)
-            print("<<<<<<<<<<selection of size",len(sel))
-            print(sel["binomial","category"])
+            # print("<<<<<<<<<<selection of size",len(sel))
+            print(sel[["binomial","category"]])
             selected_shapes = sel
             gen = generate_table(selected_shapes,extinction_classes,1000)
             print(gen)
