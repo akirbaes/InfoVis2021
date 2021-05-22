@@ -105,3 +105,41 @@ thead th:last-child {
   border-color: darkorange;
   box-shadow: 0 0 0 3px #fcba0366;
 }
+
+
+
+#ex1 {
+background-color: #d4d4d4
+}
+#ex2 {
+background-color: #646464 ;
+color: #ffffff
+}
+#ex3 {
+background-color: #5a4664 ;
+color: #ffffff
+}
+#ex4 {
+background-color: #460359 ;
+color: #ffffff
+}
+#ex5 {
+background-color: #3c1e64 ;
+color: #ffffff
+}
+#ex6 {
+background-color: #3a538b ;
+color: #ffffff
+}
+#ex7 {
+background-color: #32b57a
+}
+#ex8 {
+background-color: #afdc2e
+}
+#ex9 {
+background-color: #fdb524
+}
+#ex10 {
+background-color: #ff3e4c
+}
