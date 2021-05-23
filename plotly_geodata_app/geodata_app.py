@@ -557,4 +557,4 @@ def update_instructions_funnel(i1,i2,u1):
 
 if __name__ == "__main__":
     app.layout=layout
-    app.run_server()
+    app.run_server(debug=True)

@@ -175,7 +175,7 @@ first_title = labels[0]
 speciesFig.update_layout(title=f"<b>{first_title}</b>",title_x=0.5)
 
 # import the plotly_visualisation_cursor to include in the main application
-from plotly_visualisation_cursor import *
+from geodata_app import *
 
 # http://127.0.0.1:8050/
 # https://www.phillipsj.net/posts/creating-maps-with-dash/
@@ -301,4 +301,4 @@ def update_meta(clickData):
 
 
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(debug=True)
