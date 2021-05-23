@@ -1,0 +1,445 @@
+
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>python aggregate_order_pass2.py
+PyTables is not installed. No support for HDF output.
+SQLalchemy is not installed. No support for SQL output.
+86763 animal database loaded
+---- 05:08:16 ----
+[1/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ANNELIDA_CLITELLATA_ARHYNCHOBDELLIDA_freshwater_FW_GROUP_PART6.shp
+3.4  s  Finished reading database
+[2/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ANNELIDA_CLITELLATA_ARHYNCHOBDELLIDA_terrestial_FW_GROUP_PART6.shp
+0.0  s  Finished reading database
+[3/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ANNELIDA_CLITELLATA_MEGADRILACEAE_freshwater_FW_GROUP_PART2.shp
+0.0  s  Finished reading database
+[4/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ANNELIDA_CLITELLATA_MEGADRILACEAE_freshwater_FW_GROUP_PART3.shp
+0.0  s  Finished reading database
+[5/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ANNELIDA_CLITELLATA_MEGADRILACEAE_freshwater_FW_GROUP_PART5.shp
+0.0  s  Finished reading database
+[6/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ANNELIDA_CLITELLATA_MEGADRILACEAE_freshwater_FW_GROUP_PART6.shp
+0.0  s  Finished reading database
+[7/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ANNELIDA_CLITELLATA_MEGADRILACEAE_terrestial_FW_GROUP_PART6.shp
+0.0  s  Finished reading database
+[8/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_BRANCHIOPODA_NOTOSTRACA_freshwater_FW_GROUP_PART1.shp
+0.0  s  Finished reading database
+[9/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_BRANCHIOPODA_NOTOSTRACA_freshwater_FW_GROUP_PART6.shp
+0.0  s  Finished reading database
+[10/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_COLEOPTERA_freshwater_FW_GROUP_PART1.shp
+0.0  s  Finished reading database
+[11/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_COLEOPTERA_freshwater_FW_GROUP_PART2.shp
+0.0  s  Finished reading database
+[12/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_COLEOPTERA_freshwater_FW_GROUP_PART3.shp
+0.0  s  Finished reading database
+[13/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_COLEOPTERA_freshwater_FW_GROUP_PART4.shp
+0.0  s  Finished reading database
+[14/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_COLEOPTERA_freshwater_FW_GROUP_PART5.shp
+0.0  s  Finished reading database
+[15/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_COLEOPTERA_freshwater_FW_GROUP_PART6.shp
+0.0  s  Finished reading database
+[16/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_COLEOPTERA_terrestial_FW_GROUP_PART1.shp
+0.0  s  Finished reading database
+[17/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_DIPTERA_freshwater_FW_GROUP_PART6.shp
+0.0  s  Finished reading database
+[18/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_DIPTERA_terrestial_FW_GROUP_PART6.shp
+0.0  s  Finished reading database
+[19/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_freshwater_FW_GROUP_PART1.shp
+0.0  s  Finished reading database
+[20/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_freshwater_FW_GROUP_PART2.shp
+0.1  s  Finished reading database
+[21/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_freshwater_FW_GROUP_PART3.shp
+0.0  s  Finished reading database
+[22/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_freshwater_FW_GROUP_PART4.shp
+0.5  s  Finished reading database
+[23/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_freshwater_FW_GROUP_PART5.shp
+0.1  s  Finished reading database
+[24/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_freshwater_FW_GROUP_PART6.shp
+0.0  s  Finished reading database
+[25/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_marine_FW_GROUP_PART2.shp
+0.0  s  Finished reading database
+[26/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_terrestial_FW_GROUP_PART1.shp
+0.1  s  Finished reading database
+[27/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_terrestial_FW_GROUP_PART2.shp
+0.0  s  Finished reading database
+[28/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_terrestial_FW_GROUP_PART3.shp
+0.0  s  Finished reading database
+[29/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_terrestial_FW_GROUP_PART4.shp
+0.2  s  Finished reading database
+[30/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_terrestial_FW_GROUP_PART5.shp
+0.0  s  Finished reading database
+[31/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ODONATA_terrestial_FW_GROUP_PART6.shp
+0.0  s  Finished reading database
+[32/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ORTHOPTERA_freshwater_FW_GROUP_PART1.shp
+0.0  s  Finished reading database
+[33/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ORTHOPTERA_freshwater_FW_GROUP_PART3.shp
+0.0  s  Finished reading database
+[34/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ORTHOPTERA_freshwater_FW_GROUP_PART4.shp
+0.0  s  Finished reading database
+[35/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ORTHOPTERA_freshwater_FW_GROUP_PART5.shp
+0.0  s  Finished reading database
+[36/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ORTHOPTERA_terrestial_FW_GROUP_PART1.shp
+0.0  s  Finished reading database
+[37/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ORTHOPTERA_terrestial_FW_GROUP_PART3.shp
+0.0  s  Finished reading database
+[38/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ORTHOPTERA_terrestial_FW_GROUP_PART4.shp
+0.0  s  Finished reading database
+[39/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_ORTHOPTERA_terrestial_FW_GROUP_PART5.shp
+0.0  s  Finished reading database
+[40/1613]Open ORDER_AGGREGATED_DATA\ANIMALIA_ARTHROPODA_INSECTA_PLECOPTERA_freshwater_FW_GROUP_PART3.shp
+0.0  s  Finished reading database
+Loaded layers:
+   color category                                           geometry   kingdom    phylum       class            order_        type
+0      3       NT  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...  ANIMALIA  ANNELIDA  CLITELLATA  ARHYNCHOBDELLIDA  freshwater
+1      3       NT  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...  ANIMALIA  ANNELIDA  CLITELLATA  ARHYNCHOBDELLIDA  terrestial
+2      2       NT  POLYGON ((135.88840 34.94772, 135.88888 35.217...  ANIMALIA  ANNELIDA  CLITELLATA     MEGADRILACEAE  freshwater
+3      1       LC  POLYGON ((168.54267 -45.04037, 168.73653 -45.0...  ANIMALIA  ANNELIDA  CLITELLATA     MEGADRILACEAE  freshwater
+4      1       LC  POLYGON ((167.41988 -45.59926, 167.63019 -45.1...  ANIMALIA  ANNELIDA  CLITELLATA     MEGADRILACEAE  freshwater
+All existing colors: [3 2 1 4 5 6 0 7]
+---- 05:08:18 ----
+order
+-- ARHYNCHOBDELLIDA 1 / 8
+-- MEGADRILACEAE 2 / 8
+3>1   color                                           geometry category   kingdom    phylum       class         order_        type
+0      1  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...       LC  ANIMALIA  ANNELIDA  CLITELLATA  MEGADRILACEAE  freshwater
+   color category                                           geometry   kingdom    phylum       class         order_        type
+5      1       LC  POLYGON ((173.53790 -35.53561, 174.33801 -35.6...  ANIMALIA  ANNELIDA  CLITELLATA  MEGADRILACEAE  freshwater
+2>1   color                                           geometry category   kingdom    phylum       class         order_        type
+0      1  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...       LC  ANIMALIA  ANNELIDA  CLITELLATA  MEGADRILACEAE  freshwater
+-- NOTOSTRACA 3 / 8
+-- COLEOPTERA 4 / 8
+6>1   color                                           geometry category   kingdom      phylum    class      order_        type
+0      1  MULTIPOLYGON (((55.45355 -20.87290, 55.82755 -...       LC  ANIMALIA  ARTHROPODA  INSECTA  COLEOPTERA  freshwater
+   color                                           geometry category   kingdom      phylum    class      order_        type
+0      1  MULTIPOLYGON (((57.61642 -19.98404, 57.80632 -...       LC  ANIMALIA  ARTHROPODA  INSECTA  COLEOPTERA  freshwater
+   color                                           geometry category   kingdom      phylum    class      order_        type
+0      1  MULTIPOLYGON (((39.35322 -5.87471, 39.41472 -6...       LC  ANIMALIA  ARTHROPODA  INSECTA  COLEOPTERA  freshwater
+3>1   color                                           geometry category   kingdom      phylum    class      order_        type
+0      1  MULTIPOLYGON (((55.45355 -20.87290, 55.82755 -...       LC  ANIMALIA  ARTHROPODA  INSECTA  COLEOPTERA  freshwater
+   color                                           geometry category   kingdom      phylum    class      order_        type
+0      1  MULTIPOLYGON (((39.35322 -5.87471, 39.41472 -6...       LC  ANIMALIA  ARTHROPODA  INSECTA  COLEOPTERA  freshwater
+2>1   color                                           geometry category   kingdom      phylum    class      order_        type
+0      1  MULTIPOLYGON (((-16.08895 13.56368, -16.31003 ...       LC  ANIMALIA  ARTHROPODA  INSECTA  COLEOPTERA  freshwater
+2>1   color                                           geometry category   kingdom      phylum    class      order_        type
+0      5  MULTIPOLYGON (((44.66492 -18.21892, 44.98276 -...       CR  ANIMALIA  ARTHROPODA  INSECTA  COLEOPTERA  freshwater
+-- DIPTERA 5 / 8
+-- ODONATA 6 / 8
+6>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((-66.51867 -26.50478, -66.22500...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((47.87093 -19.24685, 47.83112 -...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((-72.29167 -36.67500, -72.06741...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+3>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((47.87093 -19.24685, 47.83112 -...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((-72.29167 -36.67500, -72.06741...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((153.06667 -25.82083, 153.04718...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+6>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((-73.63750 -41.80833, -73.57306...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((-64.47917 -54.84167, -64.75832...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((167.00000 -46.00000, 167.00000...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+3>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((-64.47917 -54.84167, -64.75832...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((167.00000 -46.00000, 167.00000...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((179.39167 70.85833, 178.76740 ...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+4>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      2  MULTIPOLYGON (((165.54583 -21.14583, 166.93671...       NT  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      2  MULTIPOLYGON (((153.11667 -27.05833, 153.15000...       NT  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      2  MULTIPOLYGON (((178.61250 -17.96667, 178.57709...       NT  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+6>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((130.40417 -11.37083, 130.37832...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((166.09661 -22.09050, 166.22059...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((151.18692 -34.00901, 151.22815...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+3>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((165.54583 -21.14583, 166.93671...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((151.18692 -34.00901, 151.22815...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((165.54583 -21.14583, 166.93671...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+5>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      4  MULTIPOLYGON (((150.30375 -35.18451, 150.35356...       EN  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      4  MULTIPOLYGON (((-66.31250 -27.58750, -66.19167...       EN  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+    color category                                           geometry   kingdom      phylum    class   order_        type
+57      4       VU  MULTIPOLYGON (((178.01912 -17.57119, 178.09498...  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+3>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      4  MULTIPOLYGON (((150.30375 -35.18451, 150.35356...       EN  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+    color                                           geometry category   kingdom      phylum    class   order_        type
+57      4  MULTIPOLYGON (((178.01912 -17.57119, 178.09498...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      4  MULTIPOLYGON (((150.30375 -35.18451, 150.35356...       EN  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+6>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((-46.24583 -20.29167, -46.08369...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((150.66610 -33.86029, 150.93693...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+3>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((150.66610 -33.86029, 150.93693...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      6  MULTIPOLYGON (((153.23244 -27.69234, 153.12973...       EN  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  freshwater
+6>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((159.60000 -9.52917, 159.59228 ...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((179.55000 -16.76667, 179.91634...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((153.06667 -25.82083, 153.04718...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+3>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((179.55000 -16.76667, 179.91634...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((153.06667 -25.82083, 153.04718...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      0  MULTIPOLYGON (((153.06667 -25.82083, 153.04718...       DD  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+6>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((-17.00000 15.00000, -17.00000 ...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((-64.47917 -54.84167, -64.75832...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((168.14167 -46.96667, 168.20482...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+3>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((166.75417 -45.95833, 166.44652...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((168.14167 -46.96667, 168.20482...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      1  MULTIPOLYGON (((-64.47917 -54.84167, -64.75832...       LC  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+4>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      2  MULTIPOLYGON (((165.54583 -21.14583, 166.93671...       NT  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      2  MULTIPOLYGON (((153.11667 -27.05833, 153.15000...       NT  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      2  MULTIPOLYGON (((153.11667 -27.05833, 153.15000...       NT  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+6>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((146.81748 -35.94084, 146.94879...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((166.09661 -22.09050, 166.22059...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((151.18692 -34.00901, 151.22815...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+3>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((165.54583 -21.14583, 166.93671...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((151.18692 -34.00901, 151.22815...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      3  MULTIPOLYGON (((153.11667 -27.05833, 153.15000...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+5>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      4  MULTIPOLYGON (((150.30375 -35.18451, 150.35356...       EN  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      4  MULTIPOLYGON (((166.74167 -22.34583, 166.67920...       EN  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+    color category                                           geometry   kingdom      phylum    class   order_        type
+94      4       VU  MULTIPOLYGON (((151.79672 -31.86179, 152.11553...  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+3>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      4  MULTIPOLYGON (((153.02917 -25.90000, 153.19648...       EN  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+    color                                           geometry category   kingdom      phylum    class   order_        type
+94      4  MULTIPOLYGON (((151.79672 -31.86179, 152.11553...       VU  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      4  MULTIPOLYGON (((150.30375 -35.18451, 150.35356...       EN  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+6>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((-46.24583 -20.29167, -46.08369...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((150.66610 -33.86029, 150.93693...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+3>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((150.66610 -33.86029, 150.93693...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+2>1   color                                           geometry category   kingdom      phylum    class   order_        type
+0      6  MULTIPOLYGON (((153.23244 -27.69234, 153.12973...       EN  ANIMALIA  ARTHROPODA  INSECTA  ODONATA  terrestial
+-- ORTHOPTERA 7 / 8
+3>1   color                                           geometry category   kingdom      phylum    class      order_        type
+0      1  MULTIPOLYGON (((43.45019 -21.44531, 44.05717 -...       LC  ANIMALIA  ARTHROPODA  INSECTA  ORTHOPTERA  freshwater
+     color category                                           geometry   kingdom      phylum    class      order_        type
+101      1       LC  MULTIPOLYGON (((46.38091 -25.08281, 46.38473 -...  ANIMALIA  ARTHROPODA  INSECTA  ORTHOPTERA  freshwater
+2>1   color                                           geometry category   kingdom      phylum    class      order_        type
+0      1  MULTIPOLYGON (((46.34984 -25.08150, 46.43352 -...       LC  ANIMALIA  ARTHROPODA  INSECTA  ORTHOPTERA  freshwater
+3>1   color                                           geometry category   kingdom      phylum    class      order_        type
+0      1  MULTIPOLYGON (((43.45019 -21.44531, 44.05717 -...       LC  ANIMALIA  ARTHROPODA  INSECTA  ORTHOPTERA  terrestial
+     color category                                           geometry   kingdom      phylum    class      order_        type
+106      1       LC  MULTIPOLYGON (((46.38091 -25.08281, 46.38473 -...  ANIMALIA  ARTHROPODA  INSECTA  ORTHOPTERA  terrestial
+2>1   color                                           geometry category   kingdom      phylum    class      order_        type
+0      1  MULTIPOLYGON (((46.34984 -25.08150, 46.43352 -...       LC  ANIMALIA  ARTHROPODA  INSECTA  ORTHOPTERA  terrestial
+-- PLECOPTERA 8 / 8
+Aggregated all orders (40)
+   color category                                           geometry   kingdom  ...        type        identifier id_type count
+0      3       NT  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...  ANIMALIA  ...  freshwater  ARHYNCHOBDELLIDA  order_     1
+1      3       NT  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...  ANIMALIA  ...  terrestial  ARHYNCHOBDELLIDA  order_     1
+2      2       NT  POLYGON ((135.88840 34.94772, 135.88888 35.217...  ANIMALIA  ...  freshwater     MEGADRILACEAE  order_     0
+3      1       LC  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...  ANIMALIA  ...  freshwater     MEGADRILACEAE  order_     3
+4      1       LC  POLYGON ((173.53790 -35.53561, 174.33801 -35.6...  ANIMALIA  ...  terrestial     MEGADRILACEAE  order_     1
+
+[5 rows x 11 columns]
+---- 05:18:03 ----
+class
+-- CLITELLATA
+-- BRANCHIOPODA
+-- INSECTA
+3>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      1  MULTIPOLYGON (((-64.47917 -54.84167, -64.75832...       LC  ANIMALIA  ...  freshwater  COLEOPTERA  order_    11
+
+[1 rows x 10 columns]
+    color category                                           geometry   kingdom  ...        type  identifier id_type count
+33      1       LC  MULTIPOLYGON (((46.34984 -25.08150, 46.43352 -...  ANIMALIA  ...  freshwater  ORTHOPTERA  order_     6
+
+[1 rows x 10 columns]
+2>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      1  MULTIPOLYGON (((-64.47917 -54.84167, -64.75832...       LC  ANIMALIA  ...  freshwater  COLEOPTERA  order_    11
+
+[1 rows x 10 columns]
+3>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      3  MULTIPOLYGON (((-72.49290 -41.59922, -72.95706...       VU  ANIMALIA  ...  freshwater  COLEOPTERA  order_     1
+
+[1 rows x 10 columns]
+    color category                                           geometry   kingdom  ...        type  identifier id_type count
+39      3       VU  POLYGON ((144.01346 -38.48161, 143.54600 -38.8...  ANIMALIA  ...  freshwater  PLECOPTERA  order_     0
+
+[1 rows x 10 columns]
+2>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      3  MULTIPOLYGON (((-72.49290 -41.59922, -72.95706...       VU  ANIMALIA  ...  freshwater  COLEOPTERA  order_     1
+
+[1 rows x 10 columns]
+3>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      4  MULTIPOLYGON (((146.24912 -42.59507, 146.20121...       EN  ANIMALIA  ...  freshwater  COLEOPTERA  order_     0
+
+[1 rows x 10 columns]
+    color category                                           geometry   kingdom  ...        type identifier id_type count
+20      4       EN  MULTIPOLYGON (((150.30375 -35.18451, 150.35356...  ANIMALIA  ...  freshwater    ODONATA  order_     0
+
+[1 rows x 10 columns]
+2>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      4  MULTIPOLYGON (((146.24912 -42.59507, 146.20121...       EN  ANIMALIA  ...  freshwater  COLEOPTERA  order_     0
+
+[1 rows x 10 columns]
+3>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  ANIMALIA  ...  freshwater  COLEOPTERA  order_     1
+
+[1 rows x 10 columns]
+    color category                                           geometry   kingdom  ...        type  identifier id_type count
+35      5       VU  POLYGON ((49.61667 -14.72431, 49.83450 -14.933...  ANIMALIA  ...  freshwater  ORTHOPTERA  order_     2
+
+[1 rows x 10 columns]
+2>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  ANIMALIA  ...  freshwater  COLEOPTERA  order_     1
+
+[1 rows x 10 columns]
+2>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      6  MULTIPOLYGON (((153.23244 -27.69234, 153.12973...       EN  ANIMALIA  ...  freshwater  COLEOPTERA  order_     5
+
+[1 rows x 10 columns]
+2>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      0  MULTIPOLYGON (((-72.29167 -36.67500, -72.06741...       DD  ANIMALIA  ...  freshwater  COLEOPTERA  order_     1
+
+[1 rows x 10 columns]
+2>1   color                                           geometry category   kingdom      phylum    class        type identifier id_type  count
+0      2  MULTIPOLYGON (((147.53810 -37.40316, 147.77917...       NT  ANIMALIA  ARTHROPODA  INSECTA  freshwater    ODONATA  order_      0
+2>1   color                                           geometry category   kingdom  ...        type  identifier id_type count
+0      3  MULTIPOLYGON (((146.81748 -35.94084, 146.94879...       VU  ANIMALIA  ...  terrestial  COLEOPTERA  order_     0
+
+[1 rows x 10 columns]
+2>1   color                                           geometry category   kingdom      phylum    class        type identifier id_type  count
+0      4  MULTIPOLYGON (((146.24912 -42.59507, 146.20121...       VU  ANIMALIA  ARTHROPODA  INSECTA  terrestial    DIPTERA  order_      0
+2>1   color                                           geometry category   kingdom      phylum    class        type identifier id_type  count
+0      1  MULTIPOLYGON (((-64.47917 -54.84167, -64.75832...       LC  ANIMALIA  ARTHROPODA  INSECTA  terrestial    ODONATA  order_   2906
+2>1   color                                           geometry category   kingdom      phylum    class        type identifier id_type  count
+0      2  MULTIPOLYGON (((147.53810 -37.40316, 147.77917...       NT  ANIMALIA  ARTHROPODA  INSECTA  terrestial    ODONATA  order_      0
+2>1   color                                           geometry category   kingdom      phylum    class        type identifier id_type  count
+0      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  ANIMALIA  ARTHROPODA  INSECTA  terrestial    ODONATA  order_    226
+Aggregated all class (3)
+   color category                                           geometry   kingdom  ...        type  identifier id_type count
+0      3       NT  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...  ANIMALIA  ...  freshwater  CLITELLATA   class     0
+1      2       NT  POLYGON ((135.88840 34.94772, 135.88888 35.217...  ANIMALIA  ...  freshwater  CLITELLATA   class     3
+2      1       LC  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...  ANIMALIA  ...  freshwater  CLITELLATA   class     5
+
+[3 rows x 10 columns]
+---- 05:18:15 ----
+phylum
+-- ANNELIDA
+-- ARTHROPODA
+Aggregated all phylum (3)
+   color category                                           geometry   kingdom    phylum        type identifier id_type  count
+0      3       NT  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...  ANIMALIA  ANNELIDA  freshwater   ANNELIDA  phylum      0
+1      2       NT  POLYGON ((135.88840 34.94772, 135.88888 35.217...  ANIMALIA  ANNELIDA  freshwater   ANNELIDA  phylum      3
+2      1       LC  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...  ANIMALIA  ANNELIDA  freshwater   ANNELIDA  phylum      5
+---- 05:18:15 ----
+kingdom
+-- ANIMALIA
+Aggregated all kingdom (3)
+   color category                                           geometry   kingdom        type identifier  id_type  count
+0      3       NT  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...  ANIMALIA  freshwater   ANIMALIA  kingdom      7
+1      2       NT  POLYGON ((135.88840 34.94772, 135.88888 35.217...  ANIMALIA  freshwater   ANIMALIA  kingdom  27079
+2      1       LC  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...  ANIMALIA  freshwater   ANIMALIA  kingdom   7708
+---- 05:18:15 ----
+Aggregated all (global) (3)
+   color                                           geometry category        type identifier id_type  count
+0      0  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...       LC  freshwater     global  global   7882
+1      1  POLYGON ((135.88840 34.94772, 135.88888 35.217...       NT  freshwater     global  global  29090
+2      2  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...       NT  freshwater     global  global      7
+Merged all (52)
+    color                                           geometry category        type        identifier  id_type  count
+0       0  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...       LC  freshwater            global   global   7882
+1       1  POLYGON ((135.88840 34.94772, 135.88888 35.217...       NT  freshwater            global   global  29090
+2       2  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...       NT  freshwater            global   global      7
+3       3  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...       NT  freshwater  ARHYNCHOBDELLIDA   order_      1
+4       3  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...       NT  terrestial  ARHYNCHOBDELLIDA   order_      1
+5       2  POLYGON ((135.88840 34.94772, 135.88888 35.217...       NT  freshwater     MEGADRILACEAE   order_      0
+6       1  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...       LC  freshwater     MEGADRILACEAE   order_      3
+7       1  POLYGON ((173.53790 -35.53561, 174.33801 -35.6...       LC  terrestial     MEGADRILACEAE   order_      1
+8       4  POLYGON ((-6.29388 36.72557, -5.72917 36.57917...       EN  freshwater        NOTOSTRACA   order_      0
+9       5  MULTIPOLYGON (((-7.96702 38.25242, -7.84167 38...       EN  freshwater        NOTOSTRACA   order_      0
+10      1  MULTIPOLYGON (((-16.08895 13.56368, -16.31003 ...       LC  freshwater        COLEOPTERA   order_     11
+11      3  POLYGON ((-65.33459 47.09658, -64.65310 46.387...       VU  freshwater        COLEOPTERA   order_      1
+12      4  POLYGON ((44.45068 -20.43345, 44.61266 -20.533...       EN  freshwater        COLEOPTERA   order_      0
+13      5  MULTIPOLYGON (((44.66492 -18.21892, 44.98276 -...       CR  freshwater        COLEOPTERA   order_      1
+14      6  MULTIPOLYGON (((45.06866 -23.04941, 45.12360 -...       EN  freshwater        COLEOPTERA   order_      5
+15      0  POLYGON ((47.42798 -19.22818, 47.44444 -19.418...       DD  freshwater        COLEOPTERA   order_      1
+16      3  POLYGON ((-65.33459 47.09658, -64.65310 46.387...       VU  terrestial        COLEOPTERA   order_      0
+17      4  POLYGON ((146.24912 -42.59507, 146.20121 -42.3...       VU  freshwater           DIPTERA   order_      0
+18      4  POLYGON ((146.24912 -42.59507, 146.20121 -42.3...       VU  terrestial           DIPTERA   order_      0
+19      0  MULTIPOLYGON (((153.06667 -25.82083, 153.04718...       DD  freshwater           ODONATA   order_   1282
+20      1  MULTIPOLYGON (((179.39167 70.85833, 178.76740 ...       LC  freshwater           ODONATA   order_   4189
+21      2  MULTIPOLYGON (((178.61250 -17.96667, 178.57709...       NT  freshwater           ODONATA   order_      0
+22      3  MULTIPOLYGON (((165.54583 -21.14583, 166.93671...       VU  freshwater           ODONATA   order_    212
+23      4  MULTIPOLYGON (((150.30375 -35.18451, 150.35356...       EN  freshwater           ODONATA   order_      0
+24      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  freshwater           ODONATA   order_    289
+25      6  MULTIPOLYGON (((153.23244 -27.69234, 153.12973...       EN  freshwater           ODONATA   order_    239
+26      7  MULTIPOLYGON (((17.89167 -32.74583, 18.54520 -...       CR  freshwater           ODONATA   order_     77
+27      0  MULTIPOLYGON (((153.06667 -25.82083, 153.04718...       DD  terrestial           ODONATA   order_    948
+28      1  MULTIPOLYGON (((-64.47917 -54.84167, -64.75832...       LC  terrestial           ODONATA   order_   2906
+29      2  MULTIPOLYGON (((153.11667 -27.05833, 153.15000...       NT  terrestial           ODONATA   order_      0
+30      3  MULTIPOLYGON (((153.11667 -27.05833, 153.15000...       VU  terrestial           ODONATA   order_    202
+31      4  MULTIPOLYGON (((150.30375 -35.18451, 150.35356...       EN  terrestial           ODONATA   order_      0
+32      5  MULTIPOLYGON (((142.31451 -36.74938, 142.39167...       CR  terrestial           ODONATA   order_    226
+33      6  MULTIPOLYGON (((153.23244 -27.69234, 153.12973...       EN  terrestial           ODONATA   order_    188
+34      7  MULTIPOLYGON (((17.89167 -32.74583, 18.54520 -...       CR  terrestial           ODONATA   order_     56
+35      3  POLYGON ((119.31365 25.84794, 119.10279 26.030...       VU      marine           ODONATA   order_      0
+36      1  MULTIPOLYGON (((46.34984 -25.08150, 46.43352 -...       LC  freshwater        ORTHOPTERA   order_      6
+37      2  POLYGON ((48.51373 -18.92466, 48.58076 -19.188...       NT  freshwater        ORTHOPTERA   order_      0
+38      5  POLYGON ((49.61667 -14.72431, 49.83450 -14.933...       VU  freshwater        ORTHOPTERA   order_      2
+39      1  MULTIPOLYGON (((46.34984 -25.08150, 46.43352 -...       LC  terrestial        ORTHOPTERA   order_      6
+40      2  POLYGON ((48.51373 -18.92466, 48.58076 -19.188...       NT  terrestial        ORTHOPTERA   order_      0
+41      5  POLYGON ((49.61667 -14.72431, 49.83450 -14.933...       VU  terrestial        ORTHOPTERA   order_      2
+42      3  POLYGON ((144.01346 -38.48161, 143.54600 -38.8...       VU  freshwater        PLECOPTERA   order_      0
+43      3  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...       NT  freshwater        CLITELLATA    class      0
+44      2  POLYGON ((135.88840 34.94772, 135.88888 35.217...       NT  freshwater        CLITELLATA    class      3
+45      1  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...       LC  freshwater        CLITELLATA    class      5
+46      3  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...       NT  freshwater          ANNELIDA   phylum      0
+47      2  POLYGON ((135.88840 34.94772, 135.88888 35.217...       NT  freshwater          ANNELIDA   phylum      3
+48      1  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...       LC  freshwater          ANNELIDA   phylum      5
+49      3  MULTIPOLYGON (((-4.57206 53.26992, -4.43395 53...       NT  freshwater          ANIMALIA  kingdom      7
+50      2  POLYGON ((135.88840 34.94772, 135.88888 35.217...       NT  freshwater          ANIMALIA  kingdom  27079
+51      1  MULTIPOLYGON (((167.41988 -45.59926, 167.63019...       LC  freshwater          ANIMALIA  kingdom   7708
+---- 05:18:19 ----
+606.1s  Aggregating all files done
+Done
+
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>

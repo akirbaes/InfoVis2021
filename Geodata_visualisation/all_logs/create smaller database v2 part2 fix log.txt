@@ -1,0 +1,201 @@
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>python create_smaller_database_v2_part2_fix.py
+PyTables is not installed. No support for HDF output.
+SQLalchemy is not installed. No support for SQL output.
+---- 01:16:44 ----
+Open 1/10  SMALLER_DATABASE\AMPHIBIANS.shp
+16.3 s  read database, 247968  elements
+Aggregated down to 26363
+                     binomial                                           geometry   kingdom  ... marine terrestial freshwater
+0            Aaptosyax grypus  MULTIPOLYGON (((105.12465 16.89412, 105.03369 ...  ANIMALIA  ...  false      false       true
+1      Abactochromis labrosus  POLYGON ((34.22436 -10.34945, 34.24892 -10.371...  ANIMALIA  ...  false      false       true
+2          Abavorana luctuosa  MULTIPOLYGON (((113.62792 -2.05283, 113.33234 ...  ANIMALIA  ...  false       true       true
+3             Abbottina binhi  POLYGON ((105.97326 23.20798, 106.79078 22.620...  ANIMALIA  ...  false      false       true
+4       Aborichthys elongatus  MULTIPOLYGON (((88.21492 27.00798, 88.29841 26...  ANIMALIA  ...  false      false       true
+...                       ...                                                ...       ...  ...    ...        ...        ...
+26358  Zygophlebia subpinnata  MULTIPOLYGON (((47.27917 -21.07500, 47.67917 -...   PLANTAE  ...  false       true       true
+26359      Zyxomma atlanticum  MULTIPOLYGON (((7.33333 4.51667, 7.13414 4.384...  ANIMALIA  ...  false       true       true
+26360     Zyxomma breviventre  POLYGON ((103.70417 14.40417, 103.69583 14.095...  ANIMALIA  ...  false      false       true
+26361         Zyxomma elgneri  MULTIPOLYGON (((150.85174 -33.45869, 151.01215...  ANIMALIA  ...  false       true       true
+26362      Zyxomma petiolatum  MULTIPOLYGON (((146.23272 -18.21451, 146.36312...  ANIMALIA  ...  false       true       true
+
+[26363 rows x 12 columns]
+95.2 s  output to SMALLER_DATABASE_CLEAN/AMPHIBIANS.shp.shp
+
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>python create_smaller_database_v2_part2_fix.py
+PyTables is not installed. No support for HDF output.
+SQLalchemy is not installed. No support for SQL output.
+---- 01:27:55 ----
+Open 0/10  SMALLER_DATABASE\AMPHIBIANS.shp
+---- 01:27:55 ----
+Open 1/10  SMALLER_DATABASE\BIRDS.shp
+14.9 s  read database, 238217  elements
+67.6 s  Aggregated down to 25181
+                     binomial                                           geometry   kingdom  ... marine terrestial freshwater
+0            Aaptosyax grypus  MULTIPOLYGON (((105.12465 16.89412, 105.03369 ...  ANIMALIA  ...  false      false       true
+1      Abactochromis labrosus  POLYGON ((34.22436 -10.34945, 34.24892 -10.371...  ANIMALIA  ...  false      false       true
+2          Abavorana luctuosa  MULTIPOLYGON (((113.62792 -2.05283, 113.33234 ...  ANIMALIA  ...  false       true       true
+3             Abbottina binhi  POLYGON ((105.97326 23.20798, 106.79078 22.620...  ANIMALIA  ...  false      false       true
+4       Aborichthys elongatus  MULTIPOLYGON (((88.21492 27.00798, 88.29841 26...  ANIMALIA  ...  false      false       true
+...                       ...                                                ...       ...  ...    ...        ...        ...
+25176  Zygophlebia subpinnata  MULTIPOLYGON (((47.27917 -21.07500, 47.67917 -...   PLANTAE  ...  false       true       true
+25177      Zyxomma atlanticum  MULTIPOLYGON (((7.33333 4.51667, 7.13414 4.384...  ANIMALIA  ...  false       true       true
+25178     Zyxomma breviventre  POLYGON ((103.70417 14.40417, 103.69583 14.095...  ANIMALIA  ...  false      false       true
+25179         Zyxomma elgneri  MULTIPOLYGON (((150.85174 -33.45869, 151.01215...  ANIMALIA  ...  false       true       true
+25180      Zyxomma petiolatum  MULTIPOLYGON (((146.23272 -18.21451, 146.36312...  ANIMALIA  ...  false       true       true
+
+[25181 rows x 12 columns]
+18.5 s  output to SMALLER_DATABASE_CLEAN/BIRDS.shp
+---- 01:29:36 ----
+Open 2/10  SMALLER_DATABASE\CARTILAGINOUS FISHES.shp
+19.4 s  read database, 301025  elements
+84.5 s  Aggregated down to 29134
+                     binomial                                           geometry   kingdom  ... marine terrestial freshwater
+0            Aaptosyax grypus  MULTIPOLYGON (((105.12465 16.89412, 105.03369 ...  ANIMALIA  ...  false      false       true
+1      Abactochromis labrosus  POLYGON ((34.22436 -10.34945, 34.24892 -10.371...  ANIMALIA  ...  false      false       true
+2          Abavorana luctuosa  MULTIPOLYGON (((113.62792 -2.05283, 113.33234 ...  ANIMALIA  ...  false       true       true
+3             Abbottina binhi  POLYGON ((105.97326 23.20798, 106.79078 22.620...  ANIMALIA  ...  false      false       true
+4       Aborichthys elongatus  MULTIPOLYGON (((88.21492 27.00798, 88.29841 26...  ANIMALIA  ...  false      false       true
+...                       ...                                                ...       ...  ...    ...        ...        ...
+29129  Zygophlebia subpinnata  MULTIPOLYGON (((47.27917 -21.07500, 47.67917 -...   PLANTAE  ...  false       true       true
+29130      Zyxomma atlanticum  MULTIPOLYGON (((7.33333 4.51667, 7.13414 4.384...  ANIMALIA  ...  false       true       true
+29131     Zyxomma breviventre  POLYGON ((103.70417 14.40417, 103.69583 14.095...  ANIMALIA  ...  false      false       true
+29132         Zyxomma elgneri  MULTIPOLYGON (((150.85174 -33.45869, 151.01215...  ANIMALIA  ...  false       true       true
+29133      Zyxomma petiolatum  MULTIPOLYGON (((146.23272 -18.21451, 146.36312...  ANIMALIA  ...  false       true       true
+
+[29134 rows x 12 columns]
+23.2 s  output to SMALLER_DATABASE_CLEAN/CARTILAGINOUS FISHES.shp
+---- 01:31:43 ----
+Open 3/10  SMALLER_DATABASE\CRUSTACEANS.shp
+15.1 s  read database, 239710  elements
+68.4 s  Aggregated down to 25418
+                     binomial                                           geometry   kingdom  ... marine terrestial freshwater
+0            Aaptosyax grypus  MULTIPOLYGON (((105.12465 16.89412, 105.03369 ...  ANIMALIA  ...  false      false       true
+1      Abactochromis labrosus  POLYGON ((34.22436 -10.34945, 34.24892 -10.371...  ANIMALIA  ...  false      false       true
+2          Abavorana luctuosa  MULTIPOLYGON (((113.62792 -2.05283, 113.33234 ...  ANIMALIA  ...  false       true       true
+3             Abbottina binhi  POLYGON ((105.97326 23.20798, 106.79078 22.620...  ANIMALIA  ...  false      false       true
+4       Aborichthys elongatus  MULTIPOLYGON (((88.21492 27.00798, 88.29841 26...  ANIMALIA  ...  false      false       true
+...                       ...                                                ...       ...  ...    ...        ...        ...
+25413  Zygophlebia subpinnata  MULTIPOLYGON (((47.27917 -21.07500, 47.67917 -...   PLANTAE  ...  false       true       true
+25414      Zyxomma atlanticum  MULTIPOLYGON (((7.33333 4.51667, 7.13414 4.384...  ANIMALIA  ...  false       true       true
+25415     Zyxomma breviventre  POLYGON ((103.70417 14.40417, 103.69583 14.095...  ANIMALIA  ...  false      false       true
+25416         Zyxomma elgneri  MULTIPOLYGON (((150.85174 -33.45869, 151.01215...  ANIMALIA  ...  false       true       true
+25417      Zyxomma petiolatum  MULTIPOLYGON (((146.23272 -18.21451, 146.36312...  ANIMALIA  ...  false       true       true
+
+[25418 rows x 12 columns]
+18.7 s  output to SMALLER_DATABASE_CLEAN/CRUSTACEANS.shp
+---- 01:33:26 ----
+Open 4/10  SMALLER_DATABASE\FISHES.shp
+20.0 s  read database, 318390  elements
+97.6 s  Aggregated down to 29134
+                     binomial                                           geometry   kingdom  ... marine terrestial freshwater
+0            Aaptosyax grypus  MULTIPOLYGON (((105.12465 16.89412, 105.03369 ...  ANIMALIA  ...  false      false       true
+1      Abactochromis labrosus  POLYGON ((34.22436 -10.34945, 34.24892 -10.371...  ANIMALIA  ...  false      false       true
+2          Abavorana luctuosa  MULTIPOLYGON (((113.62792 -2.05283, 113.33234 ...  ANIMALIA  ...  false       true       true
+3             Abbottina binhi  POLYGON ((105.97326 23.20798, 106.79078 22.620...  ANIMALIA  ...  false      false       true
+4       Aborichthys elongatus  MULTIPOLYGON (((88.21492 27.00798, 88.29841 26...  ANIMALIA  ...  false      false       true
+...                       ...                                                ...       ...  ...    ...        ...        ...
+29129  Zygophlebia subpinnata  MULTIPOLYGON (((47.27917 -21.07500, 47.67917 -...   PLANTAE  ...  false       true       true
+29130      Zyxomma atlanticum  MULTIPOLYGON (((7.33333 4.51667, 7.13414 4.384...  ANIMALIA  ...  false       true       true
+29131     Zyxomma breviventre  POLYGON ((103.70417 14.40417, 103.69583 14.095...  ANIMALIA  ...  false      false       true
+29132         Zyxomma elgneri  MULTIPOLYGON (((150.85174 -33.45869, 151.01215...  ANIMALIA  ...  false       true       true
+29133      Zyxomma petiolatum  MULTIPOLYGON (((146.23272 -18.21451, 146.36312...  ANIMALIA  ...  false       true       true
+
+[29134 rows x 12 columns]
+23.0 s  output to SMALLER_DATABASE_CLEAN/FISHES.shp
+---- 01:35:47 ----
+Open 5/10  SMALLER_DATABASE\FUNGI.shp
+7.6  s  read database, 120721  elements
+34.3 s  Aggregated down to 12535
+                     binomial                                           geometry   kingdom  ... marine terrestial freshwater
+0       Aborichthys elongatus  MULTIPOLYGON (((88.21492 27.00798, 88.29841 26...  ANIMALIA  ...  false      false       true
+1       Abyssocottus gibbosus  POLYGON ((107.26556 52.64449, 105.97916 52.279...  ANIMALIA  ...  false      false       true
+2               Acaena exigua  POLYGON ((-159.40165 22.23247, -159.29223 22.1...   PLANTAE  ...  false       true       true
+3      Acanthaeschna victoria  MULTIPOLYGON (((150.30375 -35.18451, 150.35356...  ANIMALIA  ...  false       true       true
+4         Acanthagrion abunae  MULTIPOLYGON (((-73.12500 4.13750, -72.97860 4...  ANIMALIA  ...  false      false       true
+...                       ...                                                ...       ...  ...    ...        ...        ...
+12530      Zygonyx flavicosta  MULTIPOLYGON (((18.61050 3.85341, 18.35833 4.1...  ANIMALIA  ...  false       true       true
+12531      Zygonyx natalensis  MULTIPOLYGON (((-8.31175 7.92860, -7.70777 7.8...  ANIMALIA  ...  false       true       true
+12532       Zygonyx speciosus  POLYGON ((13.50780 -3.69269, 13.24345 -3.61699...  ANIMALIA  ...  false       true       true
+12533        Zygonyx torridus  MULTIPOLYGON (((18.86076 -31.49548, 19.02832 -...  ANIMALIA  ...  false       true       true
+12534  Zygophlebia subpinnata  MULTIPOLYGON (((47.27917 -21.07500, 47.67917 -...   PLANTAE  ...  false       true       true
+
+[12535 rows x 12 columns]
+9.4  s  output to SMALLER_DATABASE_CLEAN/FUNGI.shp
+---- 01:36:38 ----
+Open 6/10  SMALLER_DATABASE\INSECTS.shp
+14.8 s  read database, 238217  elements
+68.6 s  Aggregated down to 25181
+                     binomial                                           geometry   kingdom  ... marine terrestial freshwater
+0            Aaptosyax grypus  MULTIPOLYGON (((105.12465 16.89412, 105.03369 ...  ANIMALIA  ...  false      false       true
+1      Abactochromis labrosus  POLYGON ((34.22436 -10.34945, 34.24892 -10.371...  ANIMALIA  ...  false      false       true
+2          Abavorana luctuosa  MULTIPOLYGON (((113.62792 -2.05283, 113.33234 ...  ANIMALIA  ...  false       true       true
+3             Abbottina binhi  POLYGON ((105.97326 23.20798, 106.79078 22.620...  ANIMALIA  ...  false      false       true
+4       Aborichthys elongatus  MULTIPOLYGON (((88.21492 27.00798, 88.29841 26...  ANIMALIA  ...  false      false       true
+...                       ...                                                ...       ...  ...    ...        ...        ...
+25176  Zygophlebia subpinnata  MULTIPOLYGON (((47.27917 -21.07500, 47.67917 -...   PLANTAE  ...  false       true       true
+25177      Zyxomma atlanticum  MULTIPOLYGON (((7.33333 4.51667, 7.13414 4.384...  ANIMALIA  ...  false       true       true
+25178     Zyxomma breviventre  POLYGON ((103.70417 14.40417, 103.69583 14.095...  ANIMALIA  ...  false      false       true
+25179         Zyxomma elgneri  MULTIPOLYGON (((150.85174 -33.45869, 151.01215...  ANIMALIA  ...  false       true       true
+25180      Zyxomma petiolatum  MULTIPOLYGON (((146.23272 -18.21451, 146.36312...  ANIMALIA  ...  false       true       true
+
+[25181 rows x 12 columns]
+19.2 s  output to SMALLER_DATABASE_CLEAN/INSECTS.shp
+---- 01:38:21 ----
+Open 7/10  SMALLER_DATABASE\MAMMALS.shp
+16.9 s  read database, 260622  elements
+75.3 s  Aggregated down to 30378
+                     binomial                                           geometry   kingdom  ... marine terrestial freshwater
+0            Aaptosyax grypus  MULTIPOLYGON (((105.12465 16.89412, 105.03369 ...  ANIMALIA  ...  false      false       true
+1      Abactochromis labrosus  POLYGON ((34.22436 -10.34945, 34.24892 -10.371...  ANIMALIA  ...  false      false       true
+2          Abavorana luctuosa  MULTIPOLYGON (((113.62792 -2.05283, 113.33234 ...  ANIMALIA  ...  false       true       true
+3             Abbottina binhi  POLYGON ((105.97326 23.20798, 106.79078 22.620...  ANIMALIA  ...  false      false       true
+4           Abeomelomys sevia  MULTIPOLYGON (((147.54724 -6.44450, 147.38310 ...  ANIMALIA  ...  false       true      false
+...                       ...                                                ...       ...  ...    ...        ...        ...
+30373         Zyzomys argurus  MULTIPOLYGON (((119.32290 -19.99246, 120.19219...  ANIMALIA  ...  false       true      false
+30374           Zyzomys maini  POLYGON ((133.06857 -13.95426, 132.86028 -14.2...  ANIMALIA  ...  false       true      false
+30375       Zyzomys palatalis  POLYGON ((137.84090 -17.55753, 137.65530 -17.5...  ANIMALIA  ...  false       true      false
+30376    Zyzomys pedunculatus  POLYGON ((132.66041 -23.44729, 133.94257 -23.5...  ANIMALIA  ...  false       true      false
+30377       Zyzomys woodwardi  MULTIPOLYGON (((128.50959 -15.91184, 128.32516...  ANIMALIA  ...  false       true      false
+
+[30378 rows x 12 columns]
+22.1 s  output to SMALLER_DATABASE_CLEAN/MAMMALS.shp
+---- 01:40:15 ----
+Open 8/10  SMALLER_DATABASE\MOLLUSCS.shp
+15.5 s  read database, 244885  elements
+71.5 s  Aggregated down to 25751
+                     binomial                                           geometry   kingdom  ... marine terrestial freshwater
+0            Aaptosyax grypus  MULTIPOLYGON (((105.12465 16.89412, 105.03369 ...  ANIMALIA  ...  false      false       true
+1      Abactochromis labrosus  POLYGON ((34.22436 -10.34945, 34.24892 -10.371...  ANIMALIA  ...  false      false       true
+2          Abavorana luctuosa  MULTIPOLYGON (((113.62792 -2.05283, 113.33234 ...  ANIMALIA  ...  false       true       true
+3             Abbottina binhi  POLYGON ((105.97326 23.20798, 106.79078 22.620...  ANIMALIA  ...  false      false       true
+4       Aborichthys elongatus  MULTIPOLYGON (((88.21492 27.00798, 88.29841 26...  ANIMALIA  ...  false      false       true
+...                       ...                                                ...       ...  ...    ...        ...        ...
+25746  Zygophlebia subpinnata  MULTIPOLYGON (((47.27917 -21.07500, 47.67917 -...   PLANTAE  ...  false       true       true
+25747      Zyxomma atlanticum  MULTIPOLYGON (((7.33333 4.51667, 7.13414 4.384...  ANIMALIA  ...  false       true       true
+25748     Zyxomma breviventre  POLYGON ((103.70417 14.40417, 103.69583 14.095...  ANIMALIA  ...  false      false       true
+25749         Zyxomma elgneri  MULTIPOLYGON (((150.85174 -33.45869, 151.01215...  ANIMALIA  ...  false       true       true
+25750      Zyxomma petiolatum  MULTIPOLYGON (((146.23272 -18.21451, 146.36312...  ANIMALIA  ...  false       true       true
+
+[25751 rows x 12 columns]
+19.7 s  output to SMALLER_DATABASE_CLEAN/MOLLUSCS.shp
+---- 01:42:02 ----
+Open 9/10  SMALLER_DATABASE\PLANTS.shp
+15.5 s  read database, 241214  elements
+69.8 s  Aggregated down to 25446
+                     binomial                                           geometry   kingdom  ... marine terrestial freshwater
+0            Aaptosyax grypus  MULTIPOLYGON (((105.12465 16.89412, 105.03369 ...  ANIMALIA  ...  false      false       true
+1      Abactochromis labrosus  POLYGON ((34.22436 -10.34945, 34.24892 -10.371...  ANIMALIA  ...  false      false       true
+2          Abavorana luctuosa  MULTIPOLYGON (((113.62792 -2.05283, 113.33234 ...  ANIMALIA  ...  false       true       true
+3             Abbottina binhi  POLYGON ((105.97326 23.20798, 106.79078 22.620...  ANIMALIA  ...  false      false       true
+4       Aborichthys elongatus  MULTIPOLYGON (((88.21492 27.00798, 88.29841 26...  ANIMALIA  ...  false      false       true
+...                       ...                                                ...       ...  ...    ...        ...        ...
+25441  Zygophlebia subpinnata  MULTIPOLYGON (((47.27917 -21.07500, 47.67917 -...   PLANTAE  ...  false       true       true
+25442      Zyxomma atlanticum  MULTIPOLYGON (((7.33333 4.51667, 7.13414 4.384...  ANIMALIA  ...  false       true       true
+25443     Zyxomma breviventre  POLYGON ((103.70417 14.40417, 103.69583 14.095...  ANIMALIA  ...  false      false       true
+25444         Zyxomma elgneri  MULTIPOLYGON (((150.85174 -33.45869, 151.01215...  ANIMALIA  ...  false       true       true
+25445      Zyxomma petiolatum  MULTIPOLYGON (((146.23272 -18.21451, 146.36312...  ANIMALIA  ...  false       true       true
+
+[25446 rows x 12 columns]
+19.1 s  output to SMALLER_DATABASE_CLEAN/PLANTS.shp
+---- 01:43:47 ----
+951.4s  all done

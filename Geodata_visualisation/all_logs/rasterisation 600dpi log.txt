@@ -1,0 +1,873 @@
+
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>python rasterize_all.py
+-------- 0 --------
+---- 01:01:05 ----
+Reading REDLIST\AMPHIBIANS\AMPHIBIANS.shp
+15.8 s Finished reading database
+Output for DD : 1172 shapes
+1.0  s  Plot time
+0.9  s  Saved alpha600DPIAMPHIBIANS.shp_(0)DD.png
+Output for LC : 3930 shapes
+53.4 s  Plot time
+52.8 s  Saved alpha600DPIAMPHIBIANS.shp_(1)LC.png
+Output for NT : 517 shapes
+0.9  s  Plot time
+1.3  s  Saved alpha600DPIAMPHIBIANS.shp_(2)NT.png
+Output for VU : 894 shapes
+1.8  s  Plot time
+2.1  s  Saved alpha600DPIAMPHIBIANS.shp_(3)VU.png
+Output for EN : 1270 shapes
+1.5  s  Plot time
+1.7  s  Saved alpha600DPIAMPHIBIANS.shp_(4)EN.png
+Output for CR : 790 shapes
+0.6  s  Plot time
+1.0  s  Saved alpha600DPIAMPHIBIANS.shp_(5)CR.png
+Output for EW : 2 shapes
+0.0  s  Plot time
+0.4  s  Saved alpha600DPIAMPHIBIANS.shp_(6)EW.png
+Output for EX : 23 shapes
+0.0  s  Plot time
+0.4  s  Saved alpha600DPIAMPHIBIANS.shp_(7)EX.png
+Total duration: 136.69796562194824s
+-------- 1 --------
+---- 01:03:22 ----
+Reading REDLIST\Fishes\ANGELFISH\ANGELFISH.shp
+3.5  s Finished reading database
+Output for DD : 2 shapes
+0.0  s  Plot time
+0.4  s  Saved alpha600DPIANGELFISH.shp_(0)DD.png
+Output for LC : 80 shapes
+6.7  s  Plot time
+1.8  s  Saved alpha600DPIANGELFISH.shp_(1)LC.png
+Output for NT : 2 shapes
+0.0  s  Plot time
+0.4  s  Saved alpha600DPIANGELFISH.shp_(2)NT.png
+Output for VU : 1 shapes
+0.0  s  Plot time
+0.4  s  Saved alpha600DPIANGELFISH.shp_(3)VU.png
+Output for EN : 1 shapes
+0.0  s  Plot time
+0.4  s  Saved alpha600DPIANGELFISH.shp_(4)EN.png
+Total duration: 14.255515336990356s
+-------- 2 --------
+---- 01:03:36 ----
+Reading REDLIST\Fishes\BLENNIES\BLENNIES.shp
+15.8 s Finished reading database
+Output for DD : 78 shapes
+0.5  s  Plot time
+0.4  s  Saved alpha600DPIBLENNIES.shp_(0)DD.png
+Output for LC : 789 shapes
+26.8 s  Plot time
+8.8  s  Saved alpha600DPIBLENNIES.shp_(1)LC.png
+Output for NT : 6 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIBLENNIES.shp_(2)NT.png
+Output for VU : 47 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPIBLENNIES.shp_(3)VU.png
+Output for EN : 7 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIBLENNIES.shp_(4)EN.png
+Output for CR : 2 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIBLENNIES.shp_(5)CR.png
+Total duration: 54.20793032646179s
+-------- 3 --------
+---- 01:04:31 ----
+Reading REDLIST\Fishes\BONEFISH_TARPONS\BONEFISH_TARPONS.shp
+1.5  s Finished reading database
+Output for DD : 15 shapes
+5.7  s  Plot time
+3.5  s  Saved alpha600DPIBONEFISH_TARPONS.shp_(0)DD.png
+Output for LC : 8 shapes
+rasterize_all.py:65: RuntimeWarning: More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`).
+  fig=plt.figure()
+2.6  s  Plot time
+2.0  s  Saved alpha600DPIBONEFISH_TARPONS.shp_(1)LC.png
+Output for NT : 1 shapes
+0.0  s  Plot time
+0.4  s  Saved alpha600DPIBONEFISH_TARPONS.shp_(2)NT.png
+Output for VU : 1 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPIBONEFISH_TARPONS.shp_(3)VU.png
+Total duration: 16.606107473373413s
+-------- 4 --------
+---- 01:04:47 ----
+Reading REDLIST\Fishes\BUTTERFLYFISH\BUTTERFLYFISH.shp
+5.5  s Finished reading database
+Output for DD : 8 shapes
+0.4  s  Plot time
+0.4  s  Saved alpha600DPIBUTTERFLYFISH.shp_(0)DD.png
+Output for LC : 117 shapes
+9.2  s  Plot time
+2.1  s  Saved alpha600DPIBUTTERFLYFISH.shp_(1)LC.png
+Output for NT : 3 shapes
+0.3  s  Plot time
+0.4  s  Saved alpha600DPIBUTTERFLYFISH.shp_(2)NT.png
+Total duration: 18.661804914474487s
+-------- 5 --------
+---- 01:05:06 ----
+Reading REDLIST\Fishes\CLUPEIFORMES\CLUPEIFORMES.shp
+7.5  s Finished reading database
+Output for DD : 123 shapes
+1.9  s  Plot time
+1.2  s  Saved alpha600DPICLUPEIFORMES.shp_(0)DD.png
+Output for LC : 304 shapes
+15.7 s  Plot time
+6.6  s  Saved alpha600DPICLUPEIFORMES.shp_(1)LC.png
+Output for NT : 5 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPICLUPEIFORMES.shp_(2)NT.png
+Output for VU : 19 shapes
+0.2  s  Plot time
+0.4  s  Saved alpha600DPICLUPEIFORMES.shp_(3)VU.png
+Output for EN : 13 shapes
+0.6  s  Plot time
+0.7  s  Saved alpha600DPICLUPEIFORMES.shp_(4)EN.png
+Output for CR : 4 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPICLUPEIFORMES.shp_(5)CR.png
+Total duration: 36.09809136390686s
+-------- 6 --------
+---- 01:05:42 ----
+Reading REDLIST\Fishes\GROUPERS\GROUPERS.shp
+10.6 s Finished reading database
+Output for DD : 24 shapes
+1.3  s  Plot time
+0.7  s  Saved alpha600DPIGROUPERS.shp_(0)DD.png
+Output for LC : 115 shapes
+12.2 s  Plot time
+4.2  s  Saved alpha600DPIGROUPERS.shp_(1)LC.png
+Output for NT : 8 shapes
+0.2  s  Plot time
+0.4  s  Saved alpha600DPIGROUPERS.shp_(2)NT.png
+Output for VU : 16 shapes
+1.2  s  Plot time
+0.7  s  Saved alpha600DPIGROUPERS.shp_(3)VU.png
+Output for EN : 2 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIGROUPERS.shp_(4)EN.png
+Output for CR : 1 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIGROUPERS.shp_(5)CR.png
+Total duration: 32.785470485687256s
+-------- 7 --------
+---- 01:06:15 ----
+Reading REDLIST\Fishes\HAGFISH\HAGFISH.shp
+0.1  s Finished reading database
+Output for DD : 29 shapes
+0.2  s  Plot time
+0.4  s  Saved alpha600DPIHAGFISH.shp_(0)DD.png
+Output for LC : 35 shapes
+0.8  s  Plot time
+0.6  s  Saved alpha600DPIHAGFISH.shp_(1)LC.png
+Output for NT : 2 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIHAGFISH.shp_(2)NT.png
+Output for VU : 6 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIHAGFISH.shp_(3)VU.png
+Output for EN : 2 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIHAGFISH.shp_(4)EN.png
+Output for CR : 1 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIHAGFISH.shp_(5)CR.png
+Total duration: 3.678542375564575s
+-------- 8 --------
+---- 01:06:19 ----
+Reading REDLIST\Fishes\MARINEFISH\MARINEFISH_PART1.shp
+47.8 s Finished reading database
+Output for DD : 211 shapes
+9.0  s  Plot time
+4.9  s  Saved alpha600DPIMARINEFISH_PART1.shp_(0)DD.png
+Output for LC : 988 shapes
+60.7 s  Plot time
+23.1 s  Saved alpha600DPIMARINEFISH_PART1.shp_(1)LC.png
+Output for NT : 53 shapes
+12.0 s  Plot time
+6.9  s  Saved alpha600DPIMARINEFISH_PART1.shp_(2)NT.png
+Output for VU : 120 shapes
+11.5 s  Plot time
+5.6  s  Saved alpha600DPIMARINEFISH_PART1.shp_(3)VU.png
+Output for EN : 46 shapes
+3.1  s  Plot time
+1.8  s  Saved alpha600DPIMARINEFISH_PART1.shp_(4)EN.png
+Output for CR : 36 shapes
+3.6  s  Plot time
+2.0  s  Saved alpha600DPIMARINEFISH_PART1.shp_(5)CR.png
+Total duration: 192.81101727485657s
+-------- 9 --------
+---- 01:09:32 ----
+Reading REDLIST\Fishes\MARINEFISH\MARINEFISH_PART2.shp
+46.7 s Finished reading database
+Output for DD : 217 shapes
+4.0  s  Plot time
+1.5  s  Saved alpha600DPIMARINEFISH_PART2.shp_(0)DD.png
+Output for LC : 972 shapes
+58.6 s  Plot time
+20.5 s  Saved alpha600DPIMARINEFISH_PART2.shp_(1)LC.png
+Output for NT : 60 shapes
+13.6 s  Plot time
+8.1  s  Saved alpha600DPIMARINEFISH_PART2.shp_(2)NT.png
+Output for VU : 87 shapes
+7.9  s  Plot time
+4.2  s  Saved alpha600DPIMARINEFISH_PART2.shp_(3)VU.png
+Output for EN : 71 shapes
+13.0 s  Plot time
+7.9  s  Saved alpha600DPIMARINEFISH_PART2.shp_(4)EN.png
+Output for CR : 46 shapes
+6.0  s  Plot time
+3.3  s  Saved alpha600DPIMARINEFISH_PART2.shp_(5)CR.png
+Total duration: 196.20096850395203s
+-------- 10 --------
+---- 01:12:49 ----
+Reading REDLIST\Fishes\MARINEFISH\MARINEFISH_PART3.shp
+45.6 s Finished reading database
+Output for DD : 241 shapes
+4.2  s  Plot time
+1.7  s  Saved alpha600DPIMARINEFISH_PART3.shp_(0)DD.png
+Output for LC : 999 shapes
+62.2 s  Plot time
+22.1 s  Saved alpha600DPIMARINEFISH_PART3.shp_(1)LC.png
+Output for NT : 54 shapes
+7.5  s  Plot time
+4.1  s  Saved alpha600DPIMARINEFISH_PART3.shp_(2)NT.png
+Output for VU : 97 shapes
+14.0 s  Plot time
+8.5  s  Saved alpha600DPIMARINEFISH_PART3.shp_(3)VU.png
+Output for EN : 36 shapes
+5.2  s  Plot time
+2.4  s  Saved alpha600DPIMARINEFISH_PART3.shp_(4)EN.png
+Output for CR : 27 shapes
+4.9  s  Plot time
+3.6  s  Saved alpha600DPIMARINEFISH_PART3.shp_(5)CR.png
+Total duration: 186.67673516273499s
+-------- 11 --------
+---- 01:15:56 ----
+Reading REDLIST\Fishes\PUFFERFISH\PUFFERFISH.shp
+7.8  s Finished reading database
+Output for DD : 30 shapes
+0.2  s  Plot time
+0.4  s  Saved alpha600DPIPUFFERFISH.shp_(0)DD.png
+Output for LC : 160 shapes
+17.7 s  Plot time
+8.8  s  Saved alpha600DPIPUFFERFISH.shp_(1)LC.png
+Output for NT : 6 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPIPUFFERFISH.shp_(2)NT.png
+Output for VU : 2 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIPUFFERFISH.shp_(3)VU.png
+Output for EN : 7 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIPUFFERFISH.shp_(4)EN.png
+Output for CR : 1 shapes
+0.0  s  Plot time
+0.6  s  Saved alpha600DPIPUFFERFISH.shp_(5)CR.png
+Total duration: 37.30571007728577s
+-------- 12 --------
+---- 01:16:34 ----
+Reading REDLIST\Fishes\SEABREAMS_PORGIES_PICARELS\SEABREAMS_PORGIES_PICARELS.shp
+2.9  s Finished reading database
+Output for DD : 27 shapes
+0.2  s  Plot time
+0.4  s  Saved alpha600DPISEABREAMS_PORGIES_PICARELS.shp_(0)DD.png
+Output for LC : 108 shapes
+3.3  s  Plot time
+1.3  s  Saved alpha600DPISEABREAMS_PORGIES_PICARELS.shp_(1)LC.png
+Output for NT : 12 shapes
+0.1  s  Plot time
+0.4  s  Saved alpha600DPISEABREAMS_PORGIES_PICARELS.shp_(2)NT.png
+Output for VU : 7 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPISEABREAMS_PORGIES_PICARELS.shp_(3)VU.png
+Output for EN : 4 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPISEABREAMS_PORGIES_PICARELS.shp_(4)EN.png
+Output for CR : 2 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPISEABREAMS_PORGIES_PICARELS.shp_(5)CR.png
+Total duration: 10.199918985366821s
+-------- 13 --------
+---- 01:16:44 ----
+Reading REDLIST\Fishes\SHARKS_RAYS_CHIMAERAS\SHARKS_RAYS_CHIMAERAS.shp
+48.9 s Finished reading database
+Output for DD : 187 shapes
+2.4  s  Plot time
+1.6  s  Saved alpha600DPISHARKS_RAYS_CHIMAERAS.shp_(0)DD.png
+Output for LC : 516 shapes
+23.9 s  Plot time
+15.2 s  Saved alpha600DPISHARKS_RAYS_CHIMAERAS.shp_(1)LC.png
+Output for NT : 114 shapes
+28.5 s  Plot time
+18.1 s  Saved alpha600DPISHARKS_RAYS_CHIMAERAS.shp_(2)NT.png
+Output for VU : 173 shapes
+29.5 s  Plot time
+16.8 s  Saved alpha600DPISHARKS_RAYS_CHIMAERAS.shp_(3)VU.png
+Output for EN : 126 shapes
+21.4 s  Plot time
+10.8 s  Saved alpha600DPISHARKS_RAYS_CHIMAERAS.shp_(4)EN.png
+Output for CR : 100 shapes
+14.7 s  Plot time
+8.2  s  Saved alpha600DPISHARKS_RAYS_CHIMAERAS.shp_(5)CR.png
+Total duration: 240.72410321235657s
+-------- 14 --------
+---- 01:20:45 ----
+Reading REDLIST\Fishes\SURGEONFISHES_TANGS_UNICORNFISHES\SURGEONFISHES_TANGS_UNICORNFISHES.shp
+5.9  s Finished reading database
+Output for DD : 8 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPISURGEONFISHES_TANGS_UNICORNFISHES.shp_(0)DD.png
+Output for LC : 77 shapes
+9.1  s  Plot time
+2.1  s  Saved alpha600DPISURGEONFISHES_TANGS_UNICORNFISHES.shp_(1)LC.png
+Output for VU : 1 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPISURGEONFISHES_TANGS_UNICORNFISHES.shp_(3)VU.png
+Total duration: 18.130075931549072s
+-------- 15 --------
+---- 01:21:03 ----
+Reading REDLIST\Fishes\SYNGNATHIFORM_FISHES\SYNGNATHIFORM_FISHES.shp
+11.7 s Finished reading database
+Output for DD : 105 shapes
+3.9  s  Plot time
+1.9  s  Saved alpha600DPISYNGNATHIFORM_FISHES.shp_(0)DD.png
+Output for LC : 210 shapes
+25.4 s  Plot time
+11.7 s  Saved alpha600DPISYNGNATHIFORM_FISHES.shp_(1)LC.png
+Output for NT : 2 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPISYNGNATHIFORM_FISHES.shp_(2)NT.png
+Output for VU : 13 shapes
+1.0  s  Plot time
+0.5  s  Saved alpha600DPISYNGNATHIFORM_FISHES.shp_(3)VU.png
+Output for EN : 3 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPISYNGNATHIFORM_FISHES.shp_(4)EN.png
+Output for CR : 1 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPISYNGNATHIFORM_FISHES.shp_(5)CR.png
+Total duration: 57.5658392906189s
+-------- 16 --------
+---- 01:22:01 ----
+Reading REDLIST\Fishes\TUNAS_BILLFISHES\TUNAS_BILLFISHES.shp
+8.2  s Finished reading database
+Output for DD : 12 shapes
+1.4  s  Plot time
+0.6  s  Saved alpha600DPITUNAS_BILLFISHES.shp_(0)DD.png
+Output for LC : 38 shapes
+4.6  s  Plot time
+1.6  s  Saved alpha600DPITUNAS_BILLFISHES.shp_(1)LC.png
+Output for NT : 5 shapes
+1.1  s  Plot time
+0.6  s  Saved alpha600DPITUNAS_BILLFISHES.shp_(2)NT.png
+Output for VU : 5 shapes
+0.3  s  Plot time
+0.4  s  Saved alpha600DPITUNAS_BILLFISHES.shp_(3)VU.png
+Output for EN : 1 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPITUNAS_BILLFISHES.shp_(4)EN.png
+Output for CR : 1 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPITUNAS_BILLFISHES.shp_(5)CR.png
+Total duration: 20.40000343322754s
+-------- 17 --------
+---- 01:22:21 ----
+Reading REDLIST\Fishes\WRASSES_PARROTFISHES\WRASSES_PARROTFISHES.shp
+18.4 s Finished reading database
+Output for DD : 84 shapes
+1.0  s  Plot time
+0.5  s  Saved alpha600DPIWRASSES_PARROTFISHES.shp_(0)DD.png
+Output for LC : 504 shapes
+30.7 s  Plot time
+6.3  s  Saved alpha600DPIWRASSES_PARROTFISHES.shp_(1)LC.png
+Output for NT : 5 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPIWRASSES_PARROTFISHES.shp_(2)NT.png
+Output for VU : 26 shapes
+0.6  s  Plot time
+0.4  s  Saved alpha600DPIWRASSES_PARROTFISHES.shp_(3)VU.png
+Output for EN : 3 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIWRASSES_PARROTFISHES.shp_(4)EN.png
+Total duration: 59.25466203689575s
+-------- 18 --------
+---- 01:23:21 ----
+Reading REDLIST\FreshWater_GROUP\FW_GROUP_PART1.shp
+66.0 s Finished reading database
+Output for DD : 1222 shapes
+17.2 s  Plot time
+12.0 s  Saved alpha600DPIFW_GROUP_PART1.shp_(0)DD.png
+Output for LC : 4257 shapes
+372.3s  Plot time
+277.5s  Saved alpha600DPIFW_GROUP_PART1.shp_(1)LC.png
+Output for NT : 302 shapes
+25.6 s  Plot time
+2.9  s  Saved alpha600DPIFW_GROUP_PART1.shp_(2)NT.png
+Output for VU : 591 shapes
+5.5  s  Plot time
+3.1  s  Saved alpha600DPIFW_GROUP_PART1.shp_(3)VU.png
+Output for EN : 503 shapes
+2.4  s  Plot time
+1.6  s  Saved alpha600DPIFW_GROUP_PART1.shp_(4)EN.png
+Output for CR : 290 shapes
+1.0  s  Plot time
+0.8  s  Saved alpha600DPIFW_GROUP_PART1.shp_(5)CR.png
+Output for EW : 1 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIFW_GROUP_PART1.shp_(6)EW.png
+Output for EX : 26 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIFW_GROUP_PART1.shp_(7)EX.png
+Total duration: 789.7281980514526s
+-------- 19 --------
+---- 01:36:37 ----
+Reading REDLIST\FreshWater_GROUP\FW_GROUP_PART2.shp
+54.9 s Finished reading database
+Output for DD : 1164 shapes
+8.8  s  Plot time
+6.4  s  Saved alpha600DPIFW_GROUP_PART2.shp_(0)DD.png
+Output for LC : 4161 shapes
+322.8s  Plot time
+228.4s  Saved alpha600DPIFW_GROUP_PART2.shp_(1)LC.png
+Output for NT : 425 shapes
+9.3  s  Plot time
+6.7  s  Saved alpha600DPIFW_GROUP_PART2.shp_(2)NT.png
+Output for VU : 578 shapes
+9.7  s  Plot time
+6.5  s  Saved alpha600DPIFW_GROUP_PART2.shp_(3)VU.png
+Output for EN : 520 shapes
+2.1  s  Plot time
+2.1  s  Saved alpha600DPIFW_GROUP_PART2.shp_(4)EN.png
+Output for CR : 321 shapes
+1.4  s  Plot time
+1.1  s  Saved alpha600DPIFW_GROUP_PART2.shp_(5)CR.png
+Output for EW : 2 shapes
+0.0  s  Plot time
+0.7  s  Saved alpha600DPIFW_GROUP_PART2.shp_(6)EW.png
+Output for EX : 21 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPIFW_GROUP_PART2.shp_(7)EX.png
+Total duration: 662.5128700733185s
+-------- 20 --------
+---- 01:47:41 ----
+Reading REDLIST\FreshWater_GROUP\FW_GROUP_PART3.shp
+56.7 s Finished reading database
+Output for DD : 1138 shapes
+75.2 s  Plot time
+9.7  s  Saved alpha600DPIFW_GROUP_PART3.shp_(0)DD.png
+Output for LC : 4173 shapes
+340.1s  Plot time
+242.4s  Saved alpha600DPIFW_GROUP_PART3.shp_(1)LC.png
+Output for NT : 411 shapes
+42.2 s  Plot time
+9.3  s  Saved alpha600DPIFW_GROUP_PART3.shp_(2)NT.png
+Output for VU : 567 shapes
+7.9  s  Plot time
+5.0  s  Saved alpha600DPIFW_GROUP_PART3.shp_(3)VU.png
+Output for EN : 563 shapes
+4.1  s  Plot time
+2.7  s  Saved alpha600DPIFW_GROUP_PART3.shp_(4)EN.png
+Output for CR : 310 shapes
+1.5  s  Plot time
+1.1  s  Saved alpha600DPIFW_GROUP_PART3.shp_(5)CR.png
+Output for EX : 30 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIFW_GROUP_PART3.shp_(7)EX.png
+Total duration: 799.0791928768158s
+-------- 21 --------
+---- 02:01:07 ----
+Reading REDLIST\FreshWater_GROUP\FW_GROUP_PART4.shp
+58.9 s Finished reading database
+Output for DD : 1166 shapes
+14.3 s  Plot time
+10.1 s  Saved alpha600DPIFW_GROUP_PART4.shp_(0)DD.png
+Output for LC : 4241 shapes
+304.0s  Plot time
+215.2s  Saved alpha600DPIFW_GROUP_PART4.shp_(1)LC.png
+Output for NT : 396 shapes
+8.8  s  Plot time
+7.4  s  Saved alpha600DPIFW_GROUP_PART4.shp_(2)NT.png
+Output for VU : 543 shapes
+22.4 s  Plot time
+3.5  s  Saved alpha600DPIFW_GROUP_PART4.shp_(3)VU.png
+Output for EN : 528 shapes
+2.5  s  Plot time
+1.9  s  Saved alpha600DPIFW_GROUP_PART4.shp_(4)EN.png
+Output for CR : 290 shapes
+0.6  s  Plot time
+0.7  s  Saved alpha600DPIFW_GROUP_PART4.shp_(5)CR.png
+Output for EW : 4 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIFW_GROUP_PART4.shp_(6)EW.png
+Output for EX : 22 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIFW_GROUP_PART4.shp_(7)EX.png
+Total duration: 651.8674428462982s
+-------- 22 --------
+---- 02:12:01 ----
+Reading REDLIST\FreshWater_GROUP\FW_GROUP_PART5.shp
+59.7 s Finished reading database
+Output for DD : 1120 shapes
+18.1 s  Plot time
+12.6 s  Saved alpha600DPIFW_GROUP_PART5.shp_(0)DD.png
+Output for LC : 4173 shapes
+318.0s  Plot time
+250.9s  Saved alpha600DPIFW_GROUP_PART5.shp_(1)LC.png
+Output for NT : 490 shapes
+7.2  s  Plot time
+5.9  s  Saved alpha600DPIFW_GROUP_PART5.shp_(2)NT.png
+Output for VU : 566 shapes
+6.6  s  Plot time
+5.1  s  Saved alpha600DPIFW_GROUP_PART5.shp_(3)VU.png
+Output for EN : 486 shapes
+9.8  s  Plot time
+6.3  s  Saved alpha600DPIFW_GROUP_PART5.shp_(4)EN.png
+Output for CR : 325 shapes
+1.5  s  Plot time
+2.7  s  Saved alpha600DPIFW_GROUP_PART5.shp_(5)CR.png
+Output for EW : 2 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIFW_GROUP_PART5.shp_(6)EW.png
+Output for EX : 31 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIFW_GROUP_PART5.shp_(7)EX.png
+Total duration: 706.027717590332s
+-------- 23 --------
+---- 02:23:49 ----
+Reading REDLIST\FreshWater_GROUP\FW_GROUP_PART6.shp
+128.3s Finished reading database
+Output for DD : 1124 shapes
+10.8 s  Plot time
+7.2  s  Saved alpha600DPIFW_GROUP_PART6.shp_(0)DD.png
+Output for LC : 4194 shapes
+323.6s  Plot time
+231.0s  Saved alpha600DPIFW_GROUP_PART6.shp_(1)LC.png
+Output for NT : 388 shapes
+7.3  s  Plot time
+5.6  s  Saved alpha600DPIFW_GROUP_PART6.shp_(2)NT.png
+Output for VU : 573 shapes
+2.6  s  Plot time
+2.1  s  Saved alpha600DPIFW_GROUP_PART6.shp_(3)VU.png
+Output for EN : 539 shapes
+1.4  s  Plot time
+1.4  s  Saved alpha600DPIFW_GROUP_PART6.shp_(4)EN.png
+Output for CR : 335 shapes
+3.8  s  Plot time
+2.1  s  Saved alpha600DPIFW_GROUP_PART6.shp_(5)CR.png
+Output for EW : 6 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIFW_GROUP_PART6.shp_(6)EW.png
+Output for EX : 28 shapes
+0.1  s  Plot time
+0.6  s  Saved alpha600DPIFW_GROUP_PART6.shp_(7)EX.png
+Total duration: 729.1840534210205s
+-------- 24 --------
+---- 02:35:58 ----
+Reading REDLIST\MAMMALS\MAMMALS.shp
+106.2s Finished reading database
+Output for DD : 1015 shapes
+2.5  s  Plot time
+1.6  s  Saved alpha600DPIMAMMALS.shp_(0)DD.png
+Output for LC : 8006 shapes
+46.7 s  Plot time
+29.7 s  Saved alpha600DPIMAMMALS.shp_(1)LC.png
+Output for NT : 1009 shapes
+5.3  s  Plot time
+2.5  s  Saved alpha600DPIMAMMALS.shp_(2)NT.png
+Output for VU : 1485 shapes
+9.3  s  Plot time
+6.1  s  Saved alpha600DPIMAMMALS.shp_(3)VU.png
+Output for EN : 997 shapes
+5.1  s  Plot time
+3.0  s  Saved alpha600DPIMAMMALS.shp_(4)EN.png
+Output for CR : 364 shapes
+1.0  s  Plot time
+0.9  s  Saved alpha600DPIMAMMALS.shp_(5)CR.png
+Output for EW : 3 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIMAMMALS.shp_(6)EW.png
+Output for EX : 15 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIMAMMALS.shp_(7)EX.png
+Total duration: 221.47679901123047s
+-------- 25 --------
+---- 02:39:42 ----
+Reading REDLIST\MAMMALS_FRESHWATER\MAMMALS_FRESHWATER.shp
+1.8  s Finished reading database
+Output for DD : 16 shapes
+0.0  s  Plot time
+0.4  s  Saved alpha600DPIMAMMALS_FRESHWATER.shp_(0)DD.png
+Output for LC : 93 shapes
+2.6  s  Plot time
+2.0  s  Saved alpha600DPIMAMMALS_FRESHWATER.shp_(1)LC.png
+Output for NT : 26 shapes
+0.2  s  Plot time
+0.5  s  Saved alpha600DPIMAMMALS_FRESHWATER.shp_(2)NT.png
+Output for VU : 58 shapes
+0.6  s  Plot time
+0.6  s  Saved alpha600DPIMAMMALS_FRESHWATER.shp_(3)VU.png
+Output for EN : 49 shapes
+0.6  s  Plot time
+0.8  s  Saved alpha600DPIMAMMALS_FRESHWATER.shp_(4)EN.png
+Output for CR : 6 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIMAMMALS_FRESHWATER.shp_(5)CR.png
+Output for EW : 2 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIMAMMALS_FRESHWATER.shp_(6)EW.png
+Total duration: 11.59904170036316s
+-------- 26 --------
+---- 02:39:54 ----
+Reading REDLIST\Marine groups\CONUS\CONUS.shp
+20.1 s Finished reading database
+Output for DD : 87 shapes
+0.7  s  Plot time
+0.4  s  Saved alpha600DPICONUS.shp_(0)DD.png
+Output for LC : 485 shapes
+31.0 s  Plot time
+5.9  s  Saved alpha600DPICONUS.shp_(1)LC.png
+Output for NT : 26 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPICONUS.shp_(2)NT.png
+Output for VU : 27 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPICONUS.shp_(3)VU.png
+Output for EN : 11 shapes
+0.0  s  Plot time
+0.5  s  Saved alpha600DPICONUS.shp_(4)EN.png
+Output for CR : 3 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPICONUS.shp_(5)CR.png
+Total duration: 60.06611156463623s
+-------- 27 --------
+---- 02:40:54 ----
+Reading REDLIST\Marine groups\LOBSTERS\LOBSTERS.shp
+11.0 s Finished reading database
+Output for DD : 87 shapes
+1.2  s  Plot time
+0.8  s  Saved alpha600DPILOBSTERS.shp_(0)DD.png
+Output for LC : 163 shapes
+8.9  s  Plot time
+3.4  s  Saved alpha600DPILOBSTERS.shp_(1)LC.png
+Output for NT : 1 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPILOBSTERS.shp_(2)NT.png
+Total duration: 25.866759538650513s
+-------- 28 --------
+---- 02:41:20 ----
+Reading REDLIST\Marine groups\MANGROVES\MANGROVES.shp
+5.4  s Finished reading database
+Output for DD : 3 shapes
+0.3  s  Plot time
+0.3  s  Saved alpha600DPIMANGROVES.shp_(0)DD.png
+Output for LC : 47 shapes
+11.4 s  Plot time
+5.0  s  Saved alpha600DPIMANGROVES.shp_(1)LC.png
+Output for NT : 7 shapes
+0.7  s  Plot time
+0.4  s  Saved alpha600DPIMANGROVES.shp_(2)NT.png
+Output for VU : 5 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIMANGROVES.shp_(3)VU.png
+Output for EN : 3 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPIMANGROVES.shp_(4)EN.png
+Output for CR : 2 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIMANGROVES.shp_(5)CR.png
+Total duration: 25.17270255088806s
+-------- 29 --------
+---- 02:41:45 ----
+Reading REDLIST\Marine groups\REEF_FORMING_CORALS\REEF_FORMING_CORALS_PART1.shp
+24.7 s Finished reading database
+Output for DD : 42 shapes
+2.0  s  Plot time
+0.6  s  Saved alpha600DPIREEF_FORMING_CORALS_PART1.shp_(0)DD.png
+Output for LC : 94 shapes
+17.9 s  Plot time
+3.6  s  Saved alpha600DPIREEF_FORMING_CORALS_PART1.shp_(1)LC.png
+Output for NT : 61 shapes
+9.5  s  Plot time
+1.9  s  Saved alpha600DPIREEF_FORMING_CORALS_PART1.shp_(2)NT.png
+Output for VU : 74 shapes
+9.1  s  Plot time
+1.8  s  Saved alpha600DPIREEF_FORMING_CORALS_PART1.shp_(3)VU.png
+Output for EN : 10 shapes
+0.4  s  Plot time
+0.3  s  Saved alpha600DPIREEF_FORMING_CORALS_PART1.shp_(4)EN.png
+Total duration: 72.417311668396s
+-------- 30 --------
+---- 02:42:58 ----
+Reading REDLIST\Marine groups\REEF_FORMING_CORALS\REEF_FORMING_CORALS_PART2.shp
+25.7 s Finished reading database
+Output for DD : 42 shapes
+1.9  s  Plot time
+0.6  s  Saved alpha600DPIREEF_FORMING_CORALS_PART2.shp_(0)DD.png
+Output for LC : 104 shapes
+18.0 s  Plot time
+3.5  s  Saved alpha600DPIREEF_FORMING_CORALS_PART2.shp_(1)LC.png
+Output for NT : 58 shapes
+10.8 s  Plot time
+2.2  s  Saved alpha600DPIREEF_FORMING_CORALS_PART2.shp_(2)NT.png
+Output for VU : 68 shapes
+8.0  s  Plot time
+1.6  s  Saved alpha600DPIREEF_FORMING_CORALS_PART2.shp_(3)VU.png
+Output for EN : 8 shapes
+0.2  s  Plot time
+0.3  s  Saved alpha600DPIREEF_FORMING_CORALS_PART2.shp_(4)EN.png
+Output for CR : 1 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIREEF_FORMING_CORALS_PART2.shp_(5)CR.png
+Total duration: 73.87987184524536s
+-------- 31 --------
+---- 02:44:12 ----
+Reading REDLIST\Marine groups\REEF_FORMING_CORALS\REEF_FORMING_CORALS_PART3.shp
+24.7 s Finished reading database
+Output for DD : 53 shapes
+2.5  s  Plot time
+0.7  s  Saved alpha600DPIREEF_FORMING_CORALS_PART3.shp_(0)DD.png
+Output for LC : 100 shapes
+15.6 s  Plot time
+3.2  s  Saved alpha600DPIREEF_FORMING_CORALS_PART3.shp_(1)LC.png
+Output for NT : 56 shapes
+10.7 s  Plot time
+2.2  s  Saved alpha600DPIREEF_FORMING_CORALS_PART3.shp_(2)NT.png
+Output for VU : 59 shapes
+8.6  s  Plot time
+1.7  s  Saved alpha600DPIREEF_FORMING_CORALS_PART3.shp_(3)VU.png
+Output for EN : 9 shapes
+0.3  s  Plot time
+0.4  s  Saved alpha600DPIREEF_FORMING_CORALS_PART3.shp_(4)EN.png
+Output for CR : 4 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPIREEF_FORMING_CORALS_PART3.shp_(5)CR.png
+Total duration: 71.67800188064575s
+-------- 32 --------
+---- 02:45:24 ----
+Reading REDLIST\Marine groups\SEAGRASSES\SEAGRASSES.shp
+3.7  s Finished reading database
+Output for DD : 9 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPISEAGRASSES.shp_(0)DD.png
+Output for LC : 50 shapes
+4.0  s  Plot time
+1.3  s  Saved alpha600DPISEAGRASSES.shp_(1)LC.png
+Output for NT : 5 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPISEAGRASSES.shp_(2)NT.png
+Output for VU : 7 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPISEAGRASSES.shp_(3)VU.png
+Output for EN : 3 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPISEAGRASSES.shp_(4)EN.png
+Total duration: 10.912973403930664s
+-------- 33 --------
+---- 02:45:35 ----
+Reading REDLIST\Plants\BIRCHES\BIRCHES.shp
+0.0  s Finished reading database
+Output for DD : 5 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIBIRCHES.shp_(0)DD.png
+Output for LC : 6 shapes
+0.2  s  Plot time
+0.3  s  Saved alpha600DPIBIRCHES.shp_(1)LC.png
+Output for VU : 1 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIBIRCHES.shp_(3)VU.png
+Output for CR : 1 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIBIRCHES.shp_(5)CR.png
+Total duration: 1.8235688209533691s
+-------- 34 --------
+---- 02:45:37 ----
+Reading REDLIST\Plants\MAGNOLIAS\MAGNOLIAS.shp
+0.2  s Finished reading database
+Output for DD : 29 shapes
+0.2  s  Plot time
+0.4  s  Saved alpha600DPIMAGNOLIAS.shp_(0)DD.png
+Output for LC : 22 shapes
+0.3  s  Plot time
+0.6  s  Saved alpha600DPIMAGNOLIAS.shp_(1)LC.png
+Output for NT : 11 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIMAGNOLIAS.shp_(2)NT.png
+Output for VU : 10 shapes
+0.1  s  Plot time
+0.3  s  Saved alpha600DPIMAGNOLIAS.shp_(3)VU.png
+Output for EN : 40 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIMAGNOLIAS.shp_(4)EN.png
+Output for CR : 17 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPIMAGNOLIAS.shp_(5)CR.png
+Total duration: 3.778184413909912s
+-------- 35 --------
+---- 02:45:40 ----
+Reading REDLIST\Plants\MAPLES\MAPLES.shp
+0.1  s Finished reading database
+Output for LC : 17 shapes
+0.7  s  Plot time
+0.8  s  Saved alpha600DPIMAPLES.shp_(1)LC.png
+Output for VU : 1 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIMAPLES.shp_(3)VU.png
+Total duration: 2.0850772857666016s
+-------- 36 --------
+---- 02:45:43 ----
+Reading REDLIST\Plants\TEAS\TEAS.shp
+0.0  s Finished reading database
+Output for DD : 3 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPITEAS.shp_(0)DD.png
+Output for LC : 3 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPITEAS.shp_(1)LC.png
+Output for NT : 2 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPITEAS.shp_(2)NT.png
+Output for VU : 2 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPITEAS.shp_(3)VU.png
+Output for EN : 8 shapes
+0.0  s  Plot time
+0.3  s  Saved alpha600DPITEAS.shp_(4)EN.png
+Output for CR : 2 shapes
+0.0  s  Plot time
+0.5  s  Saved alpha600DPITEAS.shp_(5)CR.png
+Total duration: 2.3750545978546143s
+-------- 37 --------
+---- 02:45:45 ----
+Reading REDLIST\REPTILES\REPTILES.shp
+43.3 s Finished reading database
+Output for DD : 1208 shapes
+2.1  s  Plot time
+1.7  s  Saved alpha600DPIREPTILES.shp_(0)DD.png
+Output for LC : 7075 shapes
+310.2s  Plot time
+214.7s  Saved alpha600DPIREPTILES.shp_(1)LC.png
+Output for NT : 619 shapes
+4.2  s  Plot time
+3.8  s  Saved alpha600DPIREPTILES.shp_(2)NT.png
+Output for VU : 768 shapes
+6.8  s  Plot time
+5.7  s  Saved alpha600DPIREPTILES.shp_(3)VU.png
+Output for EN : 796 shapes
+23.0 s  Plot time
+3.6  s  Saved alpha600DPIREPTILES.shp_(4)EN.png
+Output for CR : 401 shapes
+2.5  s  Plot time
+1.4  s  Saved alpha600DPIREPTILES.shp_(5)CR.png
+Output for EW : 2 shapes
+0.0  s  Plot time
+0.2  s  Saved alpha600DPIREPTILES.shp_(6)EW.png
+Output for EX : 19 shapes
+0.0  s  Plot time
+0.6  s  Saved alpha600DPIREPTILES.shp_(7)EX.png
+Total duration: 625.1064574718475s
+**** 02:56:13 ****
+Done in -6907.28470993042 seconds
+
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>

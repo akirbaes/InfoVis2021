@@ -1,0 +1,262 @@
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>python create_smaller_database_v2_part3.py
+---- 02:22:59 ----
+Open 1/10  SMALLER_DATABASE_CLEAN_2\AMPHIBIANS.shp
+0.3  s  read database, 4615  elements
+                         binomial   kingdom    phylum  ... freshwater                                           geometry counter
+0              Abavorana luctuosa  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((113.62792 -2.05283, 113.33234 ...       1
+1             Acanthixalus sonjae  ANIMALIA  CHORDATA  ...      false  POLYGON ((-7.22845 5.03314, -7.38148 5.83322, ...       1
+2           Acanthixalus spinosus  ANIMALIA  CHORDATA  ...      false  POLYGON ((7.47358 4.45121, 7.32450 5.04752, 7....       1
+3                 Acris crepitans  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((-103.04217 34.36754, -103.0419...       1
+4                   Acris gryllus  ANIMALIA  CHORDATA  ...       true  POLYGON ((-90.30224 30.29425, -91.10597 30.062...       1
+...                           ...       ...       ...  ...        ...                                                ...     ...
+4610           Zhangixalus suffry  ANIMALIA  CHORDATA  ...       true  POLYGON ((94.25224 26.05703, 93.30841 26.33216...       1
+4611       Zhangixalus taipeianus  ANIMALIA  CHORDATA  ...       true  POLYGON ((120.69755 24.22754, 120.63886 24.458...       1
+4612          Zhangixalus viridis  ANIMALIA  CHORDATA  ...       true  POLYGON ((128.29689 26.83897, 128.27586 26.668...       1
+4613     Zhangixalus yaoshanensis  ANIMALIA  CHORDATA  ...       true  POLYGON ((110.39458 23.95645, 110.16854 23.710...       1
+4614  Zhangixalus yinggelingensis  ANIMALIA  CHORDATA  ...       true  POLYGON ((109.28584 18.87407, 109.24524 19.017...       1
+
+[4615 rows x 13 columns]
+67.9 s  Aggregated down to 7
+  category                                           geometry  counter
+0       CR  MULTIPOLYGON (((148.46865 -36.28501, 148.46894...       94
+1       DD  MULTIPOLYGON (((146.60830 -38.68745, 146.49240...      318
+2       EN  MULTIPOLYGON (((167.88295 -46.68800, 168.16313...      487
+3       EX  MULTIPOLYGON (((152.81748 -27.41905, 152.70032...        5
+4       LC  MULTIPOLYGON (((178.46269 -37.74528, 177.92379...     2891
+5       NT  MULTIPOLYGON (((-87.41626 33.00867, -87.42174 ...      320
+6       VU  MULTIPOLYGON (((-81.19570 8.63593, -81.14514 8...      500
+0.3  s  output to SMALLER_AGGREGATED_DATA/AMPHIBIANS.shp
+---- 02:24:08 ----
+Open 2/10  SMALLER_DATABASE_CLEAN_2\BIRDS.shp
+1.0  s  read database, 2366  elements
+                     binomial   kingdom    phylum  ... freshwater                                           geometry counter
+0           Acanthiza ewingii  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((147.88733 -42.84711, 147.99329...       1
+1          Accipiter brevipes  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((37.27209 19.50409, 37.50049 18...       1
+2       Accipiter castanilius  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((8.38339 9.23948, 8.17333 9.447...       1
+3     Accipiter cirrocephalus  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((147.61591 -43.01709, 147.85828...       1
+4        Accipiter erythropus  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((30.03353 0.13877, 29.89093 -0....       1
+...                       ...       ...       ...  ...        ...                                                ...     ...
+2361          Zoothera dixoni  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((97.67670 21.22351, 97.75732 20...       1
+2362         Zosterops flavus  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((112.74689 -7.01660, 112.86267 ...       1
+2363      Zosterops lateralis  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((-176.63068 -43.69983, -176.194...       1
+2364       Zosterops pallidus  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((15.07727 -26.67682, 15.11469 -...       1
+2365         Zosterops virens  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((27.32031 -22.84161, 27.39227 -...       1
+
+[2366 rows x 13 columns]
+558.8s  Aggregated down to 7
+  category                                           geometry  counter
+0       CR  MULTIPOLYGON (((23.42162 -30.31105, 23.17404 -...       26
+1       DD  MULTIPOLYGON (((27.12170 -11.00592, 26.91650 -...        9
+2       EN  MULTIPOLYGON (((21.16815 -34.39155, 21.16774 -...       77
+3       EX  MULTIPOLYGON (((166.19031 -50.52271, 166.28290...       16
+4       LC  MULTIPOLYGON (((119.00000 21.28582, 119.00000 ...     1963
+5       NT  MULTIPOLYGON (((-71.42883 -52.75415, -71.40210...      159
+6       VU  MULTIPOLYGON (((172.34650 -43.86469, 171.29547...      116
+0.6  s  output to SMALLER_AGGREGATED_DATA/BIRDS.shp
+---- 02:33:28 ----
+Open 3/10  SMALLER_DATABASE_CLEAN_2\CARTILAGINOUS FISHES.shp
+0.3  s  read database, 1104  elements
+                        binomial   kingdom    phylum  ... freshwater                                           geometry counter
+0       Acroteriobatus annulatus  ANIMALIA  CHORDATA  ...      false  MULTIPOLYGON (((19.13931 -34.42625, 19.27787 -...       1
+1     Acroteriobatus leucospilus  ANIMALIA  CHORDATA  ...      false  MULTIPOLYGON (((29.14800 -32.00000, 28.97444 -...       1
+2       Acroteriobatus ocellatus  ANIMALIA  CHORDATA  ...      false  MULTIPOLYGON (((22.18800 -34.14600, 23.69306 -...       1
+3       Acroteriobatus omanensis  ANIMALIA  CHORDATA  ...      false  POLYGON ((56.71683 26.18437, 57.02572 25.32819...       1
+4         Acroteriobatus salalah  ANIMALIA  CHORDATA  ...      false  POLYGON ((67.40459 24.07050, 67.65200 23.79453...       1
+...                          ...       ...       ...  ...        ...                                                ...     ...
+1099          Zameus squamulosus  ANIMALIA  CHORDATA  ...      false  MULTIPOLYGON (((147.60489 -46.55000, 148.65850...       1
+1100      Zanobatus schoenleinii  ANIMALIA  CHORDATA  ...      false  MULTIPOLYGON (((8.36374 1.74239, 8.20714 1.109...       1
+1101       Zapteryx brevirostris  ANIMALIA  CHORDATA  ...      false  POLYGON ((-44.22200 -24.05400, -44.54770 -24.2...       1
+1102         Zapteryx exasperata  ANIMALIA  CHORDATA  ...      false  POLYGON ((-123.06134 38.30082, -123.02034 37.9...       1
+1103             Zapteryx xyster  ANIMALIA  CHORDATA  ...      false  MULTIPOLYGON (((-81.09334 -4.89363, -81.11959 ...       1
+
+[1104 rows x 13 columns]
+126.6s  Aggregated down to 6
+  category                                           geometry  counter
+0       CR  MULTIPOLYGON (((-29.99999 38.00869, -29.99999 ...       73
+1       DD  MULTIPOLYGON (((-62.48403 -33.85189, -62.72415...      173
+2       EN  MULTIPOLYGON (((-80.00000 9.00000, -80.59110 9...      109
+3       LC  MULTIPOLYGON (((12.00000 -16.00000, 12.00000 -...      481
+4       NT  MULTIPOLYGON (((-167.00000 54.00000, -165.0000...      110
+5       VU  MULTIPOLYGON (((-30.00001 -46.00000, -30.00001...      158
+0.2  s  output to SMALLER_AGGREGATED_DATA/CARTILAGINOUS FISHES.shp
+---- 02:35:36 ----
+Open 4/10  SMALLER_DATABASE_CLEAN_2\CRUSTACEANS.shp
+0.2  s  read database, 2573  elements
+                        binomial   kingdom      phylum  ... freshwater                                           geometry counter
+0             Acanthacaris caeca  ANIMALIA  ARTHROPODA  ...      false  MULTIPOLYGON (((-74.06013 25.19133, -72.46231 ...       1
+1         Acanthacaris tenuimana  ANIMALIA  ARTHROPODA  ...      false  MULTIPOLYGON (((170.18319 -18.25064, 170.32792...       1
+2           Acantharctus delfini  ANIMALIA  ARTHROPODA  ...      false  POLYGON ((-78.15822 -32.71616, -77.40285 -33.2...       1
+3           Acantharctus ornatus  ANIMALIA  ARTHROPODA  ...      false  MULTIPOLYGON (((33.20993 -28.92026, 31.99780 -...       1
+4           Acantharctus posteli  ANIMALIA  ARTHROPODA  ...      false  MULTIPOLYGON (((8.17846 2.23404, 8.33262 1.402...       1
+...                          ...       ...         ...  ...        ...                                                ...     ...
+2568                Zilchia ivis  ANIMALIA  ARTHROPODA  ...       true  POLYGON ((-85.87917 11.25417, -85.97083 11.341...       1
+2569              Zilchia zilchi  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((-82.21250 8.20000, -82.24709 8...       1
+2570  Zilchiopsis collastinensis  ANIMALIA  ARTHROPODA  ...       true  POLYGON ((-62.27500 -38.85833, -62.33138 -38.9...       1
+2571       Zilchiopsis cryptodus  ANIMALIA  ARTHROPODA  ...       true  POLYGON ((-75.33333 -7.25000, -75.63298 -6.877...       1
+2572       Zilchiopsis oronensis  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((-47.85417 -0.58333, -47.70859 ...       1
+
+[2573 rows x 13 columns]
+78.1 s  Aggregated down to 7
+  category                                           geometry  counter
+0       CR  MULTIPOLYGON (((146.89583 -43.57500, 146.03601...       61
+1       DD  MULTIPOLYGON (((154.37224 -29.29052, 153.79468...      981
+2       EN  MULTIPOLYGON (((80.63505 6.07313, 80.60336 5.9...      104
+3       EX  MULTIPOLYGON (((106.25417 -5.95833, 106.63333 ...        6
+4       LC  MULTIPOLYGON (((147.03242 42.57888, 147.03439 ...     1165
+5       NT  MULTIPOLYGON (((146.89583 -43.57500, 146.03601...       64
+6       VU  MULTIPOLYGON (((146.18138 -42.29640, 146.39220...      192
+0.4  s  output to SMALLER_AGGREGATED_DATA/CRUSTACEANS.shp
+---- 02:36:55 ----
+Open 5/10  SMALLER_DATABASE_CLEAN_2\FISHES.shp
+2.0  s  read database, 12010  elements
+                        binomial   kingdom    phylum  ... freshwater                                           geometry counter
+0               Aaptosyax grypus  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((105.12465 16.89412, 105.03369 ...       1
+1         Abactochromis labrosus  ANIMALIA  CHORDATA  ...       true  POLYGON ((34.22436 -10.34945, 34.24892 -10.371...       1
+2                Abbottina binhi  ANIMALIA  CHORDATA  ...       true  POLYGON ((105.97326 23.20798, 106.79078 22.620...       1
+3          Aborichthys elongatus  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((88.21492 27.00798, 88.29841 26...       1
+4          Aborichthys garoensis  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((89.89105 25.77716, 90.21631 25...       1
+...                          ...       ...       ...  ...        ...                                                ...     ...
+12005          Zingel balcanicus  ANIMALIA  CHORDATA  ...       true  MULTIPOLYGON (((22.81446 41.33807, 22.61173 40...       1
+12006             Zingel streber  ANIMALIA  CHORDATA  ...       true  POLYGON ((29.77083 45.47500, 29.59462 44.82443...       1
+12007              Zingel zingel  ANIMALIA  CHORDATA  ...       true  POLYGON ((16.99583 50.22500, 17.22500 50.10000...       1
+12008   Zoogoneticus purhepechus  ANIMALIA  CHORDATA  ...       true  POLYGON ((-102.43138 20.25473, -102.09619 20.0...       1
+12009  Zoogoneticus quitzeoensis  ANIMALIA  CHORDATA  ...       true  POLYGON ((-101.09075 20.10892, -100.64167 19.8...       1
+
+[12010 rows x 13 columns]
+940.7s  Aggregated down to 9
+  category                                           geometry  counter
+0       CR  MULTIPOLYGON (((47.02674 -16.26631, 47.18835 -...      393
+1       DD  MULTIPOLYGON (((13.80119 -14.81186, 14.02004 -...     2278
+2       EN  MULTIPOLYGON (((27.40567 -34.37074, 27.40243 -...      770
+3       EW  MULTIPOLYGON (((-104.46841 20.99131, -104.3017...        8
+4       EX  MULTIPOLYGON (((172.37881 -42.97745, 172.72500...       45
+5       LC  MULTIPOLYGON (((179.99900 31.99980, 180.00000 ...     7114
+6    LR/lc  MULTIPOLYGON (((-114.35633 52.92145, -113.8750...        1
+7       NT  MULTIPOLYGON (((-179.99900 -20.12584, -179.999...      460
+8       VU  MULTIPOLYGON (((-179.99900 -20.12583, -179.999...      941
+0.7  s  output to SMALLER_AGGREGATED_DATA/FISHES.shp
+---- 02:52:38 ----
+Open 6/10  SMALLER_DATABASE_CLEAN_2\FUNGI.shp
+0.0  s  read database, 3  elements
+              binomial kingdom         phylum  ... freshwater                                           geometry counter
+0    Armillaria ectypa   FUNGI  BASIDIOMYCOTA  ...       true  MULTIPOLYGON (((13.84653 58.15590, 13.58407 58...       1
+1  Cetradonia linearis   FUNGI     ASCOMYCOTA  ...       true  POLYGON ((-84.32186 34.98844, -84.42229 35.359...       1
+2   Leptogium rivulare   FUNGI     ASCOMYCOTA  ...       true  MULTIPOLYGON (((19.82653 60.41320, 20.28798 60...       1
+
+[3 rows x 13 columns]
+0.0  s  Aggregated down to 2
+  category                                           geometry  counter
+0       NT  MULTIPOLYGON (((19.82653 60.41320, 20.28798 60...        2
+1       VU  POLYGON ((-84.32186 34.98844, -84.42229 35.359...        1
+0.0  s  output to SMALLER_AGGREGATED_DATA/FUNGI.shp
+---- 02:52:38 ----
+Open 7/10  SMALLER_DATABASE_CLEAN_2\INSECTS.shp
+0.6  s  read database, 3331  elements
+                     binomial   kingdom      phylum  ... freshwater                                           geometry counter
+0      Acanthaeschna victoria  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((150.30375 -35.18451, 150.35356...       1
+1         Acanthagrion abunae  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((-73.12500 4.13750, -72.97860 4...       1
+2        Acanthagrion adustum  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((-49.75875 -1.89344, -49.27635 ...       1
+3       Acanthagrion aepiolum  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((-58.01667 -28.90417, -58.00591...       1
+4     Acanthagrion amazonicum  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((-49.53992 -16.13715, -49.19248...       1
+...                       ...       ...         ...  ...        ...                                                ...     ...
+3326      Zygonyx viridescens  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((47.40381 -21.34412, 47.71667 -...       1
+3327       Zyxomma atlanticum  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((7.33333 4.51667, 7.13414 4.384...       1
+3328      Zyxomma breviventre  ANIMALIA  ARTHROPODA  ...       true  POLYGON ((103.70417 14.40417, 103.69583 14.095...       1
+3329          Zyxomma elgneri  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((150.85174 -33.45869, 151.01215...       1
+3330       Zyxomma petiolatum  ANIMALIA  ARTHROPODA  ...       true  MULTIPOLYGON (((146.23272 -18.21451, 146.36312...       1
+
+[3331 rows x 13 columns]
+137.1s  Aggregated down to 6
+  category                                           geometry  counter
+0       CR  MULTIPOLYGON (((17.89167 -32.74583, 18.54520 -...       35
+1       DD  MULTIPOLYGON (((-67.94167 -16.38750, -67.66193...      743
+2       EN  MULTIPOLYGON (((118.10018 9.16194, 118.12390 9...      128
+3       LC  MULTIPOLYGON (((146.56667 -38.70833, 146.24850...     2125
+4       NT  MULTIPOLYGON (((31.56316 0.73121, 32.08294 0.5...      142
+5       VU  MULTIPOLYGON (((-13.11667 8.47500, -12.89730 8...      158
+0.4  s  output to SMALLER_AGGREGATED_DATA/INSECTS.shp
+---- 02:54:56 ----
+Open 8/10  SMALLER_DATABASE_CLEAN_2\MAMMALS.shp
+0.6  s  read database, 5333  elements
+                  binomial   kingdom    phylum  ... freshwater                                           geometry counter
+0        Abeomelomys sevia  ANIMALIA  CHORDATA  ...      false  MULTIPOLYGON (((147.54724 -6.44450, 147.38310 ...       1
+1     Abrawayaomys chebezi  ANIMALIA  CHORDATA  ...      false  POLYGON ((-54.48308 -27.88501, -55.07877 -28.1...       1
+2     Abrawayaomys ruschii  ANIMALIA  CHORDATA  ...      false  MULTIPOLYGON (((-48.84408 -27.92315, -49.01710...       1
+3       Abrocoma bennettii  ANIMALIA  CHORDATA  ...      false  POLYGON ((-70.13146 -24.69724, -70.18840 -26.8...       1
+4         Abrocoma cinerea  ANIMALIA  CHORDATA  ...      false  POLYGON ((-64.57872 -25.85146, -64.94500 -26.9...       1
+...                    ...       ...       ...  ...        ...                                                ...     ...
+5328       Zyzomys argurus  ANIMALIA  CHORDATA  ...      false  MULTIPOLYGON (((119.32290 -19.99246, 120.19219...       1
+5329         Zyzomys maini  ANIMALIA  CHORDATA  ...      false  POLYGON ((133.06857 -13.95426, 132.86028 -14.2...       1
+5330     Zyzomys palatalis  ANIMALIA  CHORDATA  ...      false  POLYGON ((137.84090 -17.55753, 137.65530 -17.5...       1
+5331  Zyzomys pedunculatus  ANIMALIA  CHORDATA  ...      false  POLYGON ((132.66041 -23.44729, 133.94257 -23.5...       1
+5332     Zyzomys woodwardi  ANIMALIA  CHORDATA  ...      false  MULTIPOLYGON (((128.50959 -15.91184, 128.32516...       1
+
+[5333 rows x 13 columns]
+433.6s  Aggregated down to 8
+  category                                           geometry  counter
+0       CR  MULTIPOLYGON (((26.88130 -30.66146, 27.64190 -...      123
+1       DD  MULTIPOLYGON (((-179.99900 -54.58140, -179.999...      617
+2       EN  MULTIPOLYGON (((22.11747 -13.80626, 22.26487 -...      428
+3       EW  MULTIPOLYGON (((-10.91420 18.63752, -10.62866 ...        1
+4       EX  MULTIPOLYGON (((-69.37592 -52.48828, -69.12791...        6
+5       LC  MULTIPOLYGON (((-179.00000 -84.00000, -180.000...     3289
+6       NT  MULTIPOLYGON (((-156.61766 56.99296, -156.6156...      359
+7       VU  MULTIPOLYGON (((179.99900 -20.01051, 179.99900...      510
+0.8  s  output to SMALLER_AGGREGATED_DATA/MAMMALS.shp
+---- 03:02:12 ----
+Open 9/10  SMALLER_DATABASE_CLEAN_2\MOLLUSCS.shp
+0.5  s  read database, 2805  elements
+                    binomial   kingdom    phylum  ... freshwater                                           geometry counter
+0           Acella haldemani  ANIMALIA  MOLLUSCA  ...       true  MULTIPOLYGON (((-74.99362 42.93693, -74.67465 ...       1
+1      Acroloxus arachleicus  ANIMALIA  MOLLUSCA  ...       true  POLYGON ((112.54875 52.20883, 113.10871 52.430...       1
+2     Acroloxus coloradensis  ANIMALIA  MOLLUSCA  ...       true  MULTIPOLYGON (((-105.48785 40.24826, -104.8875...       1
+3      Acroloxus kolhymensis  ANIMALIA  MOLLUSCA  ...       true  POLYGON ((161.30812 68.85930, 161.68788 68.862...       1
+4       Acroloxus orientalis  ANIMALIA  MOLLUSCA  ...       true  MULTIPOLYGON (((142.49038 53.61923, 143.06087 ...       1
+...                      ...       ...       ...  ...        ...                                                ...     ...
+2800     Viviparus viviparus  ANIMALIA  MOLLUSCA  ...       true  MULTIPOLYGON (((39.23159 47.02465, 39.53333 46...       1
+2801       Vorticifex effusa  ANIMALIA  MOLLUSCA  ...       true  POLYGON ((-120.48016 47.10202, -117.82590 46.9...       1
+2802   Wattebledia siamensis  ANIMALIA  MOLLUSCA  ...       true  POLYGON ((100.84583 12.69167, 100.97736 13.479...       1
+2803     Westralunio carteri  ANIMALIA  MOLLUSCA  ...       true  POLYGON ((116.29303 -32.13067, 116.09423 -33.8...       1
+2804         Zospeum exiguum  ANIMALIA  MOLLUSCA  ...       true  POLYGON ((14.51993 45.84238, 14.74811 45.87795...       1
+
+[2805 rows x 13 columns]
+209.9s  Aggregated down to 7
+  category                                           geometry  counter
+0       CR  MULTIPOLYGON (((146.72776 -41.75640, 146.87610...      144
+1       DD  MULTIPOLYGON (((-77.41148 8.41148, -77.00000 8...      699
+2       EN  MULTIPOLYGON (((168.70417 -46.09167, 168.82881...      136
+3       EX  MULTIPOLYGON (((165.53837 -21.70616, 165.33600...       22
+4       LC  MULTIPOLYGON (((-75.00000 -50.00000, -76.00000...     1390
+5       NT  MULTIPOLYGON (((106.90216 12.79522, 107.31176 ...      149
+6       VU  MULTIPOLYGON (((105.31371 13.96193, 105.19583 ...      265
+0.4  s  output to SMALLER_AGGREGATED_DATA/MOLLUSCS.shp
+---- 03:05:42 ----
+Open 10/10  SMALLER_DATABASE_CLEAN_2\PLANTS.shp
+0.6  s  read database, 1927  elements
+                    binomial  kingdom        phylum  ... freshwater                                           geometry counter
+0              Acaena exigua  PLANTAE  TRACHEOPHYTA  ...       true  POLYGON ((-159.40165 22.23247, -159.29223 22.1...       1
+1       Acanthus ebracteatus  PLANTAE  TRACHEOPHYTA  ...      false  MULTIPOLYGON (((135.11932 8.39444, 135.22252 8...       1
+2       Acanthus ilicifolius  PLANTAE  TRACHEOPHYTA  ...       true  MULTIPOLYGON (((166.16667 -50.71667, 166.23546...       1
+3       Acanthus latisepalus  PLANTAE  TRACHEOPHYTA  ...       true  MULTIPOLYGON (((13.50612 -1.62973, 13.83262 -2...       1
+4          Acanthus montanus  PLANTAE  TRACHEOPHYTA  ...       true  POLYGON ((7.33333 4.51667, 7.13414 4.38402, 7....       1
+...                      ...      ...           ...  ...        ...                                                ...     ...
+1922          Zostera noltii  PLANTAE  TRACHEOPHYTA  ...       true  MULTIPOLYGON (((-23.96381 17.50697, -23.66831 ...       1
+1923        Zostera pacifica  PLANTAE  TRACHEOPHYTA  ...      false  MULTIPOLYGON (((-124.68149 48.02123, -124.4241...       1
+1924     Zostera polychlamys  PLANTAE  TRACHEOPHYTA  ...      false  POLYGON ((134.62645 -33.20089, 134.55814 -33.1...       1
+1925       Zostera tasmanica  PLANTAE  TRACHEOPHYTA  ...      false  POLYGON ((142.24356 -38.39314, 143.55562 -38.8...       1
+1926  Zygophlebia subpinnata  PLANTAE  TRACHEOPHYTA  ...       true  MULTIPOLYGON (((47.27917 -21.07500, 47.67917 -...       1
+
+[1927 rows x 13 columns]
+292.4s  Aggregated down to 8
+  category                                           geometry  counter
+0       CR  MULTIPOLYGON (((19.77721 -34.33277, 20.34646 -...       95
+1       DD  MULTIPOLYGON (((14.48463 -22.60514, 14.32811 -...      182
+2       EN  MULTIPOLYGON (((43.85000 -23.35833, 43.69583 -...      190
+3       EW  POLYGON ((29.03576 -1.75452, 28.83659 -2.47276...        1
+4       EX  MULTIPOLYGON (((-13.07500 8.57083, -13.24548 8...        4
+5       LC  MULTIPOLYGON (((-68.65833 -55.51667, -68.84298...     1190
+6       NT  MULTIPOLYGON (((49.32083 -13.22500, 49.36962 -...      124
+7       VU  MULTIPOLYGON (((17.89205 -32.89369, 17.89167 -...      141
+0.4  s  output to SMALLER_AGGREGATED_DATA/PLANTS.shp
+---- 03:10:36 ----
+2856.8s  all done

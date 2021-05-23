@@ -1,0 +1,520 @@
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>python create_smaller_database_v2.py
+---- 23:01:00 ----
+Open REDLIST\AMPHIBIANS\AMPHIBIANS.shp
+15.7 s  read database, 8598 elements, 142130 polygons,
+62232137 points
+0.4  s  removed areas<0.05, 9751 remaining polygons
+52912340 points
+3.2  s  removed holes, 9751 poly
+47489418 points remaining
+50.1 s  simplify 0.10
+244515 points remaining
+2.4  s  output SMALLER_DATA/AMPHIBIANS_AMPHIBIANS.shp
+0.6  s  loaded saved data
+Open REDLIST\Fishes\ANGELFISH\ANGELFISH.shp
+2.6  s  read database, 86 elements, 1421 polygons,
+5970062 points
+0.0  s  removed areas<0.05, 1198 remaining polygons
+5965802 points
+0.2  s  removed holes, 1198 poly
+1734863 points remaining
+2.2  s  simplify 0.10
+49227 points remaining
+0.3  s  output SMALLER_DATA/FISHES_ANGELFISH.shp
+0.1  s  loaded saved data
+Open REDLIST\Fishes\BLENNIES\BLENNIES.shp
+12.0 s  read database, 929 elements, 23535 polygons,
+29508331 points
+0.1  s  removed areas<0.05, 5325 remaining polygons
+29213910 points
+1.6  s  removed holes, 5325 poly
+10523401 points remaining
+12.9 s  simplify 0.10
+236956 points remaining
+1.5  s  output SMALLER_DATA/FISHES_BLENNIES.shp
+0.3  s  loaded saved data
+Open REDLIST\Fishes\BONEFISH_TARPONS\BONEFISH_TARPONS.shp
+1.6  s  read database, 25 elements, 19346 polygons,
+2420381 points
+0.0  s  removed areas<0.05, 794 remaining polygons
+2153348 points
+0.1  s  removed holes, 794 poly
+1165291 points remaining
+1.2  s  simplify 0.10
+22905 points remaining
+0.2  s  output SMALLER_DATA/FISHES_BONEFISH_TARPONS.shp
+0.0  s  loaded saved data
+Open REDLIST\Fishes\BUTTERFLYFISH\BUTTERFLYFISH.shp
+5.6  s  read database, 128 elements, 3123 polygons,
+12369529 points
+0.0  s  removed areas<0.05, 2644 remaining polygons
+12359004 points
+0.5  s  removed holes, 2644 poly
+3795046 points remaining
+4.8  s  simplify 0.10
+109047 points remaining
+0.7  s  output SMALLER_DATA/FISHES_BUTTERFLYFISH.shp
+0.2  s  loaded saved data
+Open REDLIST\Fishes\CLUPEIFORMES\CLUPEIFORMES.shp
+7.6  s  read database, 468 elements, 24800 polygons,
+18140124 points
+0.1  s  removed areas<0.05, 1969 remaining polygons
+17751093 points
+1.1  s  removed holes, 1969 poly
+8672331 points remaining
+10.8 s  simplify 0.10
+158889 points remaining
+0.7  s  output SMALLER_DATA/FISHES_CLUPEIFORMES.shp
+0.1  s  loaded saved data
+Open REDLIST\Fishes\GROUPERS\GROUPERS.shp
+10.5 s  read database, 166 elements, 10152 polygons,
+25506736 points
+0.1  s  removed areas<0.05, 3164 remaining polygons
+25422329 points
+1.1  s  removed holes, 3164 poly
+7914303 points remaining
+10.9 s  simplify 0.10
+139338 points remaining
+0.9  s  output SMALLER_DATA/FISHES_GROUPERS.shp
+0.2  s  loaded saved data
+Open REDLIST\Fishes\HAGFISH\HAGFISH.shp
+0.1  s  read database, 75 elements, 1374 polygons,
+344945 points
+0.0  s  removed areas<0.05, 139 remaining polygons
+335033 points
+0.0  s  removed holes, 139 poly
+163576 points remaining
+0.2  s  simplify 0.10
+6280 points remaining
+Open REDLIST\Fishes\MARINEFISH\MARINEFISH_PART1.shp
+49.6 s  read database, 1454 elements, 141904 polygons,
+86034377 points
+0.6  s  removed areas<0.05, 15301 remaining polygons
+84110667 points
+5.0  s  removed holes, 15301 poly
+33008870 points remaining
+43.2 s  simplify 0.10
+682613 points remaining
+4.2  s  output SMALLER_DATA/FISHES_MARINEFISH_PART1.shp
+1.0  s  loaded saved data
+5.3  s  output SMALLER_DATA/CARTILAGINOUS FISHES_MARINEFISH_PART1.shp
+0.9  s  loaded saved data
+Open REDLIST\Fishes\MARINEFISH\MARINEFISH_PART2.shp
+47.3 s  read database, 1453 elements, 143747 polygons,
+86210167 points
+0.5  s  removed areas<0.05, 16351 remaining polygons
+84289012 points
+4.9  s  removed holes, 16351 poly
+31736011 points remaining
+42.5 s  simplify 0.10
+682231 points remaining
+4.4  s  output SMALLER_DATA/FISHES_MARINEFISH_PART2.shp
+1.0  s  loaded saved data
+5.6  s  output SMALLER_DATA/CARTILAGINOUS FISHES_MARINEFISH_PART2.shp
+1.0  s  loaded saved data
+Open REDLIST\Fishes\MARINEFISH\MARINEFISH_PART3.shp
+45.6 s  read database, 1454 elements, 132248 polygons,
+82924429 points
+0.5  s  removed areas<0.05, 15744 remaining polygons
+81352356 points
+4.8  s  removed holes, 15744 poly
+30879676 points remaining
+41.2 s  simplify 0.10
+689332 points remaining
+4.4  s  output SMALLER_DATA/FISHES_MARINEFISH_PART3.shp
+1.0  s  loaded saved data
+5.4  s  output SMALLER_DATA/CARTILAGINOUS FISHES_MARINEFISH_PART3.shp
+1.0  s  loaded saved data
+Open REDLIST\Fishes\PUFFERFISH\PUFFERFISH.shp
+7.5  s  read database, 206 elements, 29321 polygons,
+14869441 points
+0.1  s  removed areas<0.05, 2372 remaining polygons
+14507877 points
+0.7  s  removed holes, 2372 poly
+5581847 points remaining
+7.1  s  simplify 0.10
+110531 points remaining
+0.6  s  output SMALLER_DATA/FISHES_PUFFERFISH.shp
+0.1  s  loaded saved data
+Open REDLIST\Fishes\SEABREAMS_PORGIES_PICARELS\SEABREAMS_PORGIES_PICARELS.shp
+2.4  s  read database, 160 elements, 1929 polygons,
+7691405 points
+0.0  s  removed areas<0.05, 359 remaining polygons
+7665366 points
+0.5  s  removed holes, 359 poly
+3851474 points remaining
+5.5  s  simplify 0.10
+53583 points remaining
+0.1  s  output SMALLER_DATA/FISHES_SEABREAMS_PORGIES_PICARELS.shp
+0.0  s  loaded saved data
+Open REDLIST\Fishes\SHARKS_RAYS_CHIMAERAS\SHARKS_RAYS_CHIMAERAS.shp
+50.1 s  read database, 1216 elements, 257696 polygons,
+53003848 points
+0.6  s  removed areas<0.05, 15412 remaining polygons
+49505839 points
+3.6  s  removed holes, 15412 poly
+25610044 points remaining
+31.6 s  simplify 0.10
+507391 points remaining
+4.0  s  output SMALLER_DATA/CARTILAGINOUS FISHES_SHARKS_RAYS_CHIMAERAS.shp
+0.9  s  loaded saved data
+Open REDLIST\Fishes\SURGEONFISHES_TANGS_UNICORNFISHES\SURGEONFISHES_TANGS_UNICORNFISHES.shp
+5.2  s  read database, 86 elements, 3411 polygons,
+10901138 points
+0.0  s  removed areas<0.05, 2925 remaining polygons
+10894331 points
+0.4  s  removed holes, 2925 poly
+3211939 points remaining
+4.1  s  simplify 0.10
+100078 points remaining
+0.7  s  output SMALLER_DATA/FISHES_SURGEONFISHES_TANGS_UNICORNFISHES.shp
+0.2  s  loaded saved data
+Open REDLIST\Fishes\SYNGNATHIFORM_FISHES\SYNGNATHIFORM_FISHES.shp
+11.4 s  read database, 334 elements, 45234 polygons,
+23549776 points
+0.1  s  removed areas<0.05, 3188 remaining polygons
+22935804 points
+1.2  s  removed holes, 3188 poly
+8601707 points remaining
+10.7 s  simplify 0.10
+176170 points remaining
+0.9  s  output SMALLER_DATA/FISHES_SYNGNATHIFORM_FISHES.shp
+0.2  s  loaded saved data
+Open REDLIST\Fishes\TUNAS_BILLFISHES\TUNAS_BILLFISHES.shp
+7.4  s  read database, 62 elements, 2889 polygons,
+11955011 points
+0.0  s  removed areas<0.05, 241 remaining polygons
+11912791 points
+0.5  s  removed holes, 241 poly
+3920363 points remaining
+5.6  s  simplify 0.10
+66270 points remaining
+0.1  s  output SMALLER_DATA/FISHES_TUNAS_BILLFISHES.shp
+0.0  s  loaded saved data
+Open REDLIST\Fishes\WRASSES_PARROTFISHES\WRASSES_PARROTFISHES.shp
+18.2 s  read database, 622 elements, 10369 polygons,
+40789728 points
+0.1  s  removed areas<0.05, 8598 remaining polygons
+40762498 points
+1.9  s  removed holes, 8598 poly
+12678731 points remaining
+16.2 s  simplify 0.10
+347055 points remaining
+2.3  s  output SMALLER_DATA/FISHES_WRASSES_PARROTFISHES.shp
+0.5  s  loaded saved data
+Open REDLIST\FreshWater_GROUP\FW_GROUP_PART1.shp
+68.5 s  read database, 7192 elements, 1015501 polygons,
+123017192 points
+2.3  s  removed areas<0.05, 41083 remaining polygons
+101678858 points
+8.7  s  removed holes, 41083 poly
+87711374 points remaining
+99.7 s  simplify 0.10
+1219015 points remaining
+10.7 s  output SMALLER_DATA/BIRDS_FW_GROUP_PART1.shp
+2.5  s  loaded saved data
+13.1 s  output SMALLER_DATA/MAMMALS_FW_GROUP_PART1.shp
+2.5  s  loaded saved data
+13.1 s  output SMALLER_DATA/AMPHIBIANS_FW_GROUP_PART1.shp
+2.5  s  loaded saved data
+13.5 s  output SMALLER_DATA/FISHES_FW_GROUP_PART1.shp
+2.6  s  loaded saved data
+13.3 s  output SMALLER_DATA/CARTILAGINOUS FISHES_FW_GROUP_PART1.shp
+2.6  s  loaded saved data
+13.4 s  output SMALLER_DATA/INSECTS_FW_GROUP_PART1.shp
+2.6  s  loaded saved data
+13.3 s  output SMALLER_DATA/CRUSTACEANS_FW_GROUP_PART1.shp
+2.6  s  loaded saved data
+13.2 s  output SMALLER_DATA/PLANTS_FW_GROUP_PART1.shp
+2.5  s  loaded saved data
+Open REDLIST\FreshWater_GROUP\FW_GROUP_PART2.shp
+56.8 s  read database, 7192 elements, 959343 polygons,
+112134102 points
+2.2  s  removed areas<0.05, 40166 remaining polygons
+93177875 points
+7.8  s  removed holes, 40166 poly
+79297490 points remaining
+89.8 s  simplify 0.10
+1176588 points remaining
+10.1 s  output SMALLER_DATA/BIRDS_FW_GROUP_PART2.shp
+2.4  s  loaded saved data
+12.8 s  output SMALLER_DATA/MAMMALS_FW_GROUP_PART2.shp
+2.5  s  loaded saved data
+12.9 s  output SMALLER_DATA/AMPHIBIANS_FW_GROUP_PART2.shp
+2.5  s  loaded saved data
+12.8 s  output SMALLER_DATA/FISHES_FW_GROUP_PART2.shp
+2.5  s  loaded saved data
+12.8 s  output SMALLER_DATA/CARTILAGINOUS FISHES_FW_GROUP_PART2.shp
+2.5  s  loaded saved data
+12.8 s  output SMALLER_DATA/INSECTS_FW_GROUP_PART2.shp
+2.5  s  loaded saved data
+12.9 s  output SMALLER_DATA/CRUSTACEANS_FW_GROUP_PART2.shp
+2.5  s  loaded saved data
+12.8 s  output SMALLER_DATA/PLANTS_FW_GROUP_PART2.shp
+2.5  s  loaded saved data
+12.8 s  output SMALLER_DATA/FUNGI_FW_GROUP_PART2.shp
+2.5  s  loaded saved data
+Open REDLIST\FreshWater_GROUP\FW_GROUP_PART3.shp
+
+Traceback (most recent call last):
+  File "create_smaller_database_v2.py", line 51, in <module>
+    counter+=1
+  File "C:\ProgramData\Anaconda3\envs\firstEnv\lib\site-packages\geopandas\io\file.py", line 139, in _read_file
+    return GeoDataFrame.from_features(
+  File "C:\ProgramData\Anaconda3\envs\firstEnv\lib\site-packages\geopandas\geodataframe.py", line 422, in from_features
+    for feature in features_lst:
+  File "fiona/ogrext.pyx", line 1373, in fiona.ogrext.Iterator.__next__
+  File "C:\ProgramData\Anaconda3\envs\firstEnv\lib\site-packages\fiona\collection.py", line 184, in driver
+    @property
+KeyboardInterrupt
+^C
+
+
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>python create_smaller_database_v2.py
+---- 23:27:30 ----
+Open REDLIST\FreshWater_GROUP\FW_GROUP_PART3.shp
+60.1 s  read database, 7192 elements, 1011877 polygons,
+2.3  s  removed areas<0.05, 41082 remaining polygons
+9.5  s  removed holes, 41082 poly
+102.0s  simplify 0.10
+10.4 s  output SMALLER_DATA/BIRDS_FW_GROUP_PART3.shp
+10.5 s  output SMALLER_DATA/MAMMALS_FW_GROUP_PART3.shp
+10.5 s  output SMALLER_DATA/AMPHIBIANS_FW_GROUP_PART3.shp
+10.4 s  output SMALLER_DATA/FISHES_FW_GROUP_PART3.shp
+10.3 s  output SMALLER_DATA/CARTILAGINOUS FISHES_FW_GROUP_PART3.shp
+10.3 s  output SMALLER_DATA/INSECTS_FW_GROUP_PART3.shp
+10.3 s  output SMALLER_DATA/CRUSTACEANS_FW_GROUP_PART3.shp
+10.3 s  output SMALLER_DATA/PLANTS_FW_GROUP_PART3.shp
+10.5 s  output SMALLER_DATA/FUNGI_FW_GROUP_PART3.shp
+
+
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>python create_smaller_database_v2.py
+---- 23:35:28 ----
+Open 22/38  REDLIST\FreshWater_GROUP\FW_GROUP_PART4.shp
+59.3 s  read database, 7192 elements, 939868 polygons,
+2.2  s  removed areas<0.05, 39473 remaining polygons
+7.6  s  removed holes, 39473 poly
+87.8 s  simplify 0.10
+10.4 s  output SMALLER_DATA/BIRDS_FW_GROUP_PART4.shp
+10.4 s  output SMALLER_DATA/MAMMALS_FW_GROUP_PART4.shp
+10.3 s  output SMALLER_DATA/AMPHIBIANS_FW_GROUP_PART4.shp
+10.4 s  output SMALLER_DATA/FISHES_FW_GROUP_PART4.shp
+10.4 s  output SMALLER_DATA/CARTILAGINOUS FISHES_FW_GROUP_PART4.shp
+10.4 s  output SMALLER_DATA/INSECTS_FW_GROUP_PART4.shp
+10.5 s  output SMALLER_DATA/CRUSTACEANS_FW_GROUP_PART4.shp
+10.5 s  output SMALLER_DATA/PLANTS_FW_GROUP_PART4.shp
+10.5 s  output SMALLER_DATA/FUNGI_FW_GROUP_PART4.shp
+---- 23:39:43 ----
+Open 24/38  REDLIST\FreshWater_GROUP\FW_GROUP_PART5.shp
+61.8 s  read database, 7193 elements, 990894 polygons,
+2.3  s  removed areas<0.05, 38777 remaining polygons
+8.0  s  removed holes, 38777 poly
+93.5 s  simplify 0.10
+10.6 s  output SMALLER_DATA/BIRDS_FW_GROUP_PART5.shp
+10.3 s  output SMALLER_DATA/MAMMALS_FW_GROUP_PART5.shp
+10.2 s  output SMALLER_DATA/AMPHIBIANS_FW_GROUP_PART5.shp
+10.1 s  output SMALLER_DATA/FISHES_FW_GROUP_PART5.shp
+10.3 s  output SMALLER_DATA/CARTILAGINOUS FISHES_FW_GROUP_PART5.shp
+10.3 s  output SMALLER_DATA/INSECTS_FW_GROUP_PART5.shp
+10.3 s  output SMALLER_DATA/CRUSTACEANS_FW_GROUP_PART5.shp
+10.2 s  output SMALLER_DATA/PLANTS_FW_GROUP_PART5.shp
+---- 23:43:55 ----
+Open 26/38  REDLIST\FreshWater_GROUP\FW_GROUP_PART6.shp
+66.6 s  read database, 7192 elements, 959162 polygons,
+2.2  s  removed areas<0.05, 37636 remaining polygons
+8.2  s  removed holes, 37636 poly
+89.4 s  simplify 0.10
+9.9  s  output SMALLER_DATA/BIRDS_FW_GROUP_PART6.shp
+9.9  s  output SMALLER_DATA/MAMMALS_FW_GROUP_PART6.shp
+9.9  s  output SMALLER_DATA/AMPHIBIANS_FW_GROUP_PART6.shp
+10.0 s  output SMALLER_DATA/FISHES_FW_GROUP_PART6.shp
+10.0 s  output SMALLER_DATA/CARTILAGINOUS FISHES_FW_GROUP_PART6.shp
+10.1 s  output SMALLER_DATA/INSECTS_FW_GROUP_PART6.shp
+9.9  s  output SMALLER_DATA/CRUSTACEANS_FW_GROUP_PART6.shp
+9.9  s  output SMALLER_DATA/PLANTS_FW_GROUP_PART6.shp
+---- 23:48:06 ----
+Open 28/38  REDLIST\MAMMALS\MAMMALS.shp
+40.4 s  read database, 12894 elements, 130575 polygons,
+0.5  s  removed areas<0.05, 21443 remaining polygons
+7.3  s  removed holes, 21443 poly
+98.3 s  simplify 0.10
+6.6  s  output SMALLER_DATA/MAMMALS_MAMMALS.shp
+---- 23:50:40 ----
+Open 30/38  REDLIST\MAMMALS_FRESHWATER\MAMMALS_FRESHWATER.shp
+1.3  s  read database, 250 elements, 8985 polygons,
+0.0  s  removed areas<0.05, 962 remaining polygons
+0.3  s  removed holes, 962 poly
+4.6  s  simplify 0.10
+0.2  s  output SMALLER_DATA/MAMMALS_MAMMALS_FRESHWATER.shp
+---- 23:50:46 ----
+Open 32/38  REDLIST\Marine groups\CONUS\CONUS.shp
+20.2 s  read database, 639 elements, 8177 polygons,
+0.1  s  removed areas<0.05, 6668 remaining polygons
+2.1  s  removed holes, 6668 poly
+17.6 s  simplify 0.10
+---- 23:51:27 ----
+Open 34/38  REDLIST\Marine groups\LOBSTERS\LOBSTERS.shp
+10.6 s  read database, 251 elements, 6758 polygons,
+0.0  s  removed areas<0.05, 1493 remaining polygons
+1.1  s  removed holes, 1493 poly
+9.9  s  simplify 0.10
+0.5  s  output SMALLER_DATA/CRUSTACEANS_LOBSTERS.shp
+---- 23:51:49 ----
+Open 36/38  REDLIST\Marine groups\MANGROVES\MANGROVES.shp
+5.3  s  read database, 67 elements, 16487 polygons,
+0.0  s  removed areas<0.05, 1589 remaining polygons
+0.4  s  removed holes, 1589 poly
+3.9  s  simplify 0.10
+0.5  s  output SMALLER_DATA/PLANTS_MANGROVES.shp
+---- 23:52:00 ----
+Open 38/38  REDLIST\Marine groups\REEF_FORMING_CORALS\REEF_FORMING_CORALS_PART1.shp
+24.9 s  read database, 281 elements, 9732 polygons,
+0.1  s  removed areas<0.05, 7817 remaining polygons
+1.9  s  removed holes, 7817 poly
+16.0 s  simplify 0.10
+---- 23:52:43 ----
+Open 40/38  REDLIST\Marine groups\REEF_FORMING_CORALS\REEF_FORMING_CORALS_PART2.shp
+25.1 s  read database, 281 elements, 9605 polygons,
+0.2  s  removed areas<0.05, 7735 remaining polygons
+1.9  s  removed holes, 7735 poly
+16.4 s  simplify 0.10
+---- 23:53:27 ----
+Open 42/38  REDLIST\Marine groups\REEF_FORMING_CORALS\REEF_FORMING_CORALS_PART3.shp
+24.6 s  read database, 281 elements, 9908 polygons,
+0.1  s  removed areas<0.05, 7967 remaining polygons
+1.8  s  removed holes, 7967 poly
+15.8 s  simplify 0.10
+---- 23:54:09 ----
+Open 44/38  REDLIST\Marine groups\SEAGRASSES\SEAGRASSES.shp
+3.2  s  read database, 74 elements, 1768 polygons,
+0.0  s  removed areas<0.05, 541 remaining polygons
+0.3  s  removed holes, 541 poly
+2.8  s  simplify 0.10
+0.2  s  output SMALLER_DATA/PLANTS_SEAGRASSES.shp
+---- 23:54:16 ----
+Open 46/38  REDLIST\Plants\BIRCHES\BIRCHES.shp
+0.0  s  read database, 13 elements, 441 polygons,
+0.0  s  removed areas<0.05, 35 remaining polygons
+0.0  s  removed holes, 35 poly
+0.0  s  simplify 0.10
+0.0  s  output SMALLER_DATA/PLANTS_BIRCHES.shp
+---- 23:54:16 ----
+Open 48/38  REDLIST\Plants\MAGNOLIAS\MAGNOLIAS.shp
+0.1  s  read database, 129 elements, 2170 polygons,
+0.0  s  removed areas<0.05, 521 remaining polygons
+0.0  s  removed holes, 521 poly
+0.5  s  simplify 0.10
+0.1  s  output SMALLER_DATA/PLANTS_MAGNOLIAS.shp
+---- 23:54:17 ----
+Open 50/38  REDLIST\Plants\MAPLES\MAPLES.shp
+0.1  s  read database, 18 elements, 1989 polygons,
+0.0  s  removed areas<0.05, 274 remaining polygons
+0.0  s  removed holes, 274 poly
+0.3  s  simplify 0.10
+0.0  s  output SMALLER_DATA/PLANTS_MAPLES.shp
+---- 23:54:18 ----
+Open 52/38  REDLIST\Plants\TEAS\TEAS.shp
+0.0  s  read database, 20 elements, 101 polygons,
+0.0  s  removed areas<0.05, 37 remaining polygons
+0.0  s  removed holes, 37 poly
+0.0  s  simplify 0.10
+0.0  s  output SMALLER_DATA/PLANTS_TEAS.shp
+---- 23:54:18 ----
+Open 54/38  REDLIST\REPTILES\REPTILES.shp
+45.3 s  read database, 10890 elements, 917640 polygons,
+2.2  s  removed areas<0.05, 15595 remaining polygons
+3.4  s  removed holes, 15595 poly
+63.2 s  simplify 0.10
+---- 23:56:17 ----
+1248.8s  all done
+
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>
+
+
+
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>python create_smaller_database_v2.py
+PyTables is not installed. No support for HDF output.
+SQLalchemy is not installed. No support for SQL output.
+Skipped AMPHIBIANS.shp
+Skipped ANGELFISH.shp
+Skipped BLENNIES.shp
+Skipped BONEFISH_TARPONS.shp
+Skipped BUTTERFLYFISH.shp
+Skipped CLUPEIFORMES.shp
+Skipped GROUPERS.shp
+Skipped HAGFISH.shp
+Skipped MARINEFISH_PART1.shp
+Skipped MARINEFISH_PART2.shp
+Skipped MARINEFISH_PART3.shp
+Skipped PUFFERFISH.shp
+Skipped SEABREAMS_PORGIES_PICARELS.shp
+Skipped SHARKS_RAYS_CHIMAERAS.shp
+Skipped SURGEONFISHES_TANGS_UNICORNFISHES.shp
+Skipped SYNGNATHIFORM_FISHES.shp
+Skipped TUNAS_BILLFISHES.shp
+Skipped WRASSES_PARROTFISHES.shp
+---- 00:16:39 ----
+Open 20/38  REDLIST\FreshWater_GROUP\FW_GROUP_PART1.shp
+70.0 s  read database, 7192 elements, 1015501 polygons,
+2.3  s  removed areas<0.05, 41083 remaining polygons
+8.7  s  removed holes, 41083 poly
+100.7s  simplify 0.10
+10.6 s  output SMALLER_DATA/MOLLUSCS_FW_GROUP_PART1.shp
+---- 00:19:56 ----
+Open 21/38  REDLIST\FreshWater_GROUP\FW_GROUP_PART2.shp
+57.2 s  read database, 7192 elements, 959343 polygons,
+2.2  s  removed areas<0.05, 40166 remaining polygons
+7.8  s  removed holes, 40166 poly
+89.9 s  simplify 0.10
+10.8 s  output SMALLER_DATA/MOLLUSCS_FW_GROUP_PART2.shp
+---- 00:22:48 ----
+Open 22/38  REDLIST\FreshWater_GROUP\FW_GROUP_PART3.shp
+61.8 s  read database, 7192 elements, 1011877 polygons,
+2.3  s  removed areas<0.05, 41082 remaining polygons
+9.4  s  removed holes, 41082 poly
+103.1s  simplify 0.10
+10.3 s  output SMALLER_DATA/MOLLUSCS_FW_GROUP_PART3.shp
+---- 00:25:59 ----
+Open 23/38  REDLIST\FreshWater_GROUP\FW_GROUP_PART4.shp
+60.0 s  read database, 7192 elements, 939868 polygons,
+2.2  s  removed areas<0.05, 39473 remaining polygons
+7.7  s  removed holes, 39473 poly
+88.9 s  simplify 0.10
+10.5 s  output SMALLER_DATA/MOLLUSCS_FW_GROUP_PART4.shp
+---- 00:28:52 ----
+Open 24/38  REDLIST\FreshWater_GROUP\FW_GROUP_PART5.shp
+62.7 s  read database, 7193 elements, 990894 polygons,
+2.3  s  removed areas<0.05, 38777 remaining polygons
+8.1  s  removed holes, 38777 poly
+92.8 s  simplify 0.10
+10.0 s  output SMALLER_DATA/MOLLUSCS_FW_GROUP_PART5.shp
+---- 00:31:52 ----
+Open 25/38  REDLIST\FreshWater_GROUP\FW_GROUP_PART6.shp
+65.1 s  read database, 7192 elements, 959162 polygons,
+2.2  s  removed areas<0.05, 37636 remaining polygons
+7.9  s  removed holes, 37636 poly
+88.1 s  simplify 0.10
+9.7  s  output SMALLER_DATA/MOLLUSCS_FW_GROUP_PART6.shp
+Skipped MAMMALS.shp
+Skipped MAMMALS_FRESHWATER.shp
+---- 00:34:50 ----
+Open 28/38  REDLIST\Marine groups\CONUS\CONUS.shp
+19.1 s  read database, 639 elements, 8177 polygons,
+0.1  s  removed areas<0.05, 6668 remaining polygons
+2.0  s  removed holes, 6668 poly
+17.0 s  simplify 0.10
+1.9  s  output SMALLER_DATA/MOLLUSCS_CONUS.shp
+Skipped LOBSTERS.shp
+Skipped MANGROVES.shp
+Skipped REEF_FORMING_CORALS_PART1.shp
+Skipped REEF_FORMING_CORALS_PART2.shp
+Skipped REEF_FORMING_CORALS_PART3.shp
+Skipped SEAGRASSES.shp
+Skipped BIRCHES.shp
+Skipped MAGNOLIAS.shp
+Skipped MAPLES.shp
+Skipped TEAS.shp
+Skipped REPTILES.shp
+---- 00:35:31 ----
+1132.3s  all done

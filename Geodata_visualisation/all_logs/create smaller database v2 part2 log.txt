@@ -1,0 +1,206 @@
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021\Geodata_visualisation>python create_smaller_database_v2_part2.py
+['BIRDS', 'MAMMALS', 'AMPHIBIANS', 'FISHES', 'CARTILAGINOUS FISHES', 'INSECTS', 'CRUSTACEANS', 'MOLLUSCS', 'PLANTS', 'FUNGI']
+---- 00:49:38 ----
+Reading for 0/10 BIRDS
+Open SMALLER_DATA\BIRDS_FW_GROUP_PART1.shp
+2.6  s  read database
+Open SMALLER_DATA\BIRDS_FW_GROUP_PART2.shp
+2.5  s  read database
+Open SMALLER_DATA\BIRDS_FW_GROUP_PART3.shp
+2.6  s  read database
+Open SMALLER_DATA\BIRDS_FW_GROUP_PART4.shp
+2.5  s  read database
+Open SMALLER_DATA\BIRDS_FW_GROUP_PART5.shp
+2.4  s  read database
+Open SMALLER_DATA\BIRDS_FW_GROUP_PART6.shp
+2.4  s  read database
+63.0 s  output SMALLER_DATABASE/BIRDS.shp
+---- 00:50:58 ----
+Reading for 1/10 MAMMALS
+Open SMALLER_DATA\MAMMALS_FW_GROUP_PART1.shp
+2.5  s  read database
+Open SMALLER_DATA\MAMMALS_FW_GROUP_PART2.shp
+2.4  s  read database
+Open SMALLER_DATA\MAMMALS_FW_GROUP_PART3.shp
+2.6  s  read database
+Open SMALLER_DATA\MAMMALS_FW_GROUP_PART4.shp
+2.5  s  read database
+Open SMALLER_DATA\MAMMALS_FW_GROUP_PART5.shp
+2.4  s  read database
+Open SMALLER_DATA\MAMMALS_FW_GROUP_PART6.shp
+2.4  s  read database
+Open SMALLER_DATA\MAMMALS_MAMMALS.shp
+1.5  s  read database
+Open SMALLER_DATA\MAMMALS_MAMMALS_FRESHWATER.shp
+0.0  s  read database
+69.2 s  output SMALLER_DATABASE/MAMMALS.shp
+---- 00:52:26 ----
+Reading for 2/10 AMPHIBIANS
+Open SMALLER_DATA\AMPHIBIANS_AMPHIBIANS.shp
+0.6  s  read database
+Open SMALLER_DATA\AMPHIBIANS_FW_GROUP_PART1.shp
+2.5  s  read database
+Open SMALLER_DATA\AMPHIBIANS_FW_GROUP_PART2.shp
+2.5  s  read database
+Open SMALLER_DATA\AMPHIBIANS_FW_GROUP_PART3.shp
+2.5  s  read database
+Open SMALLER_DATA\AMPHIBIANS_FW_GROUP_PART4.shp
+2.5  s  read database
+Open SMALLER_DATA\AMPHIBIANS_FW_GROUP_PART5.shp
+2.4  s  read database
+Open SMALLER_DATA\AMPHIBIANS_FW_GROUP_PART6.shp
+2.4  s  read database
+65.2 s  output SMALLER_DATABASE/AMPHIBIANS.shp
+---- 00:53:49 ----
+Reading for 3/10 FISHES
+Open SMALLER_DATA\FISHES_ANGELFISH.shp
+0.1  s  read database
+Open SMALLER_DATA\FISHES_BLENNIES.shp
+0.3  s  read database
+Open SMALLER_DATA\FISHES_BONEFISH_TARPONS.shp
+0.0  s  read database
+Open SMALLER_DATA\FISHES_BUTTERFLYFISH.shp
+0.1  s  read database
+Open SMALLER_DATA\FISHES_CLUPEIFORMES.shp
+0.1  s  read database
+Open SMALLER_DATA\FISHES_FW_GROUP_PART1.shp
+2.5  s  read database
+Open SMALLER_DATA\FISHES_FW_GROUP_PART2.shp
+2.5  s  read database
+Open SMALLER_DATA\FISHES_FW_GROUP_PART3.shp
+2.5  s  read database
+Open SMALLER_DATA\FISHES_FW_GROUP_PART4.shp
+2.5  s  read database
+Open SMALLER_DATA\FISHES_FW_GROUP_PART5.shp
+2.4  s  read database
+Open SMALLER_DATA\FISHES_FW_GROUP_PART6.shp
+2.4  s  read database
+Open SMALLER_DATA\FISHES_GROUPERS.shp
+0.2  s  read database
+Open SMALLER_DATA\FISHES_MARINEFISH_PART1.shp
+1.0  s  read database
+Open SMALLER_DATA\FISHES_MARINEFISH_PART2.shp
+1.0  s  read database
+Open SMALLER_DATA\FISHES_MARINEFISH_PART3.shp
+1.0  s  read database
+Open SMALLER_DATA\FISHES_PUFFERFISH.shp
+0.2  s  read database
+Open SMALLER_DATA\FISHES_SEABREAMS_PORGIES_PICARELS.shp
+0.0  s  read database
+Open SMALLER_DATA\FISHES_SURGEONFISHES_TANGS_UNICORNFISHES.shp
+0.2  s  read database
+Open SMALLER_DATA\FISHES_SYNGNATHIFORM_FISHES.shp
+0.2  s  read database
+Open SMALLER_DATA\FISHES_TUNAS_BILLFISHES.shp
+0.0  s  read database
+Open SMALLER_DATA\FISHES_WRASSES_PARROTFISHES.shp
+0.5  s  read database
+85.9 s  output SMALLER_DATABASE/FISHES.shp
+---- 00:55:41 ----
+Reading for 4/10 CARTILAGINOUS FISHES
+Open SMALLER_DATA\CARTILAGINOUS FISHES_FW_GROUP_PART1.shp
+2.7  s  read database
+Open SMALLER_DATA\CARTILAGINOUS FISHES_FW_GROUP_PART2.shp
+2.5  s  read database
+Open SMALLER_DATA\CARTILAGINOUS FISHES_FW_GROUP_PART3.shp
+2.7  s  read database
+Open SMALLER_DATA\CARTILAGINOUS FISHES_FW_GROUP_PART4.shp
+2.6  s  read database
+Open SMALLER_DATA\CARTILAGINOUS FISHES_FW_GROUP_PART5.shp
+2.5  s  read database
+Open SMALLER_DATA\CARTILAGINOUS FISHES_FW_GROUP_PART6.shp
+2.4  s  read database
+Open SMALLER_DATA\CARTILAGINOUS FISHES_MARINEFISH_PART1.shp
+1.1  s  read database
+Open SMALLER_DATA\CARTILAGINOUS FISHES_MARINEFISH_PART2.shp
+1.1  s  read database
+Open SMALLER_DATA\CARTILAGINOUS FISHES_MARINEFISH_PART3.shp
+1.0  s  read database
+Open SMALLER_DATA\CARTILAGINOUS FISHES_SHARKS_RAYS_CHIMAERAS.shp
+1.1  s  read database
+82.8 s  output SMALLER_DATABASE/CARTILAGINOUS FISHES.shp
+---- 00:57:28 ----
+Reading for 5/10 INSECTS
+Open SMALLER_DATA\INSECTS_FW_GROUP_PART1.shp
+2.6  s  read database
+Open SMALLER_DATA\INSECTS_FW_GROUP_PART2.shp
+2.4  s  read database
+Open SMALLER_DATA\INSECTS_FW_GROUP_PART3.shp
+2.6  s  read database
+Open SMALLER_DATA\INSECTS_FW_GROUP_PART4.shp
+2.6  s  read database
+Open SMALLER_DATA\INSECTS_FW_GROUP_PART5.shp
+2.5  s  read database
+Open SMALLER_DATA\INSECTS_FW_GROUP_PART6.shp
+2.3  s  read database
+64.1 s  output SMALLER_DATABASE/INSECTS.shp
+---- 00:58:49 ----
+Reading for 6/10 CRUSTACEANS
+Open SMALLER_DATA\CRUSTACEANS_FW_GROUP_PART1.shp
+2.6  s  read database
+Open SMALLER_DATA\CRUSTACEANS_FW_GROUP_PART2.shp
+2.4  s  read database
+Open SMALLER_DATA\CRUSTACEANS_FW_GROUP_PART3.shp
+2.5  s  read database
+Open SMALLER_DATA\CRUSTACEANS_FW_GROUP_PART4.shp
+2.5  s  read database
+Open SMALLER_DATA\CRUSTACEANS_FW_GROUP_PART5.shp
+2.5  s  read database
+Open SMALLER_DATA\CRUSTACEANS_FW_GROUP_PART6.shp
+2.4  s  read database
+Open SMALLER_DATA\CRUSTACEANS_LOBSTERS.shp
+0.1  s  read database
+64.2 s  output SMALLER_DATABASE/CRUSTACEANS.shp
+---- 01:00:10 ----
+Reading for 7/10 MOLLUSCS
+Open SMALLER_DATA\MOLLUSCS_CONUS.shp
+0.4  s  read database
+Open SMALLER_DATA\MOLLUSCS_FW_GROUP_PART1.shp
+2.5  s  read database
+Open SMALLER_DATA\MOLLUSCS_FW_GROUP_PART2.shp
+2.5  s  read database
+Open SMALLER_DATA\MOLLUSCS_FW_GROUP_PART3.shp
+2.6  s  read database
+Open SMALLER_DATA\MOLLUSCS_FW_GROUP_PART4.shp
+2.5  s  read database
+Open SMALLER_DATA\MOLLUSCS_FW_GROUP_PART5.shp
+2.4  s  read database
+Open SMALLER_DATA\MOLLUSCS_FW_GROUP_PART6.shp
+2.4  s  read database
+65.9 s  output SMALLER_DATABASE/MOLLUSCS.shp
+---- 01:01:34 ----
+Reading for 8/10 PLANTS
+Open SMALLER_DATA\PLANTS_BIRCHES.shp
+0.1  s  read database
+Open SMALLER_DATA\PLANTS_FW_GROUP_PART1.shp
+2.5  s  read database
+Open SMALLER_DATA\PLANTS_FW_GROUP_PART2.shp
+2.5  s  read database
+Open SMALLER_DATA\PLANTS_FW_GROUP_PART3.shp
+2.5  s  read database
+Open SMALLER_DATA\PLANTS_FW_GROUP_PART4.shp
+2.5  s  read database
+Open SMALLER_DATA\PLANTS_FW_GROUP_PART5.shp
+2.5  s  read database
+Open SMALLER_DATA\PLANTS_FW_GROUP_PART6.shp
+2.4  s  read database
+Open SMALLER_DATA\PLANTS_MAGNOLIAS.shp
+0.0  s  read database
+Open SMALLER_DATA\PLANTS_MANGROVES.shp
+0.1  s  read database
+Open SMALLER_DATA\PLANTS_MAPLES.shp
+0.0  s  read database
+Open SMALLER_DATA\PLANTS_SEAGRASSES.shp
+0.0  s  read database
+Open SMALLER_DATA\PLANTS_TEAS.shp
+0.0  s  read database
+65.4 s  output SMALLER_DATABASE/PLANTS.shp
+---- 01:02:58 ----
+Reading for 9/10 FUNGI
+Open SMALLER_DATA\FUNGI_FW_GROUP_PART2.shp
+2.5  s  read database
+Open SMALLER_DATA\FUNGI_FW_GROUP_PART3.shp
+2.5  s  read database
+Open SMALLER_DATA\FUNGI_FW_GROUP_PART4.shp
+2.5  s  read database
+31.5 s  output SMALLER_DATABASE/FUNGI.shp

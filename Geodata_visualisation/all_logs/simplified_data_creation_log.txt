@@ -1,0 +1,154 @@
+(firstEnv) C:\Users\Akira Baes\Desktop\Information Visualisation Exercises\InfoVis2021>python create_smaller_database.py
+Open REDLIST\AMPHIBIANS\AMPHIBIANS.shp
+16.3 s  Finished reading database
+64.2 s  Simplified database
+16.9 s  Output database at SIMPLIFIED_DATA/AMPHIBIANS.shp
+Open REDLIST\Fishes\ANGELFISH\ANGELFISH.shp
+3.0  s  Finished reading database
+10.8 s  Simplified database
+7.6  s  Output database at SIMPLIFIED_DATA/ANGELFISH.shp
+Open REDLIST\Fishes\BLENNIES\BLENNIES.shp
+13.0 s  Finished reading database
+49.9 s  Simplified database
+26.5 s  Output database at SIMPLIFIED_DATA/BLENNIES.shp
+Open REDLIST\Fishes\BONEFISH_TARPONS\BONEFISH_TARPONS.shp
+1.8  s  Finished reading database
+4.3  s  Simplified database
+6.3  s  Output database at SIMPLIFIED_DATA/BONEFISH_TARPONS.shp
+Open REDLIST\Fishes\BUTTERFLYFISH\BUTTERFLYFISH.shp
+5.6  s  Finished reading database
+22.2 s  Simplified database
+16.2 s  Output database at SIMPLIFIED_DATA/BUTTERFLYFISH.shp
+Open REDLIST\Fishes\CLUPEIFORMES\CLUPEIFORMES.shp
+7.9  s  Finished reading database
+30.1 s  Simplified database
+17.2 s  Output database at SIMPLIFIED_DATA/CLUPEIFORMES.shp
+Open REDLIST\Fishes\GROUPERS\GROUPERS.shp
+10.5 s  Finished reading database
+46.5 s  Simplified database
+19.9 s  Output database at SIMPLIFIED_DATA/GROUPERS.shp
+Open REDLIST\Fishes\HAGFISH\HAGFISH.shp
+0.4  s  Finished reading database
+0.6  s  Simplified database
+0.2  s  Output database at SIMPLIFIED_DATA/HAGFISH.shp
+Open REDLIST\Fishes\MARINEFISH\MARINEFISH_PART1.shp
+51.5 s  Finished reading database
+172.2s  Simplified database
+103.4s  Output database at SIMPLIFIED_DATA/MARINEFISH_PART1.shp
+Open REDLIST\Fishes\MARINEFISH\MARINEFISH_PART2.shp
+50.0 s  Finished reading database
+157.6s  Simplified database
+108.5s  Output database at SIMPLIFIED_DATA/MARINEFISH_PART2.shp
+Open REDLIST\Fishes\MARINEFISH\MARINEFISH_PART3.shp
+49.7 s  Finished reading database
+151.8s  Simplified database
+102.9s  Output database at SIMPLIFIED_DATA/MARINEFISH_PART3.shp
+Open REDLIST\Fishes\PUFFERFISH\PUFFERFISH.shp
+9.3  s  Finished reading database
+28.0 s  Simplified database
+18.6 s  Output database at SIMPLIFIED_DATA/PUFFERFISH.shp
+Open REDLIST\Fishes\SEABREAMS_PORGIES_PICARELS\SEABREAMS_PORGIES_PICARELS.shp
+2.7  s  Finished reading database
+13.8 s  Simplified database
+3.6  s  Output database at SIMPLIFIED_DATA/SEABREAMS_PORGIES_PICARELS.shp
+Open REDLIST\Fishes\SHARKS_RAYS_CHIMAERAS\SHARKS_RAYS_CHIMAERAS.shp
+50.6 s  Finished reading database
+88.4 s  Simplified database
+86.0 s  Output database at SIMPLIFIED_DATA/SHARKS_RAYS_CHIMAERAS.shp
+Open REDLIST\Fishes\SURGEONFISHES_TANGS_UNICORNFISHES\SURGEONFISHES_TANGS_UNICORNFISHES.shp
+5.8  s  Finished reading database
+20.5 s  Simplified database
+15.4 s  Output database at SIMPLIFIED_DATA/SURGEONFISHES_TANGS_UNICORNFISHES.shp
+Open REDLIST\Fishes\SYNGNATHIFORM_FISHES\SYNGNATHIFORM_FISHES.shp
+12.1 s  Finished reading database
+42.5 s  Simplified database
+33.7 s  Output database at SIMPLIFIED_DATA/SYNGNATHIFORM_FISHES.shp
+Open REDLIST\Fishes\TUNAS_BILLFISHES\TUNAS_BILLFISHES.shp
+7.8  s  Finished reading database
+22.8 s  Simplified database
+15.8 s  Output database at SIMPLIFIED_DATA/TUNAS_BILLFISHES.shp
+Open REDLIST\Fishes\WRASSES_PARROTFISHES\WRASSES_PARROTFISHES.shp
+19.4 s  Finished reading database
+73.0 s  Simplified database
+47.7 s  Output database at SIMPLIFIED_DATA/WRASSES_PARROTFISHES.shp
+Open REDLIST\FreshWater_GROUP\FW_GROUP_PART1.shp
+71.6 s  Finished reading database
+183.4s  Simplified database
+168.2s  Output database at SIMPLIFIED_DATA/FW_GROUP_PART1.shp
+Open REDLIST\FreshWater_GROUP\FW_GROUP_PART2.shp
+61.8 s  Finished reading database
+153.5s  Simplified database
+125.6s  Output database at SIMPLIFIED_DATA/FW_GROUP_PART2.shp
+Open REDLIST\FreshWater_GROUP\FW_GROUP_PART3.shp
+62.2 s  Finished reading database
+177.7s  Simplified database
+124.9s  Output database at SIMPLIFIED_DATA/FW_GROUP_PART3.shp
+Open REDLIST\FreshWater_GROUP\FW_GROUP_PART4.shp
+64.9 s  Finished reading database
+157.9s  Simplified database
+142.3s  Output database at SIMPLIFIED_DATA/FW_GROUP_PART4.shp
+Open REDLIST\FreshWater_GROUP\FW_GROUP_PART5.shp
+70.9 s  Finished reading database
+175.6s  Simplified database
+134.2s  Output database at SIMPLIFIED_DATA/FW_GROUP_PART5.shp
+Open REDLIST\FreshWater_GROUP\FW_GROUP_PART6.shp
+72.1 s  Finished reading database
+162.8s  Simplified database
+155.9s  Output database at SIMPLIFIED_DATA/FW_GROUP_PART6.shp
+Open REDLIST\MAMMALS\MAMMALS.shp
+47.2 s  Finished reading database
+144.5s  Simplified database
+73.4 s  Output database at SIMPLIFIED_DATA/MAMMALS.shp
+Open REDLIST\MAMMALS_FRESHWATER\MAMMALS_FRESHWATER.shp
+4.0  s  Finished reading database
+7.1  s  Simplified database
+1.8  s  Output database at SIMPLIFIED_DATA/MAMMALS_FRESHWATER.shp
+Open REDLIST\Marine groups\CONUS\CONUS.shp
+20.8 s  Finished reading database
+81.5 s  Simplified database
+64.8 s  Output database at SIMPLIFIED_DATA/CONUS.shp
+Open REDLIST\Marine groups\LOBSTERS\LOBSTERS.shp
+11.4 s  Finished reading database
+33.9 s  Simplified database
+13.5 s  Output database at SIMPLIFIED_DATA/LOBSTERS.shp
+Open REDLIST\Marine groups\MANGROVES\MANGROVES.shp
+6.0  s  Finished reading database
+19.4 s  Simplified database
+14.7 s  Output database at SIMPLIFIED_DATA/MANGROVES.shp
+Open REDLIST\Marine groups\REEF_FORMING_CORALS\REEF_FORMING_CORALS_PART1.shp
+26.7 s  Finished reading database
+98.1 s  Simplified database
+72.6 s  Output database at SIMPLIFIED_DATA/REEF_FORMING_CORALS_PART1.shp
+Open REDLIST\Marine groups\REEF_FORMING_CORALS\REEF_FORMING_CORALS_PART2.shp
+26.5 s  Finished reading database
+97.4 s  Simplified database
+75.3 s  Output database at SIMPLIFIED_DATA/REEF_FORMING_CORALS_PART2.shp
+Open REDLIST\Marine groups\REEF_FORMING_CORALS\REEF_FORMING_CORALS_PART3.shp
+26.1 s  Finished reading database
+93.2 s  Simplified database
+73.7 s  Output database at SIMPLIFIED_DATA/REEF_FORMING_CORALS_PART3.shp
+Open REDLIST\Marine groups\SEAGRASSES\SEAGRASSES.shp
+4.2  s  Finished reading database
+11.2 s  Simplified database
+7.1  s  Output database at SIMPLIFIED_DATA/SEAGRASSES.shp
+Open REDLIST\Plants\BIRCHES\BIRCHES.shp
+0.1  s  Finished reading database
+0.1  s  Simplified database
+0.0  s  Output database at SIMPLIFIED_DATA/BIRCHES.shp
+Open REDLIST\Plants\MAGNOLIAS\MAGNOLIAS.shp
+0.1  s  Finished reading database
+0.6  s  Simplified database
+0.1  s  Output database at SIMPLIFIED_DATA/MAGNOLIAS.shp
+Open REDLIST\Plants\MAPLES\MAPLES.shp
+0.1  s  Finished reading database
+0.4  s  Simplified database
+0.0  s  Output database at SIMPLIFIED_DATA/MAPLES.shp
+Open REDLIST\Plants\TEAS\TEAS.shp
+0.0  s  Finished reading database
+0.0  s  Simplified database
+0.0  s  Output database at SIMPLIFIED_DATA/TEAS.shp
+Open REDLIST\REPTILES\REPTILES.shp
+45.4 s  Finished reading database
+144.3s  Simplified database
+181.8s  Output database at SIMPLIFIED_DATA/REPTILES.shp
+All done

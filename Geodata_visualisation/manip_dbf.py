@@ -37,13 +37,19 @@ print(alldata.head())
 
 genegraph = dict()
 
+
+class_show = alldata[["kingdom","phylum","class","binomial"]]
+class_show["counter"]=1
+class_show=class_show.groupby(["kingdom","phylum","class"]).sum()
+print(class_show)
+
 # phylums = alldata[["kingdom","phylum","class"]].drop_duplicates()
 classified = alldata[["kingdom","phylum","class","order_","origin"]]
 # phylums = alldata[["kingdom","phylum","class","order_"]]
 classified["counter"]=1
 # phylums.duplicated()
 #phylums["dupes"]=phylums["dupes"].sum()
-classified=classified.groupby(["kingdom","phylum","class","order_","origin"], as_index=False).sum()
+classified=classified.groupby(["kingdom","phylum","class","order_","origin"]).sum()
 # phylums=phylums.groupby(["kingdom","phylum","class","order_"]).sum()
 pd.set_option('display.max_rows', None)
 print(classified)
