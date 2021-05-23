@@ -62,6 +62,7 @@ groupnames = ['BIRDS', 'MAMMALS', 'AMPHIBIANS', 'FISHES', 'CARTILAGINOUS FISHES'
 
 
 def load_names(groupnames,path):
+    #Load database by names given in "groupnames"
     data = dict()
     print("-"*4,timestamp(),"-"*4)
     for index,name in enumerate(groupnames):
@@ -124,12 +125,8 @@ def generate_table(dataframe, extinction_classes, max_rows=10):
     limit = dataframe.columns
     selection = [x for x in selection if x in limit]
     dataframe=dataframe.filter(selection).drop_duplicates(ignore_index=True)
-    
-    # dash_table.DataTable(
-    # id='table',
-    # columns=[{"name": i, "id": i} for i in df.columns],
-    # data=df.to_dict('records'),
-# )
+    #The old table was colored but unfotunately the contents would just accumulate... :(
+    #I spend a whole night trying to fix this...
     # return html.Div(children=
         # (html.Label(
             # "".join((col.center(24) for col in selection))
@@ -170,6 +167,7 @@ def recalculate_intersection(point_coords, selected_name):
 
 
 def update_map_agg(geodata,levels):
+    #AGGREGATION update the map with the given data and extinction levels
     def get_color(cat):
         return palette.index(cat)
     # print(levels)
@@ -222,6 +220,8 @@ def update_map_agg(geodata,levels):
     
 
 def update_map_select(geodata,levels,crosshair):
+    #CROSSHAIR update the map with the given data and extinction levels
+    #Add a crosshair dot
     def get_color(cat):
         return palette.index(cat)
     
@@ -299,6 +299,7 @@ def update_map_select(geodata,levels,crosshair):
         mode='markers',
         marker=go.scattermapbox.Marker(size=14, color="red"),
         text=['Crosshair'],)
+        
     # fig.add_scattermapbox(lat = [x],lon = [y])
     # fig.add_shape(type="line",x0=x-1, y0=y, x1=x+1, y1=y)
     # fig.add_shape(type="line",x0=x, y0=y-1, x1=x, y1=y+1)
@@ -311,26 +312,20 @@ def update_map_select(geodata,levels,crosshair):
     # fig.add_trace(trace)
     return fig
 
-##################################################################################################################
-##################################################################################################################
-##################################################################################################################
-#plotlyConfig = {'topojsonURL':'http://127.0.0.1:%i/assets/'%5500} 
-#import T6_sample
-# class_names = ['TETRAODONTIFORMES',"CHIMAERIFORMES"]
-# multiselect_options = [{"label":classe,"value":classe} for classe in class_names]
-# multiselect_values = class_names[:]
+######################################################################################################
+######################################################################################################
+######################################################################################################
 
-#checklist_options  = [{"label":html.Mark(children=cat_names[i],id=cat),"value":cat} for i,cat in enumerate(categories)]
 checklist_options  = [{"label":cat_names[i],"value":cat} for i,cat in enumerate(categories)]
 checklist_values = categories[:]
 
 # habitat_values = ["Marine","Terestial","Freshwater"]
 # habitat_options = [{"label":hab,"value":hab} for hab in habitat_values]
+#Ended up not using habitat infos
 
 layout = html.Div(
     style={"backgroundColor": colors["background"]},
     children=[
-    #T6_sample.app.layout,
     html.Hr(),
     html.H1(children="Worldwide Animal Extinction Status",
         style={"textAlign":"center","color":colors["text"]}
@@ -365,22 +360,17 @@ layout = html.Div(
         dcc.Store(id="no_id")])
 ])
 
-            # html.Label('Aggregation mode'),
-            # dcc.Checklist(
-                # options=[{"label":"Aggregate","value":"aggregate"}],
-                # value=["aggregate"],
-                # id="aggregate_toggle"
-            # ),
-##################################################################################################################
-##################################################################################################################
-##################################################################################################################
+######################################################################################################
+######################################################################################################
+######################################################################################################
 
 def check_context(ctx):
+    #Returns context labels in a list
+    #Handy to check for one specific context label
     if(ctx.triggered==None):
         return []
     else:
         return [trig['prop_id'].split('.')[0] for trig in ctx.triggered]
-
 
 from dash.dependencies import Input, Output, State
 from dash.exceptions import PreventUpdate
@@ -406,10 +396,22 @@ def set_selected_dbname(*nclicks):
     Output("mouse_coord","children"),
     Input("map_graph","relayoutData"))
 def update_location(relayoutData):
+    #Update center coords with data that happens when moving/zooming
+    #Not accurate, need to find a better way
+    #selectedData used to return coordinates but is useless now
+    
+    # if(selectedData and "range" in selectedData):
+        # #https://dash.plotly.com/interactive-graphing
+        # x = sum(float(selectedData["range"]["x"]))/2
+        # y = sum(float(selectedData["range"]["y"]))/2
+        # point = (x,y)
+        #This used to work in other Dash versions but not anymore...
+        
     # print("Relayout data",relayoutData)
     if(relayoutData and 'mapbox.center' in relayoutData):
         y=relayoutData["mapbox.center"]["lon"]
         x=relayoutData["mapbox.center"]["lat"] 
+        
     # if(relayoutData and 'mapbox._derived' in relayoutData):
         # x,y=relayoutData["mapbox._derived"]["coordinates"][0]
         # xx,yy=relayoutData["mapbox._derived"]["coordinates"][2]
@@ -422,14 +424,12 @@ def update_location(relayoutData):
         # y = relayoutData["yaxis.range[0]"]
         # yy = relayoutData["yaxis.range[1]"]
         # coord = str((float(x)+float(xx))/2)+" "+str((float(y)+float(yy)))
+        
         coord = "%.2f %.2f"%(float(x),float(y))
         return coord
     else:
         raise PreventUpdate
     
-# def display_relayout_data(relayoutData):
-    # return json.dumps(relayoutData, indent=2)
-    #selectedData is useless now
     
     
 @app.callback(
@@ -443,20 +443,10 @@ def update_location(relayoutData):
     State("selection_brag", "children")
 )
 def update_selection(selected_database_name,n_clicks,mouse_coords,extinction_classes,current_selection):
+    #Update the subset of species to show in the table
     y,x = (float(i) for i in mouse_coords.split())
     global selected_shapes
     ctx = check_context(dash.callback_context)
-    # print("Context for update selection:",ctx)
-    # print("*"*20,relayoutData)
-    # if(selectedData and "range" in selectedData):
-        # #https://dash.plotly.com/interactive-graphing
-        # x = sum(float(selectedData["range"]["x"]))/2
-        # y = sum(float(selectedData["range"]["y"]))/2
-        # point = (x,y)
-    # if(relayoutData):
-        # #https://dash.plotly.com/interactive-graphing
-        # x = sum(float(selectedData["range"]["x"]))/2
-        # y = sum(float(selectedData["range"]["y"]))/2
     if("crosshair_selection" in ctx):
         global current_mode
         if(current_selection=="the world"):
@@ -498,6 +488,7 @@ import json
     Input("mouse_coord","children")
 )
 def update_graph_selection(extinction_classes,selected_database_name,selection_text,mouse_coords):
+    #Update the subset of shapes to show in the graph
     ctx = check_context(dash.callback_context)
     global unchanged_graph
     print("Selected db name:",selected_database_name)
@@ -532,22 +523,11 @@ def update_graph_selection(extinction_classes,selected_database_name,selection_t
     return instruction, graph
 
 
-# @app.callback(
-    # Output("map_graph","figure"),
-    # Input("work_node","children")
-# )
-# def start_working():
-    # pass
-
-
 
 @app.callback(
     Output("i2","value"),
     Input('map_graph', 'figure'))
 def update_instructions_graph(fig):
-    # print("Entered Update Graph callback")
-    # print(bool(unchanged_graph),bool(len(selected_shapes)))
-    #print(unchanged_graph)
     if(unchanged_graph):
         if(len(selected_shapes)==0):
             print("NO SELECTED SHAPE...")
@@ -565,10 +545,8 @@ def update_instructions_graph(fig):
     Input("update_node","value"), 
     prevent_initial_call=True)
 def update_instructions_funnel(i1,i2,u1):
-    # print("Entered I1I2 callback")
-    # print(i1,i2)
+    #Doesn't work, text are always in the callback context trigger
     ctx = check_context(dash.callback_context)
-    # print(ctx)
     if("i2" in ctx):
         return i2
     elif("i1" in ctx):
