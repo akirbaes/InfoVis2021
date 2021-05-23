@@ -1,0 +1,21 @@
+HOWTOLAUNCH
+
+You will need conda and the libraries listed in group5_env.yml
+
+Move a conda terminal to group5/plotly_geodata_app where group5_environment.yml is located
+
+To create a separate environment:
+
+	conda create -f group5_env.yml
+
+Switch to your environment
+
+	conda activate group5_env
+
+This will launch the combined view:
+
+	python main_app.py
+
+This will launch the geodata view only:
+
+	python geodata_app.py
